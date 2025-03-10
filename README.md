@@ -14,17 +14,35 @@
 
 ---
 
-### 🌌 **GitHub Stats (Dark Mode)**
+<!-- Cool Banner -->
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=tokyonight" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FFA2&center=true&vCenter=true&width=600&lines=Hello!+I'm+Yash+Kappa!;A+Passionate+Full-Stack+Developer!;React+Native+🚀+Node.js+⚡+MongoDB+🔥;Building+Cool+Projects+Daily!">
+</p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="50px">
+</p>
+
+---
+
+### 🏆 **GitHub Stats**
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=radical" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=radical" />
+</p>
+
+---
+
+### 🌌 **3D Contribution Graph**
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=react-dark" />
 </p>
 
 ---
 
 ### 🚀 **Tech Stack**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,react,nodejs,mongodb,firebase,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=js,react,nodejs,mongodb,firebase,git,github,vscode,androidstudio,flutter,java,cpp,python" />
 </p>
 
 ---
@@ -32,10 +50,10 @@
 ### 📌 **Pinned Repositories**
 <p align="center">
   <a href="https://github.com/yashKappa/simple-web-page">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yashKappa&repo=simple-web-page&theme=dark" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yashKappa&repo=simple-web-page&theme=radical" />
   </a>
   <a href="https://github.com/yashKappa/anime-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yashKappa&repo=anime-app&theme=dark" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yashKappa&repo=anime-app&theme=radical" />
   </a>
 </p>
 
@@ -53,3 +71,9 @@
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=code&logoColor=white"/>
   </a>
 </p>
+
+---
+
+### 🐍 **Dynamic Snake Contributions**
+```md
+![snake gif](https://github.com/yashKappa/yashKappa/blob/output/github-contribution-grid-snake.svg)

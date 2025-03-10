@@ -47,28 +47,10 @@
 
 ---
 
-### 📌 **Pinned Repositories (Last 6 Active)**
-<p align="center">
-  <a href="https://github.com/yashKappa/repo1">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=yashKappa&repo=repo1&theme=radical" />
-  </a>
-  <a href="https://github.com/yashKappa/repo2">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=yashKappa&repo=repo2&theme=radical" />
-  </a>
-  <a href="https://github.com/yashKappa/repo3">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=yashKappa&repo=repo3&theme=radical" />
-  </a>
-  <a href="https://github.com/yashKappa/repo4">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=yashKappa&repo=repo4&theme=radical" />
-  </a>
-  <a href="https://github.com/yashKappa/repo5">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=yashKappa&repo=repo5&theme=radical" />
-  </a>
-  <a href="https://github.com/yashKappa/repo6">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=yashKappa&repo=repo6&theme=radical" />
-  </a>
-</p>
-
+## 🔥 Latest Repositories
+<!-- LATEST-REPOS-START -->
+<!-- Repositories will be listed here automatically -->
+<!-- LATEST-REPOS-END -->
 
 ---
 

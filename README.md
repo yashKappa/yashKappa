@@ -50,10 +50,10 @@
 ### 📌 **Pinned Repositories**
 <p align="center">
   <a href="https://github.com/yashKappa/simple-web-page">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yashKappa&repo=simple-web-page&theme=radical" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=yashKappa&repo=simple-web-page&theme=radical" />
   </a>
   <a href="https://github.com/yashKappa/anime-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yashKappa&repo=anime-app&theme=radical" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=yashKappa&repo=simple-web-page&theme=radical" />
   </a>
 </p>
 

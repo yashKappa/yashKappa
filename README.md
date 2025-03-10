@@ -33,7 +33,7 @@
 ### 🏆 **GitHub Stats**  
 <p align="center">
   <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true" />
-  <img width="50%" src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=dark&hide=contribs,prs&count_private=true&hide_title=true" />
+  <img width="50%" height="20%" src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=dark&hide=contribs,prs&count_private=true&hide_title=true" />
 </p>
 
 ---

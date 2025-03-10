@@ -19,6 +19,17 @@
 
 ---
 
+### 💼 **Job Experience**
+🚀 **Freshman Developer** | Self-Learning & Open Source  
+📅 **2024 - Present**  
+🔹 Working on personal projects in **React, Node.js, Flutter, and MongoDB**  
+🔹 Contributing to **open-source projects** on GitHub  
+🔹 Developing **web and mobile applications** as part of my learning journey  
+🔹 Exploring **AI-powered coding tools** for developers  
+🔹 Building a **VSCode extension for code negotiation**  
+
+---
+
 ### 🏆 **GitHub Stats**  
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true" width="450" height="150" />

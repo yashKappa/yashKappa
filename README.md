@@ -48,7 +48,6 @@
 ---
 
 ### 📌 **Pinned Repositories (Last 6 Active)**
-![Repo1](https://img.shields.io/static/v1?label=Repo&message=RepoName&color=blue&style=flat&logo=github)
 <p align="center">
   <a href="https://github.com/yashKappa/repo1">
     <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=yashKappa&repo=repo1&theme=radical" />

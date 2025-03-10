@@ -14,11 +14,6 @@
 
 ---
 
-<!-- Cool Banner -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FFA2&center=true&vCenter=true&width=600&lines=Hello!+I'm+Yash+Kappa!;A+Passionate+Full-Stack+Developer!;React+Native+🚀+Node.js+⚡+MongoDB+🔥;Building+Cool+Projects+Daily!">
-</p>
-
 <p align="center">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="50px">
 </p>

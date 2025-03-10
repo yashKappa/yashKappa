@@ -1,1 +1,36 @@
+name: Update README with Pinned Repositories
 
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch pinned repositories
+        run: |
+          curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+               -H "Content-Type: application/json" \
+               -X POST -d '{"query":"query { viewer { pinnedItems(first: 6, types: REPOSITORY) { nodes { name url description primaryLanguage { name } } } } }"}' \
+               https://api.github.com/graphql | jq -r '.data.viewer.pinnedItems.nodes | map("- [\(.name)](\(.url)) - \(.description) (**\(.primaryLanguage.name // "No Language")**)") | .[]' > pinned_repos.md
+
+      - name: Update README
+        run: |
+          awk '/<!-- PINNED-REPOS-START -->/{print; system("cat pinned_repos.md"); next} /<!-- PINNED-REPOS-END -->/{print; exit} 1' README.md > new_readme.md
+          mv new_readme.md README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Updated pinned repositories dynamically" || exit 0
+          git push

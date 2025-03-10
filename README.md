@@ -1,6 +1,6 @@
 <!-- Banner Image -->
   <p align="center">
-  <img src="https://i.redd.it/vpgtxq0vkq051.png" width="100%" border-radius="0.3rem">
+  <img src="https://i.redd.it/vpgtxq0vkq051.png" width="100%" border-radius="20%">
 </p>
 
 ---

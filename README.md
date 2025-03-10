@@ -47,11 +47,11 @@
 
 ---
 
-## 🔥 Latest Repositories
-<!-- LATEST-REPOS-START -->
-<!-- Repositories will be listed here automatically -->
-<!-- LATEST-REPOS-END -->
+## 🔥 Latest Updated Repositories
 
+<!-- LATEST-REPOS-START -->
+<!-- Repositories will be listed here dynamically -->
+<!-- LATEST-REPOS-END -->
 
 ---
 

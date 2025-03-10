@@ -47,14 +47,18 @@
 
 ---
 
-## 📌 Pinned Repositories
+🚀 Pinned Repositories
+📌 Here are some of my featured projects:
 
-- [simple-web-page](https://github.com/yashKappa/simple-web-page) - This project is a stylish and responsive landing page (**CSS**)
-- [list](https://github.com/yashKappa/list) - This is the to-do-list application (**CSS**)
-- [anime-app](https://github.com/yashKappa/anime-app) - A website that contains different types of anime posters (**HTML**)
-- [weather-report](https://github.com/yashKappa/weather-report) - Provides weather reports based on search (**CSS**)
-- [Plagiarism-](https://github.com/yashKappa/Plagiarism-) - Shows plagiarism percentage and code types (**HTML**)
-- [IT-Travel-Checklist](https://github.com/yashKappa/IT-Travel-Checklist) - A travel checklist app (**HTML**)
+🌟 Project Name	🔖 Description	🛠 Tech Stack
+🎨 simple-web-page	A stylish and responsive landing page for web design & development.	CSS
+📝 list	A to-do list app where users can add and delete notes.	CSS
+🎬 anime-app	A website showcasing different types of anime posters.	HTML
+🌦 weather-report	A weather report app displaying temperature for searched locations.	CSS
+🔍 Plagiarism-	An app to detect plagiarism percentages in code.	HTML
+🧳 IT-Travel-Checklist	A travel checklist to help pack for a 2-3 day trip.	HTML
+📌 Check out my full project list 👉 GitHub Profile
+
 
 ---
 

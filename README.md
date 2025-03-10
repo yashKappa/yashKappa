@@ -66,8 +66,9 @@
 
 📌 **Check out my full project list** 👉 [GitHub Profile](https://github.com/yashKappa) 🚀  
 
+## 🚀 My Top GitHub Projects  
 <!-- LATEST-REPOS-START -->
-... (Latest Repositories will be inserted here) ...
+_(Fetching latest repositories...)_
 <!-- LATEST-REPOS-END -->
 
 ---

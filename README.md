@@ -16,6 +16,9 @@
 - 💬 Ask me anything about Web & Mobile Development
 - 👀 Actively seeking opportunities in Web Development
 - 🎓 B.Sc. IT Graduate | Pursuing M.Sc. IT
+
+---
+
 [![Top Repositories](https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=dark&hide=contribs,prs&count_private=true)](https://github.com/yashKappa)
 
 ---

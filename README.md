@@ -11,11 +11,11 @@
 ---
 
 ### **👨‍💻 About Me**
-- 🔭 Working on **React Native & Full Stack Web Development**
-- 🌱 Learning **AI & Cloud Technologies**
-- 🚀 Building **cool projects & contributing to open-source**
-- 💬 Ask me anything **about Web & Mobile Development**
-- 📫 Reach me: **[Your Email or Social Links]**
+🔭 Currently working on ReactJS & Full-Stack Web Development
+🚀 Passionate about building cool projects & contributing to open-source
+💬 Ask me anything about Web & Mobile Development
+👀 Actively seeking opportunities in Web Development
+🎓 B.Sc. IT Graduate | Pursuing M.Sc. IT
 
 ---
 

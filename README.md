@@ -2,7 +2,6 @@
   <p align="center">
   <img src="https://i.redd.it/vpgtxq0vkq051.png" width="100%">
 </p>
----
 
 ---
 <p align="center">

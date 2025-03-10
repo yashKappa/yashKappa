@@ -11,11 +11,11 @@
 ---
 
 ### **👨‍💻 About Me**
-🔭 Currently working on ReactJS & Full-Stack Web Development
-🚀 Passionate about building cool projects & contributing to open-source
-💬 Ask me anything about Web & Mobile Development
-👀 Actively seeking opportunities in Web Development
-🎓 B.Sc. IT Graduate | Pursuing M.Sc. IT
+- 🔭 Currently working on ReactJS & Full-Stack Web Development
+- 🚀 Passionate about building cool projects & contributing to open-source
+- 💬 Ask me anything about Web & Mobile Development
+- 👀 Actively seeking opportunities in Web Development
+- 🎓 B.Sc. IT Graduate | Pursuing M.Sc. IT
 
 ---
 

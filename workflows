@@ -15,10 +15,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
           sudo apt update
-          sudo apt install jq -y  # Ensure jq is installed
+          sudo apt install -y gh jq
+
+      - name: Authenticate GitHub CLI
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "${GH_TOKEN}" | gh auth login --with-token
+          gh auth status
 
       - name: Fetch latest repositories
         env:
@@ -26,6 +33,7 @@ jobs:
         run: |
           gh repo list yashKappa --limit 6 --json name,url --sort=updated > repos.json
           jq -r '.[] | "| [\(.name)](\(.url)) |"' repos.json > latest_repos.md
+          cat latest_repos.md  # Debugging output
 
       - name: Update README
         run: |
@@ -37,4 +45,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add README.md
-          git diff --quiet && echo "No changes to commit" || (git commit -m "Updated latest repositories dynamically" && git push)
+          git diff --cached --quiet || git commit -m "Updated latest repositories dynamically"
+          git push

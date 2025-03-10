@@ -4,6 +4,8 @@ const fetch = require("node-fetch");
 
 const GITHUB_USERNAME = "yashKappa";
 const GITHUB_TOKEN = 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; // Securely load the token
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+
 
 if (!GITHUB_TOKEN) {
     console.error("❌ GitHub Token is missing! Add it in .env or GitHub Secrets.");

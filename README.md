@@ -49,9 +49,12 @@
 
 ## 📌 Pinned Repositories
 
-<!-- PINNED-REPOS-START -->
-<!-- Repositories will be listed here dynamically -->
-<!-- PINNED-REPOS-END -->
+- [simple-web-page](https://github.com/yashKappa/simple-web-page) - This project is a stylish and responsive landing page (**CSS**)
+- [list](https://github.com/yashKappa/list) - This is the to-do-list application (**CSS**)
+- [anime-app](https://github.com/yashKappa/anime-app) - A website that contains different types of anime posters (**HTML**)
+- [weather-report](https://github.com/yashKappa/weather-report) - Provides weather reports based on search (**CSS**)
+- [Plagiarism-](https://github.com/yashKappa/Plagiarism-) - Shows plagiarism percentage and code types (**HTML**)
+- [IT-Travel-Checklist](https://github.com/yashKappa/IT-Travel-Checklist) - A travel checklist app (**HTML**)
 
 ---
 

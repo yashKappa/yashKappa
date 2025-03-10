@@ -47,11 +47,11 @@
 
 ---
 
-## 🔥 Latest Updated Repositories
+## 📌 Pinned Repositories
 
-<!-- LATEST-REPOS-START -->
+<!-- PINNED-REPOS-START -->
 <!-- Repositories will be listed here dynamically -->
-<!-- LATEST-REPOS-END -->
+<!-- PINNED-REPOS-END -->
 
 ---
 

@@ -13,21 +13,19 @@ if (!GITHUB_TOKEN) {
 }
 
 async function fetchTopRepos() {
-    const query = `
-        query {
-            user(login: "${GITHUB_USERNAME}") {
-                repositories(first: 6, orderBy: {field: STARGAZERS, direction: DESC}) {
-                    nodes {
-                        name
-                        url
-                        stargazers {
-                            totalCount
-                        }
+    const query = `query {
+        user(login: "${GITHUB_USERNAME}") {
+            repositories(first: 6, orderBy: {field: STARGAZERS, direction: DESC}) {
+                nodes {
+                    name
+                    url
+                    stargazers {
+                        totalCount
                     }
                 }
             }
         }
-    `;
+    }`;
 
     const response = await fetch("https://api.github.com/graphql", {
         method: "POST",
@@ -39,8 +37,10 @@ async function fetchTopRepos() {
     });
 
     const data = await response.json();
+    console.log("🚀 API Response:", JSON.stringify(data, null, 2)); // Debug log
+
     if (data.errors) {
-        console.error("GraphQL Error:", data.errors);
+        console.error("❌ GraphQL Error:", data.errors);
         return [];
     }
 

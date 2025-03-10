@@ -6,7 +6,7 @@ const GITHUB_TOKEN = "YOUR_GITHUB_TOKEN"; // Replace with your token
 
 async function fetchTopRepos() {
   const query = `
-    {
+    query {
       user(login: "${GITHUB_USERNAME}") {
         repositories(first: 6, orderBy: {field: STARGAZERS, direction: DESC}) {
           nodes {
@@ -18,7 +18,8 @@ async function fetchTopRepos() {
           }
         }
       }
-    }`;
+    }
+  `;
 
   const response = await fetch("https://api.github.com/graphql", {
     method: "POST",
@@ -30,6 +31,10 @@ async function fetchTopRepos() {
   });
 
   const data = await response.json();
+  if (data.errors) {
+    console.error("GraphQL Error:", data.errors);
+    return [];
+  }
   return data.data.user.repositories.nodes;
 }
 

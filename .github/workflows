@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-            - name: Fetch latest repositories
+      - name: Fetch latest repositories
         run: |
           curl -s https://api.github.com/users/yashKappa/repos?sort=updated -o repos.json
           cat repos.json  # Debugging step

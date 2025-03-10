@@ -1,4 +1,4 @@
-name: Update README with Latest Repositories
+name: Update README with Pinned Repositories
 
 on:
   schedule:
@@ -15,20 +15,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up GitHub CLI
-        uses: actions/setup-node@v3
-        with:
-          node-version: '14'
-
-      - name: Fetch latest repositories
+      - name: Fetch pinned repositories
         run: |
-          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
-          gh repo list yashKappa --limit 6 --json name,url --sort=updated > repos.json
-          jq -r '.[] | "- [\(.name)](\(.url))"' repos.json > latest_repos.md
+          curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+               -H "Content-Type: application/json" \
+               -X POST -d '{"query":"query { viewer { pinnedItems(first: 6, types: REPOSITORY) { nodes { name url description primaryLanguage { name } } } } }"}' \
+               https://api.github.com/graphql | jq -r '.data.viewer.pinnedItems.nodes | map("- [\(.name)](\(.url)) - \(.description) (**\(.primaryLanguage.name // "No Language")**)") | .[]' > pinned_repos.md
 
       - name: Update README
         run: |
-          awk '/<!-- LATEST-REPOS-START -->/{print; system("cat latest_repos.md"); next} /<!-- LATEST-REPOS-END -->/{print; exit} 1' README.md > new_readme.md
+          awk '/<!-- PINNED-REPOS-START -->/{print; system("cat pinned_repos.md"); next} /<!-- PINNED-REPOS-END -->/{print; exit} 1' README.md > new_readme.md
           mv new_readme.md README.md
 
       - name: Commit and push changes
@@ -36,5 +32,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add README.md
-          git commit -m "Updated latest repositories dynamically" || exit 0
+          git commit -m "Updated pinned repositories dynamically" || exit 0
           git push

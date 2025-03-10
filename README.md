@@ -47,17 +47,21 @@
 
 ---
 
-🚀 Pinned Repositories
-📌 Here are some of my featured projects:
+## 🚀 Pinned Repositories 📌  
 
-🌟 Project Name |	🔖 Description	| 🛠 Tech Stack
-🎨 simple-web-page |	A stylish and responsive landing page for web design & development.	CSS
-📝 list	A to-do | list app where users can add and delete notes.	CSS
-🎬 anime-app |	A website showcasing different types of anime posters.	HTML
-🌦 weather-report	| A weather report app displaying temperature for searched locations.	CSS
-🔍 Plagiarism-	| An app to detect plagiarism percentages in code.	HTML
-🧳 IT-Travel-Checklist	| A travel checklist to help pack for a 2-3 day trip.	HTML
-📌 Check out my full project list 👉 GitHub Profile
+🔹 Here are some of my featured projects:  
+
+| 🌟 Project Name | 📝 Description | 🛠 Tech Stack |
+|---------------|----------------|-------------|
+| 🎨 [**simple-web-page**](https://github.com/yashKappa/simple-web-page) | A stylish and responsive landing page for web design & development. | `CSS` |
+| 📝 [**list**](https://github.com/yashKappa/list) | A to-do list app where users can add and delete notes. | `CSS` |
+| 🎬 [**anime-app**](https://github.com/yashKappa/anime-app) | A website showcasing different types of anime posters. | `HTML` |
+| 🌦 [**weather-report**](https://github.com/yashKappa/weather-report) | A weather report app displaying temperature for searched locations. | `CSS` |
+| 🔍 [**Plagiarism-**](https://github.com/yashKappa/Plagiarism-) | An app to detect plagiarism percentages in code. | `HTML` |
+| 🧳 [**IT-Travel-Checklist**](https://github.com/yashKappa/IT-Travel-Checklist) | A travel checklist to help pack for a 2-3 day trip. | `HTML` |
+
+📌 **Check out my full project list** 👉 [GitHub Profile](https://github.com/yashKappa) 🚀  
+
 
 
 ---

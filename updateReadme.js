@@ -3,7 +3,7 @@ const fs = require("fs");
 const fetch = require("node-fetch");
 
 const GITHUB_USERNAME = "yashKappa";
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN; // Use token from .env
+const GITHUB_TOKEN = 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; // Use token from .env
 
 async function fetchTopRepos() {
     const query = `

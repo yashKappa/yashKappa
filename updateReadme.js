@@ -1,50 +1,53 @@
 require("dotenv").config();
 const fs = require("fs");
-const fetch = require("node-fetch");
 
 const GITHUB_USERNAME = "yashKappa";
-const GITHUB_TOKEN = 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; // Securely load the token
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN; // Securely load from .env
 
 if (!GITHUB_TOKEN) {
-    console.error("❌ GitHub Token is missing! Add it in .env or GitHub Secrets.");
+    console.error("❌ GitHub Token is missing! Add it in .env");
     process.exit(1);
 }
 
 async function fetchTopRepos() {
-    const query = `query {
-        user(login: "${GITHUB_USERNAME}") {
-            repositories(first: 6, orderBy: {field: STARGAZERS, direction: DESC}) {
-                nodes {
-                    name
-                    url
-                    stargazers {
-                        totalCount
+    const query = `
+        query {
+            user(login: "${GITHUB_USERNAME}") {
+                repositories(first: 6, orderBy: {field: STARGAZERS, direction: DESC}, privacy: PUBLIC) {
+                    nodes {
+                        name
+                        url
+                        stargazers {
+                            totalCount
+                        }
                     }
                 }
             }
         }
-    }`;
+    `;
 
-    const response = await fetch("https://api.github.com/graphql", {
-        method: "POST",
-        headers: {
-            "Authorization": `Bearer ${GITHUB_TOKEN}`,
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ query }),
-    });
+    try {
+        const response = await fetch("https://api.github.com/graphql", {
+            method: "POST",
+            headers: {
+                "Authorization": `Bearer ${GITHUB_TOKEN}`,
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ query }),
+        });
 
-    const data = await response.json();
-    console.log("🚀 API Response:", JSON.stringify(data, null, 2)); // Debug log
+        const data = await response.json();
 
-    if (data.errors) {
-        console.error("❌ GraphQL Error:", data.errors);
+        if (data.errors) {
+            console.error("GraphQL Error:", data.errors);
+            return [];
+        }
+
+        return data.data.user.repositories.nodes;
+    } catch (error) {
+        console.error("❌ Fetch Error:", error);
         return [];
     }
-
-    return data.data.user.repositories.nodes;
 }
 
 async function updateReadme() {

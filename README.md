@@ -51,7 +51,7 @@
 <!-- LATEST-REPOS-START -->
 <!-- Repositories will be listed here automatically -->
 <!-- LATEST-REPOS-END -->
-- LATEST-REPOS-END -->
+
 
 ---
 

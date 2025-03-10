@@ -15,10 +15,9 @@ jobs:
       - name: Fetch latest repositories
         run: |
           curl -s https://api.github.com/users/yashKappa/repos?sort=updated -o repos.json
-          cat repos.json  # Debugging step
+          cat repos.json  # Debugging: Check if API response is correct
           jq -r '[.[:6] | .[] | "- [\(.name)](\(.html_url))"] | join("\n")' repos.json > latest_repos.md
-          cat latest_repos.md  # Debugging step
-
+          cat latest_repos.md  # Debugging: Check if repo list is correct
 
       - name: Update README
         run: |

@@ -3,7 +3,7 @@ name: Update README with Latest Repositories
 on:
   schedule:
     - cron: '0 * * * *'  # Runs every hour
-  workflow_dispatch:  # Allows manual trigger
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -29,4 +29,3 @@ jobs:
           git add README.md
           git commit -m "Updated latest repositories dynamically" || exit 0
           git push
-

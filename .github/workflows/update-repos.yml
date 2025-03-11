@@ -18,31 +18,31 @@ jobs:
 
       - name: Fetch latest repositories
         run: |
-          REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | python3 - <<EOF
-import sys, json
-data = json.load(sys.stdin)
-html = """
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
-"""
-for repo in data:
-    html += f"""
-    <div style="width: 300px; background: #f9f9f9; padding: 15px; border-radius: 10px; box-shadow: 3px 3px 10px rgba(0,0,0,0.1); text-align: center;">
-        <h3 style="margin-bottom: 5px;">
-            <a href="{repo.get('html_url', '#')}" style="text-decoration: none; color: #0366d6;">
-                {repo.get('name', 'Unknown')}
-            </a>
-        </h3>
-        <p style="font-size: 14px; color: #555;">
-            {repo.get('description', 'No description available.')}
-        </p>
-        <p style="font-size: 12px; color: #888;">
-            <strong>Language:</strong> {repo.get('language', 'Unknown')}
-        </p>
-    </div>
-    """
-html += "</div>"
-print(html)
-EOF
+          REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | python3 <<EOF
+          import sys, json
+          data = json.load(sys.stdin)
+          html = """
+          <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+          """
+          for repo in data:
+              html += f"""
+              <div style="width: 300px; background: #f9f9f9; padding: 15px; border-radius: 10px; box-shadow: 3px 3px 10px rgba(0,0,0,0.1); text-align: center;">
+                  <h3 style="margin-bottom: 5px;">
+                      <a href="{repo.get('html_url', '#')}" style="text-decoration: none; color: #0366d6;">
+                          {repo.get('name', 'Unknown')}
+                      </a>
+                  </h3>
+                  <p style="font-size: 14px; color: #555;">
+                      {repo.get('description', 'No description available.')}
+                  </p>
+                  <p style="font-size: 12px; color: #888;">
+                      <strong>Language:</strong> {repo.get('language', 'Unknown')}
+                  </p>
+              </div>
+              """
+          html += "</div>"
+          print(html)
+          EOF
           )
 
           echo "Latest Repositories:"

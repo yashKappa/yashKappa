@@ -74,12 +74,14 @@
 
 ## 🚀 My Top GitHub Projects  
 <!-- LATEST-REPOS-START -->
-- [yashKappa](https://github.com/yashKappa/yashKappa)
-- [Toriko-Food-ingredients-](https://github.com/yashKappa/Toriko-Food-ingredients-)
-- [Flutter-Demo](https://github.com/yashKappa/Flutter-Demo)
-- [Commodity-trading-system-](https://github.com/yashKappa/Commodity-trading-system-)
-- [SubAnime](https://github.com/yashKappa/SubAnime)
-- [portfolio](https://github.com/yashKappa/portfolio)
+| Repository | Description | Language |
+|------------|-------------|----------|
+| [yashKappa](https://github.com/yashKappa/yashKappa) | No description | Unknown |
+| [Toriko-Food-ingredients-](https://github.com/yashKappa/Toriko-Food-ingredients-) | No description | JavaScript |
+| [Flutter-Demo](https://github.com/yashKappa/Flutter-Demo) | No description | C++ |
+| [Commodity-trading-system-](https://github.com/yashKappa/Commodity-trading-system-) | My YouTube Channel: https://www.youtube.com/@yashsaundalkar658 | JavaScript |
+| [SubAnime](https://github.com/yashKappa/SubAnime) | This webpage features `@keyframes` animations, hover effects, two types of slideshows, animated buttons, card hover pop-ups revealing information, and a footer, offering a visually engaging experience. My YouTube Channel: https://www.youtube.com/@yashsaundalkar658 | JavaScript |
+| [portfolio](https://github.com/yashKappa/portfolio) | My YouTube Channel: https://www.youtube.com/@yashsaundalkar658 | CSS |
 <!-- LATEST-REPOS-END -->
 
 ---

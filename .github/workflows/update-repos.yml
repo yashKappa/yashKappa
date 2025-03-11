@@ -6,7 +6,7 @@ on:
   workflow_dispatch:  # Allows manual triggering
 
 permissions:
-  contents: write  # Allows the action to push changes
+  contents: write  # This allows the action to push changes
 
 jobs:
   update-readme:
@@ -18,48 +18,25 @@ jobs:
 
       - name: Fetch latest repositories
         run: |
-          RESPONSE=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6")
+          REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | jq -r '
+            ["| Repository | Description | Language |", "|------------|-------------|----------|"] + 
+            (map("| [" + .name + "](" + .html_url + ") | " + 
+            (.description // "No description") + " | " + 
+            (.language // "Unknown") + " |")) | .[]')
 
-          if [[ -z "$RESPONSE" || "$RESPONSE" == "[]" ]]; then
-            echo "Error: Empty API response or no public repositories."
+          echo "Latest Repositories:"
+          echo "$REPOS"
+
+          # Ensure README.md exists before modifying
+          if [ -f README.md ]; then
+            awk -v repos="$REPOS" '
+              /<!-- LATEST-REPOS-START -->/ {print; print repos; inside=1; next}
+              /<!-- LATEST-REPOS-END -->/ {inside=0}
+              !inside {print}
+            ' README.md > README.md.tmp && mv README.md.tmp README.md
+          else
+            echo "README.md not found!"
             exit 1
-          fi
-
-          echo "API Response: $RESPONSE"
-
-          echo "$RESPONSE" | python3 <<EOF
-          import sys, json
-
-          try:
-              data = json.load(sys.stdin)
-              if not data:
-                  print("Error: No repositories found.")
-                  sys.exit(1)
-          except json.JSONDecodeError as e:
-              print(f"JSON Decode Error: {e}")
-              sys.exit(1)
-
-          html = '<div style="display: flex; flex-wrap: wrap; gap: 15px;">'
-          for repo in data:
-              html += f'''
-              <div style="width: 300px; background: #f9f9f9; padding: 15px; border-radius: 10px; box-shadow: 3px 3px 10px rgba(0,0,0,0.1);">
-                  <h3><a href="{repo.get('html_url', '#')}" style="text-decoration: none; color: #0366d6;">
-                      {repo.get('name', 'Unknown')}
-                  </a></h3>
-                  <p style="color: #555;">{repo.get('description', 'No description available.')}</p>
-                  <p style="color: #888;"><strong>Language:</strong> {repo.get('language', 'Unknown')}</p>
-              </div>
-              '''
-          html += "</div>"
-          print(html)
-          EOF
-
-      - name: Ensure README exists
-        run: |
-          if [ ! -f README.md ]; then
-            echo "README.md not found, creating one."
-            echo "# My GitHub Repos" > README.md
           fi
 
       - name: Commit & Push Changes

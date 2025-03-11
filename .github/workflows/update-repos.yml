@@ -5,6 +5,9 @@ on:
     - cron: "0 * * * *"  # Runs every hour
   workflow_dispatch:  # Allows manual triggering
 
+permissions:
+  contents: write  # This allows the action to push changes
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -15,11 +18,8 @@ jobs:
 
       - name: Fetch latest repositories
         run: |
-          REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=created&per_page=6" | jq -r '.[] | "- [\(.name)](\(.html_url))"')
-          awk -v repos="$REPOS" '
-            /<!-- LATEST-REPOS-START -->/ {print; print repos; found=1; next}
-            /<!-- LATEST-REPOS-END -->/ {found=0}
-            !found' README.md > temp.md && mv temp.md README.md
+          REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | jq -r '.[] | "- [\(.name)](\(.html_url))"')
+          sed -i '/<!-- LATEST-REPOS-START -->/,/<!-- LATEST-REPOS-END -->/c\<!-- LATEST-REPOS-START -->\n'"$REPOS"'\n<!-- LATEST-REPOS-END -->' README.md
 
       - name: Commit & Push Changes
         run: |

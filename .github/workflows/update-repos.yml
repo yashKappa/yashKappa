@@ -20,11 +20,16 @@ jobs:
         run: |
           REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | jq -r '.[] | "- [\(.name)](\(.html_url))"')
 
+          echo "Latest Repositories:"
           echo "$REPOS"
 
-          # Ensure README.md exists before running sed
+          # Ensure README.md exists before modifying
           if [ -f README.md ]; then
-            sed -i '/<!-- LATEST-REPOS-START -->/,/<!-- LATEST-REPOS-END -->/c\<!-- LATEST-REPOS-START -->\n'"$REPOS"'\n<!-- LATEST-REPOS-END -->' README.md
+            awk -v repos="$REPOS" '
+              /<!-- LATEST-REPOS-START -->/ {print; print repos; inside=1; next}
+              /<!-- LATEST-REPOS-END -->/ {inside=0}
+              !inside {print}
+            ' README.md > README.md.tmp && mv README.md.tmp README.md
           else
             echo "README.md not found!"
             exit 1

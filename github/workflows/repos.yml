@@ -15,7 +15,7 @@ jobs:
 
       - name: Fetch latest repositories
         run: |
-          REPOS=$(curl -s "https://api.github.com/users/YOUR_GITHUB_USERNAME/repos?sort=created&per_page=6" | jq -r '.[] | "- [\(.name)](\(.html_url))"')
+          REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=created&per_page=6" | jq -r '.[] | "- [\(.name)](\(.html_url))"')
           echo -e "## 🚀 My Top GitHub Projects\n\n<!-- LATEST-REPOS-START -->\n$REPOS\n<!-- LATEST-REPOS-END -->" > README.md
 
       - name: Commit & Push Changes

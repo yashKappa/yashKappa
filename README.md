@@ -74,7 +74,12 @@
 
 ## 🚀 My Top GitHub Projects  
 <!-- LATEST-REPOS-START -->
-_(Fetching latest repositories...)_
+- [yashKappa](https://github.com/yashKappa/yashKappa)
+- [Toriko-Food-ingredients-](https://github.com/yashKappa/Toriko-Food-ingredients-)
+- [Flutter-Demo](https://github.com/yashKappa/Flutter-Demo)
+- [Commodity-trading-system-](https://github.com/yashKappa/Commodity-trading-system-)
+- [SubAnime](https://github.com/yashKappa/SubAnime)
+- [portfolio](https://github.com/yashKappa/portfolio)
 <!-- LATEST-REPOS-END -->
 
 ---

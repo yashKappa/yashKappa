@@ -19,10 +19,13 @@ jobs:
       - name: Fetch latest repositories
         run: |
           REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | jq -r '
-            ["| Repository | Description | Language |", "|------------|-------------|----------|"] + 
-            (map("| [" + .name + "](" + .html_url + ") | " + 
-            (.description // "No description") + " | " + 
-            (.language // "Unknown") + " |")) | .[]')
+            "<div align=\"center\">" +
+            (map("<div style=\"width: 30%; display: inline-block; margin: 10px; padding: 10px; border-radius: 8px; box-shadow: 2px 2px 10px #ccc;\">\
+            <h3><a href=\"" + .html_url + "\">" + .name + "</a></h3>\
+            <p>" + (.description // "No description available.") + "</p>\
+            <p><strong>Language:</strong> " + (.language // "Unknown") + "</p>\
+            </div>") | join("\n")) +
+            "</div>"')
 
           echo "Latest Repositories:"
           echo "$REPOS"

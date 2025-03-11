@@ -19,7 +19,16 @@ jobs:
       - name: Fetch latest repositories
         run: |
           REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | jq -r '.[] | "- [\(.name)](\(.html_url))"')
-          sed -i '/<!-- LATEST-REPOS-START -->/,/<!-- LATEST-REPOS-END -->/c\<!-- LATEST-REPOS-START -->\n'"$REPOS"'\n<!-- LATEST-REPOS-END -->' README.md
+
+          echo "$REPOS"
+
+          # Ensure README.md exists before running sed
+          if [ -f README.md ]; then
+            sed -i '/<!-- LATEST-REPOS-START -->/,/<!-- LATEST-REPOS-END -->/c\<!-- LATEST-REPOS-START -->\n'"$REPOS"'\n<!-- LATEST-REPOS-END -->' README.md
+          else
+            echo "README.md not found!"
+            exit 1
+          fi
 
       - name: Commit & Push Changes
         run: |

@@ -6,7 +6,10 @@
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=FFFFFF&center=true&width=435&lines=Hi+there!+I'm+Yash+Kappa!;Hi+there!+I'm+Yash+Kappa!;Full+Stack+Developer+🚀;Full+Stack+Developer+🚀;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;Coding+enthusiast+💡;Coding+enthusiast+💡;Let's+connect!+😃;Let's+connect!+😃" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=1000&center=true&width=435
+  &color=FFFFFF&lines=Hi+there!+I'm+Yash+Kappa!;Full+Stack+Developer+🚀;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;Coding+enthusiast+💡;Let's+connect!+😃
+  &color=000000&lines=Hi+there!+I'm+Yash+Kappa!;Full+Stack+Developer+🚀;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;Coding+enthusiast+💡;Let's+connect!+😃" 
+  alt="Typing SVG" />
 </p>
 
 ---

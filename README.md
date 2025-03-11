@@ -72,6 +72,8 @@
 
 📌 **Check out my full project list** 👉 [GitHub Profile](https://github.com/yashKappa) 🚀  
 
+---
+
 ## 🚀 My Recently Updated Projects  
 <!-- LATEST-REPOS-START -->
 | Repository | Description | Language |

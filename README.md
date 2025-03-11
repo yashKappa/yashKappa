@@ -5,14 +5,9 @@
 
 ---
 
-<p align="center" style="font-family: 'Fira Code', monospace; font-size: 24px; color: black; text-shadow: 2px 2px 5px white;">
-  Hi there! I'm Yash Kappa! <br>
-  Full Stack Developer 🚀 <br>
-  React | Node.js | MongoDB | Firebase <br>
-  Coding enthusiast 💡 <br>
-  Let's connect! 😃
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=333333&center=true&width=435&lines=Hi+there!+I'm+Yash+Kappa!;Full+Stack+Developer+🚀;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;Coding+enthusiast+💡;Let's+connect!+😃&stroke=FFFFFF&strokeWidth=1" alt="Typing SVG" />
 </p>
-
 
 ---
 

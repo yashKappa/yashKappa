@@ -89,7 +89,7 @@
 </tr>
 <tr>
 <td><strong><a href="https://github.com/yashKappa/Toriko-Food-ingredients-">Toriko-Food-ingredients-</a></strong></td>
-<td>No description available</td>
+<td>This Project was create based on Recipe where foodies can share their own recipe to other people and add to favorites can give likes to best recipe.</td>
 <td><code>JavaScript</code></td>
 </tr>
 <tr>

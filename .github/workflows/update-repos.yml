@@ -44,6 +44,10 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git pull --rebase  # Pull latest changes before pushing
+          
           git add README.md
           git commit -m "🔄 Updated latest GitHub repositories in card format" || exit 0
           git push
+

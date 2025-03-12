@@ -76,14 +76,7 @@
 
 ## 🚀 My Recently Updated Projects  
 <!-- LATEST-REPOS-START -->
-| Repository | Description | Language |
-|------------|-------------|----------|
-| [yashKappa](https://github.com/yashKappa/yashKappa) | No description | Unknown |
-| [Toriko-Food-ingredients-](https://github.com/yashKappa/Toriko-Food-ingredients-) | No description | JavaScript |
-| [Flutter-Demo](https://github.com/yashKappa/Flutter-Demo) | No description | C++ |
-| [Commodity-trading-system-](https://github.com/yashKappa/Commodity-trading-system-) | My YouTube Channel: https://www.youtube.com/@yashsaundalkar658 | JavaScript |
-| [SubAnime](https://github.com/yashKappa/SubAnime) | This webpage features `@keyframes` animations, hover effects, two types of slideshows, animated buttons, card hover pop-ups revealing information, and a footer, offering a visually engaging experience. My YouTube Channel: https://www.youtube.com/@yashsaundalkar658 | JavaScript |
-| [portfolio](https://github.com/yashKappa/portfolio) | My YouTube Channel: https://www.youtube.com/@yashsaundalkar658 | CSS |
+<!-- This section will be auto-updated by GitHub Actions -->
 <!-- LATEST-REPOS-END -->
 
 ---

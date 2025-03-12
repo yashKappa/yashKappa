@@ -76,14 +76,43 @@
 
 ## 🚀 My Recently Updated Projects  
 <!-- LATEST-REPOS-START -->
-| Repository | Description | Language |
-|------------|-------------|----------|
-| [yashKappa](https://github.com/yashKappa/yashKappa) | No description available | JavaScript |
-| [Toriko-Food-ingredients-](https://github.com/yashKappa/Toriko-Food-ingredients-) | No description available | JavaScript |
-| [Flutter-Demo](https://github.com/yashKappa/Flutter-Demo) | No description available | C++ |
-| [Commodity-trading-system-](https://github.com/yashKappa/Commodity-trading-system-) | My YouTube Channel: https://www.youtube.com/@yashsaundalkar658 | JavaScript |
-| [SubAnime](https://github.com/yashKappa/SubAnime) | This webpage features `@keyframes` animations, hover effects, two types of slideshows, animated buttons, card hover pop-ups revealing information, and a footer, offering a visually engaging experience. My YouTube Channel: https://www.youtube.com/@yashsaundalkar658 | JavaScript |
-| [portfolio](https://github.com/yashKappa/portfolio) | My YouTube Channel: https://www.youtube.com/@yashsaundalkar658 | CSS |
+<table>
+<tr>
+<th width="250px">Repository</th>
+<th width="450px">Description</th>
+<th width="150px">Language</th>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td>
+<td>No description available</td>
+<td><code>JavaScript</code></td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/yashKappa/Toriko-Food-ingredients-">Toriko-Food-ingredients-</a></strong></td>
+<td>No description available</td>
+<td><code>JavaScript</code></td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/yashKappa/Flutter-Demo">Flutter-Demo</a></strong></td>
+<td>No description available</td>
+<td><code>C++</code></td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/yashKappa/Commodity-trading-system-">Commodity-trading-system-</a></strong></td>
+<td>My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td>
+<td><code>JavaScript</code></td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/yashKappa/SubAnime">SubAnime</a></strong></td>
+<td>This webpage features `@keyframes` animations, hover effects, two types of slideshows, animated buttons, card hover pop-ups revealing information, and a footer, offering a visually engaging experience. My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td>
+<td><code>JavaScript</code></td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/yashKappa/portfolio">portfolio</a></strong></td>
+<td>My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td>
+<td><code>CSS</code></td>
+</tr>
+</table>
 <!-- LATEST-REPOS-END -->
 
 ---

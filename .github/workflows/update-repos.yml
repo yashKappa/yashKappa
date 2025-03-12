@@ -49,6 +49,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase  # Pull latest changes to avoid conflicts
           git add README.md
           git commit -m "🔄 Auto-update latest GitHub repositories" || exit 0
           git push

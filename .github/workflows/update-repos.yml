@@ -1,53 +1,33 @@
-name: Update GitHub Profile with Latest Repos
+name: Update README with GitHub Repos
 
 on:
   schedule:
     - cron: "0 * * * *"  # Runs every hour
-  workflow_dispatch:  # Allows manual triggering
-
-permissions:
-  contents: write  # Allows the action to push changes
+  push:
+    branches:
+      - main
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm install node-fetch
 
       - name: Fetch latest repositories
-        run: |
-          REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | jq -r '
-            "<div style=\"display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;\">" +
-            (map("<div style=\"width: 300px; border: 1px solid #ddd; border-radius: 8px; padding: 10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);\">" +
-            "<h3><a href=\"" + .html_url + "\" style=\"color: #0366d6; text-decoration: none;\">" + .name + "</a></h3>" +
-            "<p style=\"font-size: 14px; color: #555;\">" + (.description // "No description available") + "</p>" +
-            "<p style=\"font-size: 12px; font-weight: bold;\">" + (.language // "Unknown") + "</p></div>") | .[]) +
-            "</div>"')
+        run: node generate-readme.js
 
-          echo "Latest Repositories:"
-          echo "$REPOS"
-
-          if [ -f README.md ]; then
-            awk -v repos="$REPOS" '
-              /<!-- LATEST-REPOS-START -->/ {print; print repos; inside=1; next}
-              /<!-- LATEST-REPOS-END -->/ {inside=0}
-              !inside {print}
-            ' README.md > README.md.tmp && mv README.md.tmp README.md
-          else
-            echo "README.md not found!"
-            exit 1
-          fi
-
-      - name: Commit & Push Changes
+      - name: Commit & Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          git pull --rebase  # Pull latest changes before pushing
-          
           git add README.md
-          git commit -m "🔄 Updated latest GitHub repositories in card format" || exit 0
+          git commit -m "Updated GitHub repositories" || exit 0
           git push
-

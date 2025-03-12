@@ -1,6 +1,6 @@
 <!-- Banner Image -->
 <p align="center">
-  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/be46c56f-6bd8-4691-b90e-4275b5f8abc5/dilwn74-40b046db-1d11-4bbe-99be-b3ce690d3916.jpg/v1/fill/w_1280,h_1280,q_75,strp/completely_nude_women_at_the_lake___240_by_dbdon_dilwn74-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2JlNDZjNTZmLTZiZDgtNDY5MS1iOTBlLTQyNzViNWY4YWJjNVwvZGlsd243NC00MGIwNDZkYi0xZDExLTRiYmUtOTliZS1iM2NlNjkwZDM5MTYuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.F3LkPoL6ht2bt3R3ZbTZ2rQPSuhyKnjafRv_9o1xnCQ" width="100%" border="20%">
+  <img src="hhttps://as2.ftcdn.net/jpg/05/67/40/31/1000_F_567403147_WjV5fqGRjjPUkBOnXaaREKgVjZMC12M7.jpg" width="100%" border="20%">
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=000000&center=true&vCenter=true&width=1000&height=50&lines=Hi+there!+I'm+Yash+Kappa!;Full+Stack+Developer+🚀;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;Coding+enthusiast+💡;Let's+connect!+😃&background=c0c0c0" alt="Typing SVG" />

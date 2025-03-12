@@ -1,8 +1,11 @@
 name: Update GitHub Profile with Latest Repos
 
 on:
+  push:  # Run on every push to the main branch
+    branches:
+      - main  # Change if your branch is different
   schedule:
-    - cron: "0 * * * *"  # Runs every hour
+    - cron: "*/10 * * * *"  # Runs every 10 minutes
   workflow_dispatch:  # Allows manual triggering
 
 permissions:
@@ -40,19 +43,15 @@ jobs:
 
       - name: Check for Changes
         run: |
-          if git diff --quiet; then
-            echo "No changes detected. Skipping commit."
-            exit 0
-          fi
+          git diff --quiet || echo "Changes detected"
 
       - name: Commit & Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add README.md  # Stage the updated README.md
-          git commit -m "🔄 Auto-update latest GitHub repositories" || echo "No changes to commit"
+          git add README.md
+          git commit -m "🔄 Auto-update latest GitHub repositories" || exit 0  # Prevent error if no changes
 
-          git pull --rebase --autostash  # Pull latest changes with automatic stash
+          git pull --rebase --autostash  # Ensure latest changes are included
           git push
-

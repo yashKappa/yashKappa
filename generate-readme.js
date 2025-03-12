@@ -1,4 +1,4 @@
-const fetch = require("node-fetch");
+import fetch from "node-fetch";
 const fs = require("fs");
 
 const username = "yashKappa";  // Change this to your GitHub username

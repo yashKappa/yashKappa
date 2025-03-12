@@ -78,9 +78,9 @@
 <!-- LATEST-REPOS-START -->
 <table>
 <tr>
-<th width="250px">Repository</th>
-<th width="450px">Description</th>
-<th width="150px">Language</th>
+<th width="280px">Repository</th>
+<th width="500px">Description</th>
+<th width="170px">Language</th>
 </tr>
 <tr>
 <td><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td>

@@ -34,7 +34,10 @@ jobs:
           (if .description then .description else "No description available" end) + "</td></tr>\n" +
           "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
           (if .language then .language else "Unknown" end) + "</td></tr>\n" +
-          "</table>\n</td>") | join("\n")')
+          "</table>\n</td>") 
+          | join("") 
+          | gsub("(.{2})(</td>)(.{2})(</td>)"; "\1\2\n\3\4") 
+          | "<table width=\"100%\"><tr>" + . + "</tr></table>"')
 
           echo "Latest Repositories:"
           echo "$REPOS"

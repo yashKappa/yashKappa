@@ -77,7 +77,6 @@
 ## 🚀 My Recently Updated Projects  
 <!-- LATEST-REPOS-START -->
 <table width="100%">
-<tr>
 <td width="50%" valign="top">
 <table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td></tr>

@@ -1,63 +1,75 @@
-name: Update GitHub Profile
+name: Update GitHub Profile with Latest Repos
 
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+    - cron: "*/10 * * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch Latest Repositories and Update README
+      - name: Install jq (JSON Processor)
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Fetch latest repositories and format table
         run: |
-          GITHUB_USERNAME="yashKappa"
-          MAX_REPOS=6
+      - name: Fetch latest repositories and format table
+        run: |
+          REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | jq -r '
+          map("<td width=\"50%\" valign=\"top\" style=\"word-wrap: break-word; max-width: 50%;\">\n" +
+          "<table width=\"100%\" border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;\">\n" +
+          "<tr><td style=\"background: #f8f8f8; font-size: 16px;\"><strong><a href=\"" + .html_url + "\">" + .name + "</a></strong></td></tr>\n" +
+          "<tr><td style=\"font-size: 14px; overflow-wrap: break-word;\">" +
+          (if .description then .description else "No description available" end) + "</td></tr>\n" +
+          "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
+          (if .language then .language else "Unknown" end) + "</td></tr>\n" +
+          "</table>\n</td>") | join("\n")')
 
-          # Fetch repositories sorted by last push
-          REPOS_JSON=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=$MAX_REPOS")
+          echo "Latest Repositories:"
+          echo "$REPOS"
 
-          # Extract repo details using jq
-          REPO_LIST=$(echo "$REPOS_JSON" | jq -r '[.[:6] | map("| [\(.name)](\(.html_url)) - \(.description // "No description available") |") | .[]]')
-
-          # Convert to 3x2 table format
-          ROWS=()
-          i=0
-          while read -r line; do
-            ROWS+=("$line")
-            ((i++))
-            if (( i % 3 == 0 )); then
-              echo "| ${ROWS[0]} ${ROWS[1]} ${ROWS[2]} |"
-              ROWS=()
+          if [ -f README.md ]; then
+            if grep -q "<!-- LATEST-REPOS-START -->" README.md; then
+              awk -v repos="$REPOS" '
+                /<!-- LATEST-REPOS-START -->/ {print; print repos; inside=1; next}
+                /<!-- LATEST-REPOS-END -->/ {inside=0}
+                !inside {print}
+              ' README.md > README.md.tmp && mv README.md.tmp README.md
+            else
+              echo "❌ Placeholder not found in README.md!"
+              exit 1
             fi
-          done <<< "$REPO_LIST"
-
-          # Handle remaining rows (if any)
-          if (( ${#ROWS[@]} )); then
-            echo "| ${ROWS[*]} |"
-          fi > repo_table.txt
-
-          # Format the output into a markdown table
-          TABLE="| Repository | Repository | Repository |\n|------------|------------|------------|\n$(cat repo_table.txt)"
-
-          # Escape special characters for sed
-          ESCAPED_TABLE=$(printf '%s\n' "$TABLE" | sed 's/[&/]/\\&/g')
-
-          # Replace placeholder in README safely
-          awk -v table="$ESCAPED_TABLE" '
-          BEGIN {start=0}
-          /<!-- REPOS_START -->/ {print; start=1; print table; next}
-          /<!-- REPOS_END -->/ {start=0}
-          !start' README.md > temp.md && mv temp.md README.md
-
-          # Commit and push if there are changes
-          if [[ $(git status --porcelain) ]]; then
-            git config --global user.name "GitHub Actions"
-            git config --global user.email "actions@github.com"
-            git add README.md
-            git commit -m "Update repositories in README"
-            git push
+          else
+            echo "❌ README.md not found!"
+            exit 1
           fi
+
+      - name: Check for Changes
+        run: |
+          if git diff --quiet; then
+            echo "✅ No changes detected"
+            exit 0
+          else
+            echo "✅ Changes detected"
+          fi
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+          git commit -m "🔄 Auto-update latest GitHub repositories" || exit 0
+          git pull --rebase --autostash
+          git push

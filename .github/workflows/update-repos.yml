@@ -32,10 +32,7 @@ jobs:
           (if .description then .description else "No description available" end) + "</td></tr>\n" +
           "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
           (if .language then .language else "Unknown" end) + "</td></tr>\n" +
-          "</table>\n</td>") | @sh')
-
-          # Remove surrounding quotes from jq output
-          REPOS=$(echo $REPOS | sed 's/^"//;s/"$//')
+          "</table>\n</td>")')
 
           # Format into a two-column table
           REPO_TABLE="<table width=\"100%\" cellspacing=\"10\">"
@@ -56,7 +53,6 @@ jobs:
           echo "Latest Repositories:"
           echo "$REPO_TABLE"
 
-          # Ensure README.md exists and contains placeholders
           if [ -f README.md ]; then
             if grep -q "<!-- LATEST-REPOS-START -->" README.md; then
               awk -v repos="$REPO_TABLE" '

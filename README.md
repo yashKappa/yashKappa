@@ -76,44 +76,52 @@
 
 ## 🚀 My Recently Updated Projects  
 <!-- LATEST-REPOS-START -->
-<div style="display: flex; flex-wrap: wrap; gap: 15px;">
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px; width: 30%; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); background: #fff;">
-<strong><a href="https://github.com/yashKappa/yashKappa" style="font-size: 16px;">yashKappa</a></strong>
-<br>
-<p style="font-size: 14px; color: #555;">No description available</p>
-<span style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</span>
-</div>
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px; width: 30%; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); background: #fff;">
-<strong><a href="https://github.com/yashKappa/Toriko-Food-ingredients-" style="font-size: 16px;">Toriko-Food-ingredients-</a></strong>
-<br>
-<p style="font-size: 14px; color: #555;">This Project was create based on Recipe where foodies can share their own recipe to other people and add to favorites can give likes to best recipe.</p>
-<span style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</span>
-</div>
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px; width: 30%; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); background: #fff;">
-<strong><a href="https://github.com/yashKappa/Flutter-Demo" style="font-size: 16px;">Flutter-Demo</a></strong>
-<br>
-<p style="font-size: 14px; color: #555;">No description available</p>
-<span style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">C++</span>
-</div>
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px; width: 30%; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); background: #fff;">
-<strong><a href="https://github.com/yashKappa/Commodity-trading-system-" style="font-size: 16px;">Commodity-trading-system-</a></strong>
-<br>
-<p style="font-size: 14px; color: #555;">My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</p>
-<span style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</span>
-</div>
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px; width: 30%; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); background: #fff;">
-<strong><a href="https://github.com/yashKappa/SubAnime" style="font-size: 16px;">SubAnime</a></strong>
-<br>
-<p style="font-size: 14px; color: #555;">This webpage features `@keyframes` animations, hover effects, two types of slideshows, animated buttons, card hover pop-ups revealing information, and a footer, offering a visually engaging experience. My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</p>
-<span style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</span>
-</div>
-<div style="border: 1px solid #ddd; padding: 10px; border-radius: 8px; width: 30%; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); background: #fff;">
-<strong><a href="https://github.com/yashKappa/portfolio" style="font-size: 16px;">portfolio</a></strong>
-<br>
-<p style="font-size: 14px; color: #555;">My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</p>
-<span style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">CSS</span>
-</div>
-</div>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td></tr>
+<tr><td style="font-size: 14px;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+</table>
+</td>
+<td width="50%" valign="top">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/Toriko-Food-ingredients-">Toriko-Food-ingredients-</a></strong></td></tr>
+<tr><td style="font-size: 14px;">This Project was create based on Recipe where foodies can share their own recipe to other people and add to favorites can give likes to best recipe.</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+</table>
+</td>
+<td width="50%" valign="top">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/Flutter-Demo">Flutter-Demo</a></strong></td></tr>
+<tr><td style="font-size: 14px;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">C++</td></tr>
+</table>
+</td>
+<td width="50%" valign="top">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/Commodity-trading-system-">Commodity-trading-system-</a></strong></td></tr>
+<tr><td style="font-size: 14px;">My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+</table>
+</td>
+<td width="50%" valign="top">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/SubAnime">SubAnime</a></strong></td></tr>
+<tr><td style="font-size: 14px;">This webpage features `@keyframes` animations, hover effects, two types of slideshows, animated buttons, card hover pop-ups revealing information, and a footer, offering a visually engaging experience. My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+</table>
+</td>
+<td width="50%" valign="top">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/portfolio">portfolio</a></strong></td></tr>
+<tr><td style="font-size: 14px;">My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">CSS</td></tr>
+</table>
+</td>
+</tr>
+</table>
 <!-- LATEST-REPOS-END -->
 
 ---

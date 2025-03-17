@@ -149,18 +149,49 @@
 
 ---
 
-### 👥 My GitHub Followers  
+# 👥 My GitHub Followers
+
 <p align="center">
-  <a href="https://github.com/yashKappa?tab=followers">
-    <img src="https://github.com/yashKappa.png?size=200" alt="GitHub Avatar" width="80">
-  </a>
+  <b>📢 Latest Followers</b>  
+  <br>
+  🔄 Auto-updating followers list every time you open this page!
 </p>
 
-### 📢 Latest Followers
-<!-- FOLLOWER_SECTION:start -->
-<!-- FOLLOWER_SECTION:end -->
+<p align="center" id="followers">
+  <!-- Followers will be loaded here dynamically -->
+</p>
 
-🔄 **Auto-updating followers list every 24 hours!**  
+---
+
+### **📜 How it Works**
+This section automatically updates every time you open the page, showing the latest followers with their profile pictures.
+
+---
+
+## **📌 Live Followers Display (No GitHub Token Needed)**
+```html
+<script>
+    async function fetchFollowers() {
+        const response = await fetch("https://api.github.com/users/yashKappa/followers?per_page=10");
+        const followers = await response.json();
+        const container = document.getElementById("followers");
+
+        followers.forEach(follower => {
+            const div = document.createElement("span");
+            div.innerHTML = `<a href="${follower.html_url}" target="_blank">
+                                <img src="${follower.avatar_url}" width="50" height="50" style="border-radius:50%; margin:5px;">
+                                <br>${follower.login}
+                             </a>`;
+            div.style.display = "inline-block";
+            div.style.textAlign = "center";
+            div.style.margin = "10px";
+            container.appendChild(div);
+        });
+    }
+
+    fetchFollowers();
+</script>
+
 
 
 

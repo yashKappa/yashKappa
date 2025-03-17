@@ -19,7 +19,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch latest repositories
+      - name: Install jq (JSON Processor)
+        run: sudo apt-get install jq -y
+
+      - name: Fetch latest repositories and format table
         run: |
           REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | jq -r '
             (map("<td width=\"50%\" valign=\"top\">\n" +
@@ -31,7 +34,7 @@ jobs:
             (if .language then .language else "Unknown" end) + "</td></tr>\n" +
             "</table>\n</td>") as $repos |
             "<table width=\"100%\">\n<tr>\n" + 
-            ($repos | join("\n") | gsub("(.{2})(</td>\\n<td width=\"50%\" valign=\"top\">)"; "\n</tr>\n<tr>\n")) + 
+            ($repos | join("\n") | gsub("((</td>\\n<td width=\"50%\" valign=\"top\">){2})"; "\n</tr>\n<tr>\n")) + 
             "\n</tr>\n</table>")')
 
           echo "Latest Repositories:"
@@ -44,13 +47,13 @@ jobs:
               !inside {print}
             ' README.md > README.md.tmp && mv README.md.tmp README.md
           else
-            echo "README.md not found!"
+            echo "❌ README.md not found!"
             exit 1
           fi
 
       - name: Check for Changes
         run: |
-          git diff --quiet || echo "Changes detected"
+          git diff --quiet || echo "✅ Changes detected"
 
       - name: Commit & Push Changes
         run: |

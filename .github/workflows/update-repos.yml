@@ -33,9 +33,13 @@ jobs:
             "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
             (if .language then .language else "Unknown" end) + "</td></tr>\n" +
             "</table>\n</td>") as $repos |
-            "<table width=\"100%\">\n<tr>\n" + 
-            ($repos | join("\n") | gsub("((</td>\\n<td width=\"50%\" valign=\"top\">){2})"; "\n</tr>\n<tr>\n")) + 
-            "\n</tr>\n</table>")')
+
+            # Group repos into rows of 2
+            ($repos | reduce .[] as $repo (""; . + (if (input_line_number % 2 == 1) then "<tr>" else "" end) + "\n" + $repo +
+            (if (input_line_number % 2 == 0) then "</tr>\n" else "" end))) +
+
+            (if (length % 2 == 1) then "</tr>" else "" end)
+            ')
 
           echo "Latest Repositories:"
           echo "$REPOS"

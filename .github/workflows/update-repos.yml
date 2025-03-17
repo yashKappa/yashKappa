@@ -20,28 +20,28 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install jq (JSON Processor)
-        run: sudo apt-get install jq -y
+        run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Fetch latest repositories and format table
         run: |
           REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | jq -r '
-            to_entries | map("<td width=\"50%\" valign=\"top\" style=\"word-wrap: break-word; max-width: 50%;\">\n" +
-            "<table width=\"100%\" border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;\">\n" +
-            "<tr><td style=\"background: #f8f8f8; font-size: 16px;\"><strong><a href=\"" + .value.html_url + "\">" + .value.name + "</a></strong></td></tr>\n" +
-            "<tr><td style=\"font-size: 14px; overflow-wrap: break-word;\">" +
-            (if .value.description then .value.description else "No description available" end) + "</td></tr>\n" +
-            "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
-            (if .value.language then .value.language else "Unknown" end) + "</td></tr>\n" +
-            "</table>\n</td>") as $repos |
-          
-            "<table width=\"100%\" style=\"table-layout: fixed; overflow-wrap: break-word;\">\n" +
-            ($repos | reduce .[] as $repo (""; . + (if length % 2 == 1 then "<tr>\n" else "" end) + $repo + (if length % 2 == 0 then "\n</tr>\n" else "" end))) +
-            (if length % 2 == 1 then "\n<td width=\"50%\"></td>\n</tr>\n" else "" end) +
-            "</table>")')
-          
+          to_entries | map("<td width=\"50%\" valign=\"top\" style=\"word-wrap: break-word; max-width: 50%;\">\n" +
+          "<table width=\"100%\" border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;\">\n" +
+          "<tr><td style=\"background: #f8f8f8; font-size: 16px;\"><strong><a href=\"" + .value.html_url + "\">" + .value.name + "</a></strong></td></tr>\n" +
+          "<tr><td style=\"font-size: 14px; overflow-wrap: break-word;\">" +
+          (if .value.description then .value.description else "No description available" end) + "</td></tr>\n" +
+          "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
+          (if .value.language then .value.language else "Unknown" end) + "</td></tr>\n" +
+          "</table>\n</td>") as $repos |
+
+          "<table width=\"100%\" style=\"table-layout: fixed; overflow-wrap: break-word;\">\n" +
+          ($repos | reduce .[] as $repo (""; . + (if length % 2 == 1 then "<tr>\n" else "" end) + $repo + (if length % 2 == 0 then "\n</tr>\n" else "" end))) +
+          (if length % 2 == 1 then "\n<td width=\"50%\"></td>\n</tr>\n" else "" end) +
+          "</table>")')
+
           echo "Latest Repositories:"
           echo "$REPOS"
-          
+
           if [ -f README.md ]; then
             if grep -q "<!-- LATEST-REPOS-START -->" README.md; then
               awk -v repos="$REPOS" '
@@ -62,6 +62,7 @@ jobs:
         run: |
           if git diff --quiet; then
             echo "✅ No changes detected"
+            exit 0
           else
             echo "✅ Changes detected"
           fi

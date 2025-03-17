@@ -14,29 +14,44 @@ jobs:
 
       - name: Fetch Latest Repositories and Update README
         run: |
-          # GitHub username
           GITHUB_USERNAME="yashKappa"
+          MAX_REPOS=6
 
-          # Fetch repositories sorted by last push (max 6)
-          REPOS=$(curl -s "https://api.github.com/users/$GITHUB_USERNAME/repos?sort=pushed&per_page=6" | jq -r '
-            reduce .[] as $repo (""; 
-              . + "<tr>
-                    <td width=\"50%\" valign=\"top\" style=\"word-wrap: break-word; max-width: 50%;\">
-                      <table width=\"100%\" border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;\">
-                        <tr><td style=\"background: #f8f8f8; font-size: 16px;\"><strong><a href=\"" + $repo.html_url + "\">" + $repo.name + "</a></strong></td></tr>
-                        <tr><td style=\"font-size: 14px; overflow-wrap: break-word;\">" + 
-                          (if $repo.description then $repo.description else "No description available" end) + 
-                        "</td></tr>
-                        <tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
-                          (if $repo.language then $repo.language else "Unknown" end) + 
-                        "</td></tr>
-                      </table>
-                    </td>" + 
-                    (if ((input_index % 2) == 1) then "</tr>" else "" end)
-            )')
+          # Fetch repositories sorted by last push
+          REPOS_JSON=$(curl -s "https://api.github.com/users/$GITHUB_USERNAME/repos?sort=pushed&per_page=$MAX_REPOS")
 
-          # Add table structure
-          TABLE="<table width=\"100%\" border=\"0\">$REPOS</table>"
+          # Extract repo details using jq
+          REPO_DATA=$(echo "$REPOS_JSON" | jq -r '
+            .[:6] | map([
+              "<td width=\"50%\" valign=\"top\" style=\"word-wrap: break-word; max-width: 50%;\">",
+              "<table width=\"100%\" border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;\">",
+              "<tr><td style=\"background: #f8f8f8; font-size: 16px;\"><strong><a href=\"" + .html_url + "\">" + .name + "</a></strong></td></tr>",
+              "<tr><td style=\"font-size: 14px; overflow-wrap: break-word;\">" + (if .description then .description else "No description available" end) + "</td></tr>",
+              "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + (if .language then .language else "Unknown" end) + "</td></tr>",
+              "</table>",
+              "</td>"
+            ] | join("\n")) | join("\n")')
+
+          # Format table with 3 rows and 2 columns
+          TABLE="<table width=\"100%\" border=\"0\">"
+          COUNT=0
+
+          while IFS= read -r LINE; do
+            if [[ $((COUNT % 2)) -eq 0 ]]; then
+              TABLE+="<tr>"
+            fi
+            TABLE+="$LINE"
+            if [[ $((COUNT % 2)) -eq 1 ]]; then
+              TABLE+="</tr>"
+            fi
+            COUNT=$((COUNT + 1))
+          done <<< "$REPO_DATA"
+
+          # Ensure closing row if odd number of repos
+          if [[ $((COUNT % 2)) -ne 0 ]]; then
+            TABLE+="<td></td></tr>"
+          fi
+          TABLE+="</table>"
 
           # Replace placeholder in README
           sed -i "/<!-- REPOS_START -->/,/<!-- REPOS_END -->/c\<!-- REPOS_START -->\n$TABLE\n<!-- REPOS_END -->" README.md

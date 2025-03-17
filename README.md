@@ -76,43 +76,48 @@
 
 ## 🚀 My Recently Updated Projects  
 <!-- LATEST-REPOS-START -->
-<table width="100%" cellspacing="10"><tr>["<td</tr><tr>width="50%"valign="top"</tr><tr>style="word-wrap:break-word;</tr><tr>max-width:50%;">
-<table</tr><tr>width="100%"border="1"</tr><tr>cellspacing="0"cellpadding="8"</tr><tr>style="border-collapse:collapse;</tr><tr>border-radius:8px;</tr><tr>box-shadow:2px</tr><tr>2px10px</tr><tr>rgba(0,0,0,0.1);table-layout:</tr><tr>fixed;overflow-wrap:</tr><tr>break-word;">
-<tr><tdstyle="background:</tr><tr>#f8f8f8;font-size:</tr><tr>16px;"><strong><ahref="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td></tr>
-<tr><td</tr><tr>style="font-size:14px;</tr><tr>overflow-wrap:break-word;">No</tr><tr>descriptionavailable</td></tr>
-<tr><td</tr><tr>style="font-size:12px;</tr><tr>font-weight:bold;</tr><tr>background:#eee;</tr><tr>padding:3px</tr><tr>6px;border-radius:</tr><tr>4px;">JavaScript</td></tr>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
 </table>
-</td>","<td</tr><tr>width="50%"valign="top"</tr><tr>style="word-wrap:break-word;</tr><tr>max-width:50%;">
-<table</tr><tr>width="100%"border="1"</tr><tr>cellspacing="0"cellpadding="8"</tr><tr>style="border-collapse:collapse;</tr><tr>border-radius:8px;</tr><tr>box-shadow:2px</tr><tr>2px10px</tr><tr>rgba(0,0,0,0.1);table-layout:</tr><tr>fixed;overflow-wrap:</tr><tr>break-word;">
-<tr><tdstyle="background:</tr><tr>#f8f8f8;font-size:</tr><tr>16px;"><strong><ahref="https://github.com/yashKappa/Toriko-Food-ingredients-">Toriko-Food-ingredients-</a></strong></td></tr>
-<tr><td</tr><tr>style="font-size:14px;</tr><tr>overflow-wrap:break-word;">This</tr><tr>Projectwas</tr><tr>createbased</tr><tr>onRecipe</tr><tr>wherefoodies</tr><tr>canshare</tr><tr>theirown</tr><tr>recipeto</tr><tr>otherpeople</tr><tr>andadd</tr><tr>tofavorites</tr><tr>cangive</tr><tr>likesto</tr><tr>bestrecipe.</td></tr>
-<tr><td</tr><tr>style="font-size:12px;</tr><tr>font-weight:bold;</tr><tr>background:#eee;</tr><tr>padding:3px</tr><tr>6px;border-radius:</tr><tr>4px;">JavaScript</td></tr>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/Toriko-Food-ingredients-">Toriko-Food-ingredients-</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">This Project was create based on Recipe where foodies can share their own recipe to other people and add to favorites can give likes to best recipe.</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
 </table>
-</td>","<td</tr><tr>width="50%"valign="top"</tr><tr>style="word-wrap:break-word;</tr><tr>max-width:50%;">
-<table</tr><tr>width="100%"border="1"</tr><tr>cellspacing="0"cellpadding="8"</tr><tr>style="border-collapse:collapse;</tr><tr>border-radius:8px;</tr><tr>box-shadow:2px</tr><tr>2px10px</tr><tr>rgba(0,0,0,0.1);table-layout:</tr><tr>fixed;overflow-wrap:</tr><tr>break-word;">
-<tr><tdstyle="background:</tr><tr>#f8f8f8;font-size:</tr><tr>16px;"><strong><ahref="https://github.com/yashKappa/Flutter-Demo">Flutter-Demo</a></strong></td></tr>
-<tr><td</tr><tr>style="font-size:14px;</tr><tr>overflow-wrap:break-word;">No</tr><tr>descriptionavailable</td></tr>
-<tr><td</tr><tr>style="font-size:12px;</tr><tr>font-weight:bold;</tr><tr>background:#eee;</tr><tr>padding:3px</tr><tr>6px;border-radius:</tr><tr>4px;">C++</td></tr>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/Flutter-Demo">Flutter-Demo</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">C++</td></tr>
 </table>
-</td>","<td</tr><tr>width="50%"valign="top"</tr><tr>style="word-wrap:break-word;</tr><tr>max-width:50%;">
-<table</tr><tr>width="100%"border="1"</tr><tr>cellspacing="0"cellpadding="8"</tr><tr>style="border-collapse:collapse;</tr><tr>border-radius:8px;</tr><tr>box-shadow:2px</tr><tr>2px10px</tr><tr>rgba(0,0,0,0.1);table-layout:</tr><tr>fixed;overflow-wrap:</tr><tr>break-word;">
-<tr><tdstyle="background:</tr><tr>#f8f8f8;font-size:</tr><tr>16px;"><strong><ahref="https://github.com/yashKappa/Commodity-trading-system-">Commodity-trading-system-</a></strong></td></tr>
-<tr><td</tr><tr>style="font-size:14px;</tr><tr>overflow-wrap:break-word;">My</tr><tr>YouTubeChannel:</tr><tr>https://www.youtube.com/@yashsaundalkar658</td></tr>
-<tr><tdstyle="font-size:</tr><tr>12px;font-weight:</tr><tr>bold;background:</tr><tr>#eee;padding:</tr><tr>3px6px;</tr><tr>border-radius:4px;">JavaScript</td></tr>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/Commodity-trading-system-">Commodity-trading-system-</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
 </table>
-</td>",</tr><tr>"<tdwidth="50%"</tr><tr>valign="top"style="word-wrap:</tr><tr>break-word;max-width:</tr><tr>50%;">
-<tablewidth="100%"</tr><tr>border="1"cellspacing="0"</tr><tr>cellpadding="8"style="border-collapse:</tr><tr>collapse;border-radius:</tr><tr>8px;box-shadow:</tr><tr>2px2px</tr><tr>10pxrgba(0,0,0,0.1);</tr><tr>table-layout:fixed;</tr><tr>overflow-wrap:break-word;">
-<tr><td</tr><tr>style="background:#f8f8f8;</tr><tr>font-size:16px;"><strong><a</tr><tr>href="https://github.com/yashKappa/SubAnime">SubAnime</a></strong></td></tr>
-<tr><tdstyle="font-size:</tr><tr>14px;overflow-wrap:</tr><tr>break-word;">Thiswebpage</tr><tr>features`@keyframes`</tr><tr>animations,hover</tr><tr>effects,two</tr><tr>typesof</tr><tr>slideshows,animated</tr><tr>buttons,card</tr><tr>hoverpop-ups</tr><tr>revealinginformation,</tr><tr>anda</tr><tr>footer,offering</tr><tr>avisually</tr><tr>engagingexperience.</tr><tr>MyYouTube</tr><tr>Channel:https://www.youtube.com/@yashsaundalkar658</td></tr>
-<tr><td</tr><tr>style="font-size:12px;</tr><tr>font-weight:bold;</tr><tr>background:#eee;</tr><tr>padding:3px</tr><tr>6px;border-radius:</tr><tr>4px;">JavaScript</td></tr>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/SubAnime">SubAnime</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">This webpage features `@keyframes` animations, hover effects, two types of slideshows, animated buttons, card hover pop-ups revealing information, and a footer, offering a visually engaging experience. My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
 </table>
-</td>","<td</tr><tr>width="50%"valign="top"</tr><tr>style="word-wrap:break-word;</tr><tr>max-width:50%;">
-<table</tr><tr>width="100%"border="1"</tr><tr>cellspacing="0"cellpadding="8"</tr><tr>style="border-collapse:collapse;</tr><tr>border-radius:8px;</tr><tr>box-shadow:2px</tr><tr>2px10px</tr><tr>rgba(0,0,0,0.1);table-layout:</tr><tr>fixed;overflow-wrap:</tr><tr>break-word;">
-<tr><tdstyle="background:</tr><tr>#f8f8f8;font-size:</tr><tr>16px;"><strong><ahref="https://github.com/yashKappa/portfolio">portfolio</a></strong></td></tr>
-<tr><td</tr><tr>style="font-size:14px;</tr><tr>overflow-wrap:break-word;">My</tr><tr>YouTubeChannel:</tr><tr>https://www.youtube.com/@yashsaundalkar658</td></tr>
-<tr><tdstyle="font-size:</tr><tr>12px;font-weight:</tr><tr>bold;background:</tr><tr>#eee;padding:</tr><tr>3px6px;</tr><tr>border-radius:4px;">CSS</td></tr>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/portfolio">portfolio</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">CSS</td></tr>
 </table>
-</td>"</tr><tr>]<td width="50%"></td></tr></table>
+</td>
 <!-- LATEST-REPOS-END -->
 
 ---

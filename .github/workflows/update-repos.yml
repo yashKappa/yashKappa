@@ -71,4 +71,5 @@ jobs:
 
           git add README.md
           git commit -m "🔄 Auto-update latest GitHub repositories" || exit 0
-          git pull --r
+          git pull --rebase --autostash
+          git push

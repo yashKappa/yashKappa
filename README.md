@@ -79,8 +79,10 @@
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
 <table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td></tr>
-<tr><td style="font-size: 14px; overflow-wrap: break-word;">🚀 My GitHub Profile – Showcasing my projects, contributions, and skills in full-stack development, React, Firebase, and more.</td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">🚀 My GitHub Profile – Showcasing my projects, contributions, and skills in full-stack development, React, Firebase, HTML, CSS and more.</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: customizeable, giithub, github-api, profile-readme, secret-tokens</td></tr>
 </table>
 </td>
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
@@ -88,6 +90,8 @@
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/Toriko-Food-ingredients-">Toriko-Food-ingredients-</a></strong></td></tr>
 <tr><td style="font-size: 14px; overflow-wrap: break-word;">This Project was create based on Recipe where foodies can share their own recipe to other people and add to favorites can give likes to best recipe. 🍽️ A collection of unique and exotic food ingredients inspired by the world of Toriko. This project catalogs rare ingredients, their properties, and possible culinary uses.</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/Toriko-Food-ingredients-/">🌐 Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: css, firebase-auth, firebase-database, javascript, reactjs</td></tr>
 </table>
 </td>
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
@@ -95,6 +99,8 @@
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/Flutter-Demo">Flutter-Demo</a></strong></td></tr>
 <tr><td style="font-size: 14px; overflow-wrap: break-word;">🚀 A simple and interactive Flutter demo showcasing essential UI components, navigation, and state management. Ideal for beginners exploring Flutter development!</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">C++</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
 </table>
 </td>
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
@@ -102,6 +108,8 @@
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/Commodity-trading-system-">Commodity-trading-system-</a></strong></td></tr>
 <tr><td style="font-size: 14px; overflow-wrap: break-word;">🛒 A dynamic platform for buying and selling personal products. This system enables users to list, manage, and trade commodities efficiently, ensuring a smooth and secure transaction process."</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/Commodity-trading-system-/">🌐 Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: css, emailjs, firebase-auth, firebase-database, javascript, otp-verification, reactjs</td></tr>
 </table>
 </td>
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
@@ -109,6 +117,8 @@
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/SubAnime">SubAnime</a></strong></td></tr>
 <tr><td style="font-size: 14px; overflow-wrap: break-word;">This webpage features `@keyframes` animations, hover effects, two types of slideshows, animated buttons, card hover pop-ups revealing information, and a footer, offering a visually engaging experience. My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/SubAnime/">🌐 Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: api, api-wrapper, css, html, keyframe-animation, reactjs</td></tr>
 </table>
 </td>
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
@@ -116,6 +126,8 @@
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/portfolio">portfolio</a></strong></td></tr>
 <tr><td style="font-size: 14px; overflow-wrap: break-word;">🚀 A personal portfolio website showcasing my projects, skills, and experience. Built with modern web technologies to highlight my work and achievements. My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">CSS</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/portfolio/">🌐 Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: css, html, javascript</td></tr>
 </table>
 </td>
 <!-- LATEST-REPOS-END -->

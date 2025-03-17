@@ -1,0 +1,32 @@
+name: Update GitHub Followers
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  update-followers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Followers
+        run: |
+          curl -s https://api.github.com/users/yashKappa/followers?per_page=10 > followers.json
+          echo '<p align="center">' > followers.md
+          jq -r '.[] | "<a href=\"\(.html_url)\" target=\"_blank\"><img src=\"\(.avatar_url)\" width=\"50px\" style=\"border-radius: 50%; margin: 5px;\"></a>"' followers.json >> followers.md
+          echo '</p>' >> followers.md
+
+      - name: Update README
+        run: |
+          sed -i '/<!-- FOLLOWER_SECTION:start -->/,/<!-- FOLLOWER_SECTION:end -->/c\<!-- FOLLOWER_SECTION:start -->\n'$(cat followers.md)'\n<!-- FOLLOWER_SECTION:end -->' README.md
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Updated followers list"
+          git push

@@ -22,20 +22,15 @@ jobs:
 
           # Extract repo details using jq
           REPO_DATA=$(echo "$REPOS_JSON" | jq -r '
-            .[:6] | map([
-              "<td width=\"50%\" valign=\"top\" style=\"word-wrap: break-word; max-width: 50%;\">",
-              "<table width=\"100%\" border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;\">",
-              "<tr><td style=\"background: #f8f8f8; font-size: 16px;\"><strong><a href=\"" + .html_url + "\">" + .name + "</a></strong></td></tr>",
-              "<tr><td style=\"font-size: 14px; overflow-wrap: break-word;\">" + (if .description then .description else "No description available" end) + "</td></tr>",
-              "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + (if .language then .language else "Unknown" end) + "</td></tr>",
-              "</table>",
-              "</td>"
-            ] | join("\n")) | join("\n")')
+            .[:6] | map("<td width=\"50%\" valign=\"top\" style=\"padding: 10px; border: 1px solid #ccc;\">
+              <strong><a href=\"" + .html_url + "\">" + .name + "</a></strong><br>
+              " + (if .description then .description else "No description available" end) + "<br>
+              <strong>Language:</strong> " + (if .language then .language else "Unknown" end) + "
+            </td>") | join("\n")')
 
-          # Format table with 3 rows and 2 columns
-          TABLE="<table width=\"100%\" border=\"0\">"
+          # Format the table properly with 3 rows × 2 columns
           COUNT=0
-
+          TABLE="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"5\" style=\"border-collapse: collapse;\">"
           while IFS= read -r LINE; do
             if [[ $((COUNT % 2)) -eq 0 ]]; then
               TABLE+="<tr>"

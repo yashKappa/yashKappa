@@ -18,7 +18,7 @@ jobs:
           MAX_REPOS=6
 
           # Fetch repositories sorted by last push
-          REPOS_JSON=$(curl -s "https://api.github.com/users/$GITHUB_USERNAME/repos?sort=pushed&per_page=$MAX_REPOS")
+          REPOS_JSON=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=$MAX_REPOS")
 
           # Extract repo details using jq
           REPO_LIST=$(echo "$REPOS_JSON" | jq -r '[.[:6] | map("| [\(.name)](\(.html_url)) - \(.description // "No description available") |") | .[]]')

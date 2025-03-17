@@ -23,9 +23,12 @@ jobs:
           awk '/<!-- FOLLOWING_SECTION:start -->/{print;while(getline line < "following.md") print line;found=1;next} /<!-- FOLLOWING_SECTION:end -->/{found=0} !found' README.md > temp.md && mv temp.md README.md
 
       - name: Commit and Push Changes
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}  # Use your Personal Access Token
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions@github.com"
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/yashKappa/yashKappa.git
           git add README.md
-          git commit -m "🔄 Auto-update followed users list"
-          git push
+          git commit -m "🔄 Auto-update followed users list" || echo "No changes to commit"
+          git push origin main

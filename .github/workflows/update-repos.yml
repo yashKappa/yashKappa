@@ -25,21 +25,29 @@ jobs:
       - name: Fetch latest repositories and format table
         run: |
           REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | jq -r '
-            (map("<td width=\"50%\" valign=\"top\">\n" +
-            "<table width=\"100%\" border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);\">\n" +
-            "<tr><td style=\"background: #f8f8f8; font-size: 16px;\"><strong><a href=\"" + .html_url + "\">" + .name + "</a></strong></td></tr>\n" +
-            "<tr><td style=\"font-size: 14px;\">" +
-            (if .description then .description else "No description available" end) + "</td></tr>\n" +
-            "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
-            (if .language then .language else "Unknown" end) + "</td></tr>\n" +
-            "</table>\n</td>") as $repos |
+            def table_row(repo1; repo2):
+              "<tr>\n" +
+              "  <td width=\"50%\" valign=\"top\">\n" +
+              "    <table width=\"100%\" border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);\">\n" +
+              "      <tr><td style=\"background: #f8f8f8; font-size: 16px;\"><strong><a href=\"" + repo1.html_url + "\">" + repo1.name + "</a></strong></td></tr>\n" +
+              "      <tr><td style=\"font-size: 14px;\">" + (repo1.description // "No description available") + "</td></tr>\n" +
+              "      <tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + (repo1.language // "Unknown") + "</td></tr>\n" +
+              "    </table>\n" +
+              "  </td>\n" +
+              (if repo2 then
+              "  <td width=\"50%\" valign=\"top\">\n" +
+              "    <table width=\"100%\" border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);\">\n" +
+              "      <tr><td style=\"background: #f8f8f8; font-size: 16px;\"><strong><a href=\"" + repo2.html_url + "\">" + repo2.name + "</a></strong></td></tr>\n" +
+              "      <tr><td style=\"font-size: 14px;\">" + (repo2.description // "No description available") + "</td></tr>\n" +
+              "      <tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + (repo2.language // "Unknown") + "</td></tr>\n" +
+              "    </table>\n" +
+              "  </td>\n" else "" end) +
+              "</tr>\n";
 
-            # Group repos into rows of 2
-            ($repos | reduce .[] as $repo (""; . + (if (input_line_number % 2 == 1) then "<tr>" else "" end) + "\n" + $repo +
-            (if (input_line_number % 2 == 0) then "</tr>\n" else "" end))) +
-
-            (if (length % 2 == 1) then "</tr>" else "" end)
-            ')
+            "<table width=\"100%\">\n" +
+            (reduce (.[::2] | keys_unsorted[]) as $i ([]; . + [table_row(.[2*$i]; .[2*$i+1] // null)])) +
+            "</table>"
+          ')
 
           echo "Latest Repositories:"
           echo "$REPOS"

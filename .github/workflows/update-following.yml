@@ -1,35 +1,31 @@
-name: Update GitHub Following
+name: Update Followed Users
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs every 24 hours
-  workflow_dispatch:  # Allows manual trigger
+    - cron: "0 * * * *" # Runs every hour
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   update-following:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Install jq (JSON Parser)
-        run: sudo apt-get install -y jq
-
-      - name: Fetch Following
+      - name: Fetch Followed Users
         run: |
-          curl -s "https://api.github.com/users/yashKappa/following?per_page=10" > following.json
-          echo '<p align="center">' > following.md
-          cat following.json | jq -r '.[] | "<a href=\"" + .html_url + "\"><img src=\"" + .avatar_url + "\" width=\"50px\" style=\"border-radius: 50%; margin: 5px;\"><br>" + .login + "</a>&nbsp;&nbsp;"' >> following.md
-          echo '</p>' >> following.md
+          curl -s "https://api.github.com/users/YOUR_GITHUB_USERNAME/following?per_page=10" | 
+          jq -r '.[] | "<a href=\"" + .html_url + "\"><img src=\"" + .avatar_url + "\" width=\"50px\" style=\"border-radius:50%; margin:5px;\"><br>" + .login + "</a>&nbsp;&nbsp;"' > following.md
 
       - name: Update README
         run: |
-          sed -i '/<!-- FOLLOWING_SECTION:start -->/,/<!-- FOLLOWING_SECTION:end -->/c\<!-- FOLLOWING_SECTION:start -->\n'$(cat following.md)'\n<!-- FOLLOWING_SECTION:end -->' README.md
+          awk '/<!-- FOLLOWING_SECTION:start -->/{print;while(getline line < "following.md") print line;found=1;next} /<!-- FOLLOWING_SECTION:end -->/{found=0} !found' README.md > temp.md && mv temp.md README.md
 
-      - name: Commit and Push
+      - name: Commit and Push Changes
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions@github.com"
           git add README.md
-          git commit -m "Updated following list" || echo "No changes to commit"
-          git push || echo "No changes to push"
+          git commit -m "🔄 Auto-update followed users list"
+          git push

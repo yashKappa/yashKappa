@@ -24,6 +24,8 @@ jobs:
 
       - name: Fetch latest repositories and format table
         run: |
+      - name: Fetch latest repositories and format table
+        run: |
           REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | jq -r '
           map("<td width=\"50%\" valign=\"top\" style=\"word-wrap: break-word; max-width: 50%;\">\n" +
           "<table width=\"100%\" border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;\">\n" +
@@ -32,34 +34,14 @@ jobs:
           (if .description then .description else "No description available" end) + "</td></tr>\n" +
           "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
           (if .language then .language else "Unknown" end) + "</td></tr>\n" +
-          "</table>\n</td>") | @sh')
-
-          # Remove surrounding quotes from jq output
-          REPOS=$(echo $REPOS | sed 's/^"//;s/"$//')
-
-          # Format into a two-column table
-          REPO_TABLE="<table width=\"100%\" cellspacing=\"10\">"
-          COUNT=0
-          for REPO in $REPOS; do
-            if (( COUNT % 2 == 0 )); then
-              REPO_TABLE+="<tr>$REPO"
-            else
-              REPO_TABLE+="$REPO</tr>"
-            fi
-            COUNT=$((COUNT+1))
-          done
-          if (( COUNT % 2 != 0 )); then
-            REPO_TABLE+="<td width=\"50%\"></td></tr>"
-          fi
-          REPO_TABLE+="</table>"
+          "</table>\n</td>") | join("\n")')
 
           echo "Latest Repositories:"
-          echo "$REPO_TABLE"
+          echo "$REPOS"
 
-          # Ensure README.md exists and contains placeholders
           if [ -f README.md ]; then
             if grep -q "<!-- LATEST-REPOS-START -->" README.md; then
-              awk -v repos="$REPO_TABLE" '
+              awk -v repos="$REPOS" '
                 /<!-- LATEST-REPOS-START -->/ {print; print repos; inside=1; next}
                 /<!-- LATEST-REPOS-END -->/ {inside=0}
                 !inside {print}
@@ -89,5 +71,4 @@ jobs:
 
           git add README.md
           git commit -m "🔄 Auto-update latest GitHub repositories" || exit 0
-          git pull --rebase --autostash
-          git push
+          git pull --r

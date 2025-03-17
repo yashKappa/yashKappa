@@ -32,31 +32,34 @@ jobs:
           (if .description then .description else "No description available" end) + "</td></tr>\n" +
           "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
           (if .language then .language else "Unknown" end) + "</td></tr>\n" +
-          "</table>\n</td>") | join("\n")')
+          "</table>\n</td>") | @sh')
 
-          # Convert REPOS JSON to an array
-          IFS=$'\n' read -rd '' -a REPOS_ARRAY <<<"$REPOS"
+          # Remove surrounding quotes from jq output
+          REPOS=$(echo $REPOS | sed 's/^"//;s/"$//')
 
-          ROWS=""
-          for ((i=0; i<${#REPOS_ARRAY[@]}; i+=2)); do
-            ROWS+="<tr>\n"
-            ROWS+="${REPOS_ARRAY[i]}\n"
-            if [ $((i+1)) -lt ${#REPOS_ARRAY[@]} ]; then
-              ROWS+="${REPOS_ARRAY[i+1]}\n"
+          # Format into a two-column table
+          REPO_TABLE="<table width=\"100%\" cellspacing=\"10\">"
+          COUNT=0
+          for REPO in $REPOS; do
+            if (( COUNT % 2 == 0 )); then
+              REPO_TABLE+="<tr>$REPO"
             else
-              ROWS+="<td width=\"50%\"></td>\n"  # Empty cell if odd number of repos
+              REPO_TABLE+="$REPO</tr>"
             fi
-            ROWS+="</tr>\n"
+            COUNT=$((COUNT+1))
           done
-
-          TABLE="<table width=\"100%\" border=\"0\">\n$ROWS</table>"
+          if (( COUNT % 2 != 0 )); then
+            REPO_TABLE+="<td width=\"50%\"></td></tr>"
+          fi
+          REPO_TABLE+="</table>"
 
           echo "Latest Repositories:"
-          echo "$TABLE"
+          echo "$REPO_TABLE"
 
+          # Ensure README.md exists and contains placeholders
           if [ -f README.md ]; then
             if grep -q "<!-- LATEST-REPOS-START -->" README.md; then
-              awk -v repos="$TABLE" '
+              awk -v repos="$REPO_TABLE" '
                 /<!-- LATEST-REPOS-START -->/ {print; print repos; inside=1; next}
                 /<!-- LATEST-REPOS-END -->/ {inside=0}
                 !inside {print}

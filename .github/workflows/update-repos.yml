@@ -34,14 +34,24 @@ jobs:
           (if .description then .description else "No description available" end) + "</td></tr>\n" +
           "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
           (if .language then .language else "Unknown" end) + "</td></tr>\n" +
-          "</table>\n</td>")')
+          "</table>\n</td>") | join("\n")')
+
+          # Convert REPOS JSON to an array
+          IFS=$'\n' read -rd '' -a REPOS_ARRAY <<<"$REPOS"
 
           ROWS=""
-          for ((i=0; i<${#REPOS[@]}; i+=2)); do
-            ROWS+="<tr>${REPOS[i]} ${REPOS[i+1]}</tr>\n"
+          for ((i=0; i<${#REPOS_ARRAY[@]}; i+=2)); do
+            ROWS+="<tr>\n"
+            ROWS+="${REPOS_ARRAY[i]}\n"
+            if [ $((i+1)) -lt ${#REPOS_ARRAY[@]} ]; then
+              ROWS+="${REPOS_ARRAY[i+1]}\n"
+            else
+              ROWS+="<td width=\"50%\"></td>\n"  # Empty cell if odd number of repos
+            fi
+            ROWS+="</tr>\n"
           done
 
-          TABLE="<table width=\"100%\">\n$ROWS</table>"
+          TABLE="<table width=\"100%\" border=\"0\">\n$ROWS</table>"
 
           echo "Latest Repositories:"
           echo "$TABLE"

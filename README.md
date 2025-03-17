@@ -149,9 +149,18 @@
 
 ---
 
-### **Followers**
 ### 👥 My Followers  
+
 <p align="center">
-  <img src="https://img.shields.io/github/followers/yashKappa?label=Followers&style=social" alt="GitHub Followers" />
+  <a href="https://github.com/follower1">
+    <img src="https://github.com/follower1.png" width="50" height="50" alt="Follower 1" />
+  </a>
+  <a href="https://github.com/follower2">
+    <img src="https://github.com/follower2.png" width="50" height="50" alt="Follower 2" />
+  </a>
+  <a href="https://github.com/follower3">
+    <img src="https://github.com/follower3.png" width="50" height="50" alt="Follower 3" />
+  </a>
 </p>
+
 

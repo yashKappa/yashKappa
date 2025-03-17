@@ -149,18 +149,18 @@
 
 ---
 
-### 👥 My Followers  
-
+### 👥 My GitHub Followers  
 <p align="center">
-  <a href="https://github.com/follower1">
-    <img src="https://github.com/follower1.png" width="50" height="50" alt="Follower 1" />
-  </a>
-  <a href="https://github.com/follower2">
-    <img src="https://github.com/follower2.png" width="50" height="50" alt="Follower 2" />
-  </a>
-  <a href="https://github.com/follower3">
-    <img src="https://github.com/follower3.png" width="50" height="50" alt="Follower 3" />
+  <a href="https://github.com/yashKappa?tab=followers">
+    <img src="https://github.com/yashKappa.png?size=200" alt="GitHub Avatar" width="80">
   </a>
 </p>
+
+### 📢 Latest Followers
+<!-- FOLLOWER_SECTION:start -->
+<!-- FOLLOWER_SECTION:end -->
+
+🔄 **Auto-updating followers list every 24 hours!**  
+
 
 

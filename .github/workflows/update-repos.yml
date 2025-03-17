@@ -34,14 +34,21 @@ jobs:
           (if .description then .description else "No description available" end) + "</td></tr>\n" +
           "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
           (if .language then .language else "Unknown" end) + "</td></tr>\n" +
-          "</table>\n</td>") | join("\n")')
+          "</table>\n</td>")')
+
+          ROWS=""
+          for ((i=0; i<${#REPOS[@]}; i+=2)); do
+            ROWS+="<tr>${REPOS[i]} ${REPOS[i+1]}</tr>\n"
+          done
+
+          TABLE="<table width=\"100%\">\n$ROWS</table>"
 
           echo "Latest Repositories:"
-          echo "$REPOS"
+          echo "$TABLE"
 
           if [ -f README.md ]; then
             if grep -q "<!-- LATEST-REPOS-START -->" README.md; then
-              awk -v repos="$REPOS" '
+              awk -v repos="$TABLE" '
                 /<!-- LATEST-REPOS-START -->/ {print; print repos; inside=1; next}
                 /<!-- LATEST-REPOS-END -->/ {inside=0}
                 !inside {print}

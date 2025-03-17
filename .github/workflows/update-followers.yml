@@ -16,7 +16,7 @@ jobs:
         run: |
           curl -s https://api.github.com/users/yashKappa/followers?per_page=10 > followers.json
           echo '<p align="center">' > followers.md
-          jq -r '.[] | "<a href=\"\(.html_url)\" target=\"_blank\"><img src=\"\(.avatar_url)\" width=\"50px\" style=\"border-radius: 50%; margin: 5px;\"></a>"' followers.json >> followers.md
+          jq -r '.[] | "<a href=\"\(.html_url)\" target=\"_blank\"><img src=\"\(.avatar_url)\" width=\"50px\" style=\"border-radius: 50%; margin: 5px;\"><br>\(.login)</a>"' followers.json >> followers.md
           echo '</p>' >> followers.md
 
       - name: Update README

@@ -22,10 +22,13 @@ jobs:
       - name: Fetch latest repositories
         run: |
           REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | jq -r '
-            "<table>\n<tr>\n<th width=\"280px\">Repository</th>\n<th width=\"500px\">Description</th>\n<th width=\"170px\">Language</th>\n</tr>\n" +
-            (map("<tr>\n<td><strong><a href=\"" + .html_url + "\">" + .name + "</a></strong></td>\n<td>" + 
-            (if .description then .description else "No description available" end) + 
-            "</td>\n<td><code>" + (if .language then .language else "Unknown" end) + "</code></td>\n</tr>") | join("\n")) + "\n</table>"')
+            "<div style=\"display: flex; flex-wrap: wrap; gap: 15px;\">\n" +
+            (map("<div style=\"border: 1px solid #ddd; padding: 10px; border-radius: 8px; width: 30%; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); background: #fff;\">\n" +
+            "<strong><a href=\"" + .html_url + "\" style=\"font-size: 16px;\">" + .name + "</a></strong>\n<br>\n" +
+            "<p style=\"font-size: 14px; color: #555;\">" + 
+            (if .description then .description else "No description available" end) + "</p>\n" +
+            "<span style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
+            (if .language then .language else "Unknown" end) + "</span>\n</div>") | join("\n")) + "\n</div>"')
 
           echo "Latest Repositories:"
           echo "$REPOS"

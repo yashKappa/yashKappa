@@ -33,7 +33,7 @@ jobs:
           "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
           (if .language then .language else "Unknown" end) + "</td></tr>\n" +
           "<tr><td style=\"font-size: 12px; font-weight: bold; padding: 3px 6px;\">" +
-          (if .homepage and .homepage != "" then "<a href=\"" + .homepage + "\">🌐 Website</a>" else "No Website" end) + "</td></tr>\n" +
+          (if .homepage and .homepage != "" then "<a href=\"" + .homepage + "\">🌐 Visit Website </a>" else "No Website" end) + "</td></tr>\n" +
           "<tr><td style=\"font-size: 12px; padding: 3px 6px;\">" +
           (if (.topics | length) > 0 then "📝 Topics: " + (.topics | join(", ")) else "No Topics" end) + "</td></tr>\n" +
           "</table>\n</td>") | join("\n")')

@@ -1,15 +1,15 @@
 name: Update GitHub Profile with Latest Repos
 
 on:
-  push:  # Run on every push to the main branch
+  push:
     branches:
-      - main  # Change if your branch is different
+      - main
   schedule:
-    - cron: "*/10 * * * *"  # Runs every 10 minutes
-  workflow_dispatch:  # Allows manual triggering
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write  # Allows the action to push changes
+  contents: write
 
 jobs:
   update-readme:
@@ -22,13 +22,17 @@ jobs:
       - name: Fetch latest repositories
         run: |
           REPOS=$(curl -s "https://api.github.com/users/yashKappa/repos?sort=pushed&per_page=6" | jq -r '
-            "<div style=\"display: flex; flex-wrap: wrap; gap: 15px;\">\n" +
-            (map("<div style=\"border: 1px solid #ddd; padding: 10px; border-radius: 8px; width: 30%; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); background: #fff;\">\n" +
-            "<strong><a href=\"" + .html_url + "\" style=\"font-size: 16px;\">" + .name + "</a></strong>\n<br>\n" +
-            "<p style=\"font-size: 14px; color: #555;\">" + 
-            (if .description then .description else "No description available" end) + "</p>\n" +
-            "<span style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
-            (if .language then .language else "Unknown" end) + "</span>\n</div>") | join("\n")) + "\n</div>"')
+            (map("<td width=\"50%\" valign=\"top\">\n" +
+            "<table width=\"100%\" border=\"1\" cellspacing=\"0\" cellpadding=\"8\" style=\"border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);\">\n" +
+            "<tr><td style=\"background: #f8f8f8; font-size: 16px;\"><strong><a href=\"" + .html_url + "\">" + .name + "</a></strong></td></tr>\n" +
+            "<tr><td style=\"font-size: 14px;\">" +
+            (if .description then .description else "No description available" end) + "</td></tr>\n" +
+            "<tr><td style=\"font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;\">" + 
+            (if .language then .language else "Unknown" end) + "</td></tr>\n" +
+            "</table>\n</td>") as $repos |
+            "<table width=\"100%\">\n<tr>\n" + 
+            ($repos | join("\n") | gsub("(.{2})(</td>\\n<td width=\"50%\" valign=\"top\">)"; "\n</tr>\n<tr>\n")) + 
+            "\n</tr>\n</table>")')
 
           echo "Latest Repositories:"
           echo "$REPOS"
@@ -54,7 +58,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           git add README.md
-          git commit -m "🔄 Auto-update latest GitHub repositories" || exit 0  # Prevent error if no changes
-
-          git pull --rebase --autostash  # Ensure latest changes are included
+          git commit -m "🔄 Auto-update latest GitHub repositories" || exit 0
+          git pull --rebase --autostash
           git push

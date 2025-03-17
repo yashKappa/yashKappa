@@ -20,33 +20,12 @@ jobs:
           # Fetch repositories sorted by last push
           REPOS_JSON=$(curl -s "https://api.github.com/users/$GITHUB_USERNAME/repos?sort=pushed&per_page=$MAX_REPOS")
 
-          # Extract repo details using jq
+          # Extract repo details using jq and create a properly structured table
           REPO_DATA=$(echo "$REPOS_JSON" | jq -r '
-            .[:6] | map("<td width=\"50%\" valign=\"top\" style=\"padding: 10px; border: 1px solid #ccc;\">
-              <strong><a href=\"" + .html_url + "\">" + .name + "</a></strong><br>
-              " + (if .description then .description else "No description available" end) + "<br>
-              <strong>Language:</strong> " + (if .language then .language else "Unknown" end) + "
-            </td>") | join("\n")')
+            .[:6] | map("| [\(.name)](\(.html_url)) | \(.description // "No description available") | \(.language // "Unknown") |") | join("\n")')
 
-          # Format the table properly with 3 rows × 2 columns
-          COUNT=0
-          TABLE="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"5\" style=\"border-collapse: collapse;\">"
-          while IFS= read -r LINE; do
-            if [[ $((COUNT % 2)) -eq 0 ]]; then
-              TABLE+="<tr>"
-            fi
-            TABLE+="$LINE"
-            if [[ $((COUNT % 2)) -eq 1 ]]; then
-              TABLE+="</tr>"
-            fi
-            COUNT=$((COUNT + 1))
-          done <<< "$REPO_DATA"
-
-          # Ensure closing row if odd number of repos
-          if [[ $((COUNT % 2)) -ne 0 ]]; then
-            TABLE+="<td></td></tr>"
-          fi
-          TABLE+="</table>"
+          # Format the output into a table
+          TABLE="| Repository | Description | Language |\n|------------|-------------|----------|\n$REPO_DATA"
 
           # Replace placeholder in README
           sed -i "/<!-- REPOS_START -->/,/<!-- REPOS_END -->/c\<!-- REPOS_START -->\n$TABLE\n<!-- REPOS_END -->" README.md

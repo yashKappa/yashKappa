@@ -146,3 +146,12 @@
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=code&logoColor=white"/>
   </a>
 </p>
+
+---
+
+### **Followers**
+### 👥 My Followers  
+<p align="center">
+  <img src="https://img.shields.io/github/followers/yashKappa?label=Followers&style=social" alt="GitHub Followers" />
+</p>
+

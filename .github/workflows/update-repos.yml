@@ -45,7 +45,7 @@ jobs:
               "</tr>\n";
 
             "<table width=\"100%\">\n" +
-            (reduce (.[::2] | keys_unsorted[]) as $i ([]; . + [table_row(.[2*$i]; .[2*$i+1] // null)])) +
+            (reduce (range(0; length; 2)) as $i ([]; . + [table_row(.[ $i ]; .[$i + 1] // null)] | join("\n"))) +
             "</table>"
           ')
 

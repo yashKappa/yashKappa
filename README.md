@@ -169,6 +169,14 @@
 Fetching latest followers...
 <!-- FOLLOWER_SECTION:end -->
 
+---
+
+## 👤 Users I Follow
+
+<!-- FOLLOWING_SECTION:start -->
+<!-- Data will be updated here automatically -->
+<!-- FOLLOWING_SECTION:end -->
+
 
 
 

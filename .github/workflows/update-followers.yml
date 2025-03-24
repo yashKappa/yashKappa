@@ -1,4 +1,4 @@
-name: Update Followers
+name: Update Followers List
 
 on:
   schedule:
@@ -8,46 +8,40 @@ on:
 jobs:
   update-followers:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      - name: Fetch Followers
+      - name: Fetch Followers List with Profile Images
         run: |
-          echo "<!-- FOLLOWER_SECTION:start -->" > followers.md
+          FOLLOWERS=$(curl -s https://api.github.com/users/yashKappa/followers?per_page=100)
+          
+          echo "<!-- FOLLOWERS_SECTION:start -->" > followers.md
           echo "" >> followers.md
-          echo "| Profile | Profile | Profile | Profile | Profile |" >> followers.md
-          echo "|---------|---------|---------|---------|---------|" >> followers.md
+          echo "<table><tr>" >> followers.md
 
-          ROW=""
           COUNT=0
+          echo "$FOLLOWERS" | jq -r '.[] | "<td align=\"center\"><a href=\"https://github.com/\(.login)\"><img src=\"\(.avatar_url)&s=100\" width=\"80\" height=\"80\"><br>@\(.login)</a></td>"' >> raw_followers.md
 
-          curl -s "https://api.github.com/users/yashKappa/followers?per_page=100" | jq -r '.[] | "| <a href=\"" + .html_url + "\"><img src=\"" + .avatar_url + "\" width=\"50px\" style=\"border-radius:50%;\"></a><br>[@"+ .login +"](" + .html_url + ") "' | while read LINE; do
-            ROW="$ROW $LINE"
-            COUNT=$((COUNT+1))
-            if [ $COUNT -eq 5 ]; then
-              echo "$ROW |" >> followers.md
-              ROW=""
+          while read -r line; do
+            echo "$line" >> followers.md
+            COUNT=$((COUNT + 1))
+            if [ $COUNT -eq 6 ]; then
+              echo "</tr><tr>" >> followers.md
               COUNT=0
             fi
-          done
+          done < raw_followers.md
 
-          if [ $COUNT -ne 0 ]; then
-            while [ $COUNT -lt 5 ]; do
-              ROW="$ROW |"
-              COUNT=$((COUNT+1))
-            done
-            echo "$ROW" >> followers.md
-          fi
-
+          echo "</tr></table>" >> followers.md
           echo "" >> followers.md
-          echo "<!-- FOLLOWER_SECTION:end -->" >> followers.md
+          echo "<!-- FOLLOWERS_SECTION:end -->" >> followers.md
+          rm raw_followers.md
 
       - name: Update README.md
         run: |
-          awk '/<!-- FOLLOWER_SECTION:start -->/{print;while(getline line < "followers.md") print line;found=1;next} /<!-- FOLLOWER_SECTION:end -->/{found=0} !found' README.md > temp.md
+          awk '/<!-- FOLLOWERS_SECTION:start -->/,/<!-- FOLLOWERS_SECTION:end -->/ {next} {print}' README.md > temp.md
           mv temp.md README.md
+          cat followers.md >> README.md
           rm followers.md
 
       - name: Commit & Push Changes
@@ -58,5 +52,5 @@ jobs:
           git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/yashKappa/yashKappa.git
           git add README.md
-          git commit -m "🔄 Updated followers list" || echo "No changes to commit"
+          git commit -m "Updated followers list with profile images in table format" || exit 0
           git push origin main

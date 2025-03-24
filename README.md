@@ -149,17 +149,23 @@
 
 ---
 
-## 🚀 My Followers  
-<!-- FOLLOWERS_SECTION:start -->
-_Updating..._
-<!-- FOLLOWERS_SECTION:end -->
+# 👋 Hi, I'm Yash Kappa!
 
----
+## 🚀 My Followers
+<!-- FOLLOWER_SECTION:start -->
+Fetching latest followers...
+<!-- FOLLOWER_SECTION:end -->
 
-## 🔥 People I Follow  
+## 🌟 People I Follow
 <!-- FOLLOWING_SECTION:start -->
-_Updating..._
+Fetching latest following...
 <!-- FOLLOWING_SECTION:end -->
 
 ---
+
+### 🔄 Auto-updating GitHub Actions
+This `README.md` updates every 12 hours to display the latest followers and following.
+
+🚀 **Follow me on GitHub:** [@yashKappa](https://github.com/yashKappa)
+
 

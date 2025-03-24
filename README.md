@@ -52,7 +52,7 @@
 
 ### 🚀 **Tech Stack**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,react,nodejs,mongodb,firebase,git,github,vscode,androidstudio,flutter,java,cpp,python&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=js,react,nodejs,mongodb,firebase,git,github,vscode,flutter&theme=dark" />
 </p>
 
 ---

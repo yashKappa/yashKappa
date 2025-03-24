@@ -20,7 +20,7 @@ jobs:
             echo "- [@$user](https://github.com/$user)" >> followers.md
           done
           echo "<!-- FOLLOWER_SECTION:end -->" >> followers.md
-          
+
       - name: Update README.md
         run: |
           awk '/<!-- FOLLOWER_SECTION:start -->/{print; system("cat followers.md"); next} /<!-- FOLLOWER_SECTION:end -->/{print; next} 1' README.md > temp.md

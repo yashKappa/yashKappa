@@ -16,9 +16,29 @@ jobs:
         run: |
           FOLLOWERS=$(curl -s https://api.github.com/users/yashKappa/followers?per_page=100 | jq -r '.[].login')
           echo "<!-- FOLLOWER_SECTION:start -->" > followers.md
+          
+          COUNT=0
+          ROW=""
           for user in $FOLLOWERS; do
-            echo "- [@$user](https://github.com/$user)" >> followers.md
+            ROW="$ROW [@$user](https://github.com/$user) |"
+            COUNT=$((COUNT + 1))
+            
+            # Print row when count reaches 5
+            if [ $COUNT -eq 5 ]; then
+              echo "|$ROW" >> followers.md
+              echo "| --- | --- | --- | --- | --- |" >> followers.md
+              COUNT=0
+              ROW=""
+            fi
           done
+          
+          # Add remaining followers if they don't make a full row
+          if [ $COUNT -gt 0 ]; then
+            echo "|$ROW" >> followers.md
+            PIPES=$(printf '| --- %.0s' $(seq 1 $COUNT))
+            echo "$PIPES" >> followers.md
+          fi
+
           echo "<!-- FOLLOWER_SECTION:end -->" >> followers.md
 
       - name: Update README.md

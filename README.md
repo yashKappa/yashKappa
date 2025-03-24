@@ -148,7 +148,6 @@
 </p>
 
 ---
-
 # 👋 Hi, I'm Yash Kappa!
 
 ## 🚀 My Followers
@@ -166,3 +165,4 @@ Fetching latest following...
 ---
 
 🚀 **Follow me on GitHub:** [@yashKappa](https://github.com/yashKappa)
+

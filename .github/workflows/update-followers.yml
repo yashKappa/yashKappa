@@ -44,8 +44,15 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
 
-          # Pull latest changes before pushing
+          # Stash any uncommitted changes to prevent rebase errors
+          git add .
+          git stash
+
+          # Pull latest changes with rebase
           git pull origin main --rebase
+
+          # Apply stashed changes
+          git stash pop || echo "No stashed changes to apply"
 
           git add README.md
           git commit -m "Updated followers list with profile images" || exit 0

@@ -151,10 +151,10 @@
 
 # 👋 Hi, I'm Yash Kappa!
 
-## 🚀 My Followers
-<!-- FOLLOWER_SECTION:start -->
-Fetching latest followers...
-<!-- FOLLOWER_SECTION:end -->
+## 🌟 My Followers
+<!-- FOLLOWERS_SECTION:start -->
+(Automatically updated every 12 hours)
+<!-- FOLLOWERS_SECTION:end -->
 
 <!-- FOLLOWING_SECTION:start -->
 

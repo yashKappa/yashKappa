@@ -20,17 +20,13 @@ jobs:
 
           echo "<!-- FOLLOWING_SECTION:start -->" > following.md
           echo "" >> following.md
-          echo "<h2>🔥 People I Follow</h2>" >> following.md
-          echo "<table>" >> following.md
+          echo "## 🔥 People I Follow" >> following.md
+          echo "" >> following.md
 
-          echo "$FOLLOWING" | jq -r '.[] | "<td align=\"center\"><a href=\"https://github.com/\(.login)\"><img src=\"\(.avatar_url)\" width=\"80\" height=\"80\" style=\"border-radius:50%;\"><br>@\(.login)</a></td>"' > raw_following.md
+          echo "$FOLLOWING" | jq -r '.[] | "- [@\(.login)](https://github.com/\(.login)) ![\(.login)](\(.avatar_url))"' >> following.md
 
-          awk 'NR % 6 == 1 {print "<tr>"} {print} NR % 6 == 0 {print "</tr>"} END {if (NR % 6 != 0) print "</tr>"}' raw_following.md >> following.md
-
-          echo "</table>" >> following.md
           echo "" >> following.md
           echo "<!-- FOLLOWING_SECTION:end -->" >> following.md
-          rm raw_following.md
 
       - name: Update README.md
         run: |
@@ -54,5 +50,5 @@ jobs:
           git pull --rebase origin main || git pull origin main
           
           git add README.md
-          git commit -m "Updated following list with profile images in table format" || exit 0
+          git commit -m "Updated following list with profile images in list format" || exit 0
           git push origin main

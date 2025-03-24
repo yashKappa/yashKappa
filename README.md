@@ -148,20 +148,6 @@
 </p>
 
 ---
-# 👋 Hi, I'm Yash Kappa!
-
-## 🚀 My Followers
-<!-- FOLLOWER_SECTION:start -->
-<!-- FOLLOWER_SECTION:start -->
-
-| Profile | Profile | Profile | Profile | Profile |
-|---------|---------|---------|---------|---------|
- | <a href="https://github.com/soham1300"><img src="https://avatars.githubusercontent.com/u/86889343?v=4" width="50px" style="border-radius:50%;"></a><br>[@soham1300](https://github.com/soham1300) | <a href="https://github.com/Nikhilgholap1304"><img src="https://avatars.githubusercontent.com/u/118434064?v=4" width="50px" style="border-radius:50%;"></a><br>[@Nikhilgholap1304](https://github.com/Nikhilgholap1304) | <a href="https://github.com/Scepter2003"><img src="https://avatars.githubusercontent.com/u/141228135?v=4" width="50px" style="border-radius:50%;"></a><br>[@Scepter2003](https://github.com/Scepter2003) | <a href="https://github.com/Rafe-sk"><img src="https://avatars.githubusercontent.com/u/142775371?v=4" width="50px" style="border-radius:50%;"></a><br>[@Rafe-sk](https://github.com/Rafe-sk) | <a href="https://github.com/Dhanya001"><img src="https://avatars.githubusercontent.com/u/149471022?v=4" width="50px" style="border-radius:50%;"></a><br>[@Dhanya001](https://github.com/Dhanya001) |
-
-<!-- FOLLOWER_SECTION:end -->
-<!-- FOLLOWER_SECTION:end -->
-
----
 
 ## 🌟 People I Follow
 

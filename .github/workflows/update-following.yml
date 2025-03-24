@@ -1,54 +1,54 @@
-# name: Update Following List
+name: Update Following List
 
-# on:
-#   schedule:
-#     - cron: "0 */12 * * *" # Runs every 12 hours
-#   workflow_dispatch: # Allows manual execution
+on:
+  schedule:
+    - cron: "0 */12 * * *" # Runs every 12 hours
+  workflow_dispatch: # Allows manual execution
 
-# jobs:
-#   update-following:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Checkout Repository
-#         uses: actions/checkout@v3
-#         with:
-#           fetch-depth: 0 # Fetch full history to prevent merge issues
+jobs:
+  update-following:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Fetch full history to prevent merge issues
 
-#       - name: Fetch Following List with Profile Images
-#         run: |
-#           FOLLOWING=$(curl -s https://api.github.com/users/yashKappa/following?per_page=100)
+      - name: Fetch Following List with Profile Images
+        run: |
+          FOLLOWING=$(curl -s https://api.github.com/users/yashKappa/following?per_page=100)
 
-#           echo "<!-- FOLLOWING_SECTION:start -->" > following.md
-#           echo "" >> following.md
-#           echo "## 🔥 People I Follow" >> following.md
-#           echo "" >> following.md
+          echo "<!-- FOLLOWING_SECTION:start -->" > following.md
+          echo "" >> following.md
+          echo "## 🔥 People I Follow" >> following.md
+          echo "" >> following.md
 
-#           echo "$FOLLOWING" | jq -r '.[] | "[@\(.login)](https://github.com/\(.login)) ![\(.login)](\(.avatar_url))"' | paste -sd ' • ' >> following.md
+          echo "$FOLLOWING" | jq -r '.[] | "[@\(.login)](https://github.com/\(.login)) ![\(.login)](\(.avatar_url))"' | paste -sd ' • ' >> following.md
 
-#           echo "" >> following.md
-#           echo "<!-- FOLLOWING_SECTION:end -->" >> following.md
+          echo "" >> following.md
+          echo "<!-- FOLLOWING_SECTION:end -->" >> following.md
 
-#       - name: Update README.md
-#         run: |
-#           awk '/<!-- FOLLOWING_SECTION:start -->/,/<!-- FOLLOWING_SECTION:end -->/ {next} {print}' README.md > temp.md
-#           mv temp.md README.md
-#           cat following.md >> README.md
-#           rm following.md
+      - name: Update README.md
+        run: |
+          awk '/<!-- FOLLOWING_SECTION:start -->/,/<!-- FOLLOWING_SECTION:end -->/ {next} {print}' README.md > temp.md
+          mv temp.md README.md
+          cat following.md >> README.md
+          rm following.md
 
-#       - name: Commit & Push Changes
-#         env:
-#           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-#         run: |
-#           git config --global user.name "github-actions"
-#           git config --global user.email "actions@github.com"
-#           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/yashKappa/yashKappa.git
+      - name: Commit & Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/yashKappa/yashKappa.git
 
-#           # Reset any unstaged changes to avoid conflicts
-#           git reset --hard HEAD
+          # Reset any unstaged changes to avoid conflicts
+          git reset --hard HEAD
           
-#           # Pull latest changes to avoid conflicts
-#           git pull --rebase origin main || git pull origin main
+          # Pull latest changes to avoid conflicts
+          git pull --rebase origin main || git pull origin main
           
-#           git add README.md
-#           git commit -m "Updated following list in line-wise format" || exit 0
-#           git push origin main
+          git add README.md
+          git commit -m "Updated following list in line-wise format" || exit 0
+          git push origin main

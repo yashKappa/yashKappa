@@ -149,18 +149,20 @@
 
 ---
 
-## ⭐ People I Follow
+# 👋 Hi, I'm Yash Kappa!
+
+## 🚀 My Followers
+<!-- FOLLOWER_SECTION:start -->
+Fetching latest followers...
+<!-- FOLLOWER_SECTION:end -->
 
 ---
-<!-- FOLLOWER_SECTION:start -->
 
-| Profile | Username |
-|---------|---------|
-| ![soham1300](https://avatars.githubusercontent.com/u/86889343?v=4&s=50) | [@soham1300](https://github.com/soham1300) |
-| ![Nikhilgholap1304](https://avatars.githubusercontent.com/u/118434064?v=4&s=50) | [@Nikhilgholap1304](https://github.com/Nikhilgholap1304) |
-| ![Scepter2003](https://avatars.githubusercontent.com/u/141228135?v=4&s=50) | [@Scepter2003](https://github.com/Scepter2003) |
-| ![Rafe-sk](https://avatars.githubusercontent.com/u/142775371?v=4&s=50) | [@Rafe-sk](https://github.com/Rafe-sk) |
-| ![Dhanya001](https://avatars.githubusercontent.com/u/149471022?v=4&s=50) | [@Dhanya001](https://github.com/Dhanya001) |
-| ![LegendaryNaix](https://avatars.githubusercontent.com/u/170892541?v=4&s=50) | [@LegendaryNaix](https://github.com/LegendaryNaix) |
+## 🌟 People I Follow
+<!-- FOLLOWING_SECTION:start -->
+Fetching latest following...
+<!-- FOLLOWING_SECTION:end -->
 
-<!-- FOLLOWER_SECTION:end -->
+---
+
+🚀 **Follow me on GitHub:** [@yashKappa](https://github.com/yashKappa)

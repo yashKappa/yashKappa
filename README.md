@@ -166,6 +166,14 @@
 ## 👥 My GitHub Followers
 
 <!-- FOLLOWER_SECTION:start -->
+<!-- FOLLOWER_SECTION:start -->
+- [@soham1300](https://github.com/soham1300)
+- [@Nikhilgholap1304](https://github.com/Nikhilgholap1304)
+- [@Scepter2003](https://github.com/Scepter2003)
+- [@Rafe-sk](https://github.com/Rafe-sk)
+- [@Dhanya001](https://github.com/Dhanya001)
+- [@LegendaryNaix](https://github.com/LegendaryNaix)
+<!-- FOLLOWER_SECTION:end -->
 Fetching latest followers...
 <!-- FOLLOWER_SECTION:end -->
 

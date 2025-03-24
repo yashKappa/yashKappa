@@ -163,36 +163,16 @@
 
 ---
 
-## 👥 My GitHub Followers
-
-- [@soham1300](https://github.com/soham1300)
-- [@Nikhilgholap1304](https://github.com/Nikhilgholap1304)
-- [@Scepter2003](https://github.com/Scepter2003)
-- [@Rafe-sk](https://github.com/Rafe-sk)
-- [@Dhanya001](https://github.com/Dhanya001)
-- [@LegendaryNaix](https://github.com/LegendaryNaix)
-<!-- FOLLOWER_SECTION:end -->
+## 🔥 My GitHub Followers
+<!-- FOLLOWER_SECTION:start -->
 Fetching latest followers...
 <!-- FOLLOWER_SECTION:end -->
 
 ---
 
-## 👤 Users I Follow
-
+## 👥 People I Follow
 <!-- FOLLOWING_SECTION:start -->
-<!-- Data will be updated here automatically -->
+Fetching latest followed users...
 <!-- FOLLOWING_SECTION:end -->
 
-
-
-
-
-
-<!-- FOLLOWER_SECTION:start -->
-<a href="https://github.com/soham1300"><img src="https://avatars.githubusercontent.com/u/86889343?v=4" width="50px" style="border-radius:50%; margin:5px;"><br>soham1300</a>&nbsp;&nbsp;
-<a href="https://github.com/Nikhilgholap1304"><img src="https://avatars.githubusercontent.com/u/118434064?v=4" width="50px" style="border-radius:50%; margin:5px;"><br>Nikhilgholap1304</a>&nbsp;&nbsp;
-<a href="https://github.com/Scepter2003"><img src="https://avatars.githubusercontent.com/u/141228135?v=4" width="50px" style="border-radius:50%; margin:5px;"><br>Scepter2003</a>&nbsp;&nbsp;
-<a href="https://github.com/Rafe-sk"><img src="https://avatars.githubusercontent.com/u/142775371?v=4" width="50px" style="border-radius:50%; margin:5px;"><br>Rafe-sk</a>&nbsp;&nbsp;
-<a href="https://github.com/Dhanya001"><img src="https://avatars.githubusercontent.com/u/149471022?v=4" width="50px" style="border-radius:50%; margin:5px;"><br>Dhanya001</a>&nbsp;&nbsp;
-<a href="https://github.com/LegendaryNaix"><img src="https://avatars.githubusercontent.com/u/170892541?v=4" width="50px" style="border-radius:50%; margin:5px;"><br>LegendaryNaix</a>&nbsp;&nbsp;
-<!-- FOLLOWER_SECTION:end -->
+---

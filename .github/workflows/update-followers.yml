@@ -33,7 +33,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/yashKappa/yashKappa.git
           git add README.md
           git commit -m "Updated followers list" || exit 0
           git push origin main

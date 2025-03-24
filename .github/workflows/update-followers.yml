@@ -23,7 +23,6 @@ jobs:
             ROW="$ROW [@$user](https://github.com/$user) |"
             COUNT=$((COUNT + 1))
             
-            # Print row when count reaches 5
             if [ $COUNT -eq 5 ]; then
               echo "|$ROW" >> followers.md
               echo "| --- | --- | --- | --- | --- |" >> followers.md
@@ -32,7 +31,6 @@ jobs:
             fi
           done
           
-          # Add remaining followers if they don't make a full row
           if [ $COUNT -gt 0 ]; then
             echo "|$ROW" >> followers.md
             PIPES=$(printf '| --- %.0s' $(seq 1 $COUNT))
@@ -43,8 +41,9 @@ jobs:
 
       - name: Update README.md
         run: |
-          awk '/<!-- FOLLOWER_SECTION:start -->/{print; system("cat followers.md"); next} /<!-- FOLLOWER_SECTION:end -->/{print; next} 1' README.md > temp.md
+          awk '/<!-- FOLLOWER_SECTION:start -->/,/<!-- FOLLOWER_SECTION:end -->/ {next} {print}' README.md > temp.md
           mv temp.md README.md
+          cat followers.md >> README.md
           rm followers.md
 
       - name: Commit & Push Changes

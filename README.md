@@ -189,14 +189,10 @@ Fetching latest followers...
 
 
 <!-- FOLLOWER_SECTION:start -->
-
-| Profile | Username |
-|---------|---------|
-| ![soham1300](https://avatars.githubusercontent.com/u/86889343?v=4&s=50) | [@soham1300](https://github.com/soham1300) |
-| ![Nikhilgholap1304](https://avatars.githubusercontent.com/u/118434064?v=4&s=50) | [@Nikhilgholap1304](https://github.com/Nikhilgholap1304) |
-| ![Scepter2003](https://avatars.githubusercontent.com/u/141228135?v=4&s=50) | [@Scepter2003](https://github.com/Scepter2003) |
-| ![Rafe-sk](https://avatars.githubusercontent.com/u/142775371?v=4&s=50) | [@Rafe-sk](https://github.com/Rafe-sk) |
-| ![Dhanya001](https://avatars.githubusercontent.com/u/149471022?v=4&s=50) | [@Dhanya001](https://github.com/Dhanya001) |
-| ![LegendaryNaix](https://avatars.githubusercontent.com/u/170892541?v=4&s=50) | [@LegendaryNaix](https://github.com/LegendaryNaix) |
-
+<a href="https://github.com/soham1300"><img src="https://avatars.githubusercontent.com/u/86889343?v=4" width="50px" style="border-radius:50%; margin:5px;"><br>soham1300</a>&nbsp;&nbsp;
+<a href="https://github.com/Nikhilgholap1304"><img src="https://avatars.githubusercontent.com/u/118434064?v=4" width="50px" style="border-radius:50%; margin:5px;"><br>Nikhilgholap1304</a>&nbsp;&nbsp;
+<a href="https://github.com/Scepter2003"><img src="https://avatars.githubusercontent.com/u/141228135?v=4" width="50px" style="border-radius:50%; margin:5px;"><br>Scepter2003</a>&nbsp;&nbsp;
+<a href="https://github.com/Rafe-sk"><img src="https://avatars.githubusercontent.com/u/142775371?v=4" width="50px" style="border-radius:50%; margin:5px;"><br>Rafe-sk</a>&nbsp;&nbsp;
+<a href="https://github.com/Dhanya001"><img src="https://avatars.githubusercontent.com/u/149471022?v=4" width="50px" style="border-radius:50%; margin:5px;"><br>Dhanya001</a>&nbsp;&nbsp;
+<a href="https://github.com/LegendaryNaix"><img src="https://avatars.githubusercontent.com/u/170892541?v=4" width="50px" style="border-radius:50%; margin:5px;"><br>LegendaryNaix</a>&nbsp;&nbsp;
 <!-- FOLLOWER_SECTION:end -->

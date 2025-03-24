@@ -149,12 +149,6 @@
 
 ---
 
-## 🔥 My GitHub Followers
-<!-- FOLLOWER_SECTION:start -->
-Fetching latest followers...
-<!-- FOLLOWER_SECTION:end -->
----
-
 ## ⭐ People I Follow
 
 ---

@@ -14,7 +14,7 @@ jobs:
         with:
           fetch-depth: 0 # Fetch full history to prevent merge issues
 
-      - name: Fetch Following List with Profile Images
+      - name: Fetch Following List
         run: |
           FOLLOWING=$(curl -s https://api.github.com/users/yashKappa/following?per_page=100)
 
@@ -23,7 +23,7 @@ jobs:
           echo "## 🔥 People I Follow" >> following.md
           echo "" >> following.md
 
-          echo "$FOLLOWING" | jq -r '.[] | "- [@\(.login)](https://github.com/\(.login)) <br> <img src=\"\(.avatar_url)\" width=\"40\" height=\"40\">" ' >> following.md
+          echo "$FOLLOWING" | jq -r '.[] | "- [@\(.login)](https://github.com/\(.login))"' >> following.md
 
           echo "" >> following.md
           echo "<!-- FOLLOWING_SECTION:end -->" >> following.md
@@ -50,5 +50,5 @@ jobs:
           git pull --rebase origin main || git pull origin main
           
           git add README.md
-          git commit -m "Updated following list in line-wise format" || exit 0
+          git commit -m "Updated following list in plain list format" || exit 0
           git push origin main

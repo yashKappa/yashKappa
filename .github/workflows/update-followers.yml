@@ -14,7 +14,7 @@ jobs:
 
       - name: Fetch Followers
         run: |
-          FOLLOWERS=$(curl -s https://api.github.com/users/YOUR_GITHUB_USERNAME/followers?per_page=100 | jq -r '.[].login')
+          FOLLOWERS=$(curl -s https://api.github.com/users/yashKappa/followers?per_page=100 | jq -r '.[].login')
           echo "<!-- FOLLOWER_SECTION:start -->" > followers.md
           for user in $FOLLOWERS; do
             echo "- [@$user](https://github.com/$user)" >> followers.md

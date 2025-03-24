@@ -15,15 +15,15 @@ jobs:
       - name: Fetch Followers
         run: |
           FOLLOWERS=$(curl -s https://api.github.com/users/YOUR_GITHUB_USERNAME/followers?per_page=100 | jq -r '.[].login')
-          echo "<!-- FOLLOWING_SECTION:start -->" > followers.md
+          echo "<!-- FOLLOWER_SECTION:start -->" > followers.md
           for user in $FOLLOWERS; do
             echo "- [@$user](https://github.com/$user)" >> followers.md
           done
-          echo "<!-- FOLLOWING_SECTION:end -->" >> followers.md
+          echo "<!-- FOLLOWER_SECTION:end -->" >> followers.md
           
       - name: Update README.md
         run: |
-          awk '/<!-- FOLLOWING_SECTION:start -->/{print; system("cat followers.md"); next} /<!-- FOLLOWING_SECTION:end -->/{print; next} 1' README.md > temp.md
+          awk '/<!-- FOLLOWER_SECTION:start -->/{print; system("cat followers.md"); next} /<!-- FOLLOWER_SECTION:end -->/{print; next} 1' README.md > temp.md
           mv temp.md README.md
           rm followers.md
 

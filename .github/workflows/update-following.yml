@@ -1,4 +1,4 @@
-name: Update Following
+name: Update Following List
 
 on:
   schedule:
@@ -8,46 +8,29 @@ on:
 jobs:
   update-following:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      - name: Fetch Following
+      - name: Fetch Following List with Profile Images
         run: |
+          FOLLOWING=$(curl -s https://api.github.com/users/yashKappa/following?per_page=100)
+          
           echo "<!-- FOLLOWING_SECTION:start -->" > following.md
           echo "" >> following.md
-          echo "| Profile | Profile | Profile | Profile | Profile |" >> following.md
-          echo "|---------|---------|---------|---------|---------|" >> following.md
+          echo "| Profile | Username |" >> following.md
+          echo "|---------|---------|" >> following.md
 
-          ROW=""
-          COUNT=0
-
-          curl -s "https://api.github.com/users/yashKappa/following?per_page=100" | jq -r '.[] | "| <a href=\"" + .html_url + "\"><img src=\"" + .avatar_url + "\" width=\"50px\" style=\"border-radius:50%;\"></a><br>[@"+ .login +"](" + .html_url + ") "' | while read LINE; do
-            ROW="$ROW $LINE"
-            COUNT=$((COUNT+1))
-            if [ $COUNT -eq 5 ]; then
-              echo "$ROW |" >> following.md
-              ROW=""
-              COUNT=0
-            fi
-          done
-
-          if [ $COUNT -ne 0 ]; then
-            while [ $COUNT -lt 5 ]; do
-              ROW="$ROW |"
-              COUNT=$((COUNT+1))
-            done
-            echo "$ROW" >> following.md
-          fi
-
+          echo "$FOLLOWING" | jq -r '.[] | "| ![\(.login)](\(.avatar_url)&s=50) | [@\(.login)](https://github.com/\(.login)) |"' >> following.md
+          
           echo "" >> following.md
           echo "<!-- FOLLOWING_SECTION:end -->" >> following.md
 
       - name: Update README.md
         run: |
-          awk '/<!-- FOLLOWING_SECTION:start -->/{print;while(getline line < "following.md") print line;found=1;next} /<!-- FOLLOWING_SECTION:end -->/{found=0} !found' README.md > temp.md
+          awk '/<!-- FOLLOWING_SECTION:start -->/,/<!-- FOLLOWING_SECTION:end -->/ {next} {print}' README.md > temp.md
           mv temp.md README.md
+          cat following.md >> README.md
           rm following.md
 
       - name: Commit & Push Changes
@@ -57,13 +40,6 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/yashKappa/yashKappa.git
-          
           git add README.md
-          git commit -m "🔄 Updated followers list" || echo "No changes to commit"
-
-          git stash # ✅ Temporarily save unstaged changes
-          git pull origin main --rebase
-          git stash pop # ✅ Restore the unstaged changes after pull
-
+          git commit -m "Updated following list with profile images" || exit 0
           git push origin main
-

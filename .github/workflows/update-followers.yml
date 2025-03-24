@@ -1,4 +1,4 @@
-name: Update Followers & Following
+name: Update Followers
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Allows manual execution
 
 jobs:
-  update-followers-following:
+  update-followers:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,33 +17,38 @@ jobs:
         run: |
           echo "<!-- FOLLOWER_SECTION:start -->" > followers.md
           echo "" >> followers.md
+          echo "| Profile | Profile | Profile | Profile | Profile |" >> followers.md
+          echo "|---------|---------|---------|---------|---------|" >> followers.md
 
-          curl -s "https://api.github.com/users/yashKappa/followers?per_page=20" |
-          jq -r '.[] | "<a href=\"" + .html_url + "\"><img src=\"" + .avatar_url + "\" width=\"50px\" style=\"border-radius:50%; margin:5px;\"><br>" + .login + "</a>&nbsp;&nbsp;"' >> followers.md
+          ROW=""
+          COUNT=0
+
+          curl -s "https://api.github.com/users/yashKappa/followers?per_page=100" | jq -r '.[] | "| <a href=\"" + .html_url + "\"><img src=\"" + .avatar_url + "\" width=\"50px\" style=\"border-radius:50%;\"></a><br>[@"+ .login +"](" + .html_url + ") "' | while read LINE; do
+            ROW="$ROW $LINE"
+            COUNT=$((COUNT+1))
+            if [ $COUNT -eq 5 ]; then
+              echo "$ROW |" >> followers.md
+              ROW=""
+              COUNT=0
+            fi
+          done
+
+          if [ $COUNT -ne 0 ]; then
+            while [ $COUNT -lt 5 ]; do
+              ROW="$ROW |"
+              COUNT=$((COUNT+1))
+            done
+            echo "$ROW" >> followers.md
+          fi
 
           echo "" >> followers.md
           echo "<!-- FOLLOWER_SECTION:end -->" >> followers.md
-
-      - name: Fetch Following
-        run: |
-          echo "<!-- FOLLOWING_SECTION:start -->" > following.md
-          echo "" >> following.md
-
-          curl -s "https://api.github.com/users/yashKappa/following?per_page=20" |
-          jq -r '.[] | "<a href=\"" + .html_url + "\"><img src=\"" + .avatar_url + "\" width=\"50px\" style=\"border-radius:50%; margin:5px;\"><br>" + .login + "</a>&nbsp;&nbsp;"' >> following.md
-
-          echo "" >> following.md
-          echo "<!-- FOLLOWING_SECTION:end -->" >> following.md
 
       - name: Update README.md
         run: |
           awk '/<!-- FOLLOWER_SECTION:start -->/{print;while(getline line < "followers.md") print line;found=1;next} /<!-- FOLLOWER_SECTION:end -->/{found=0} !found' README.md > temp.md
           mv temp.md README.md
-
-          awk '/<!-- FOLLOWING_SECTION:start -->/{print;while(getline line < "following.md") print line;found=1;next} /<!-- FOLLOWING_SECTION:end -->/{found=0} !found' README.md > temp.md
-          mv temp.md README.md
-
-          rm followers.md following.md
+          rm followers.md
 
       - name: Commit & Push Changes
         env:
@@ -53,5 +58,5 @@ jobs:
           git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/yashKappa/yashKappa.git
           git add README.md
-          git commit -m "🔄 Updated followers & following lists" || echo "No changes to commit"
+          git commit -m "🔄 Updated followers list" || echo "No changes to commit"
           git push origin main

@@ -1,9 +1,9 @@
-name: Update GitHub Followers
+name: Update Followers
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Runs every 12 hours
-  workflow_dispatch:  # Allows manual trigger
+    - cron: "0 */12 * * *" # Runs every 12 hours
+  workflow_dispatch: # Allows manual execution
 
 jobs:
   update-followers:
@@ -14,19 +14,23 @@ jobs:
 
       - name: Fetch Followers
         run: |
-          curl -s "https://api.github.com/users/yashKappa/followers?per_page=10" > followers.json
-          echo '<p align="center">' > followers.md
-          cat followers.json | jq -r '.[] | "<a href=\"" + .html_url + "\"><img src=\"" + .avatar_url + "\" width=\"50px\" style=\"border-radius: 50%; margin: 5px;\"><br>" + .login + "</a>&nbsp;&nbsp;"' >> followers.md
-          echo '</p>' >> followers.md
-
-      - name: Update README
+          FOLLOWERS=$(curl -s https://api.github.com/users/YOUR_GITHUB_USERNAME/followers?per_page=100 | jq -r '.[].login')
+          echo "<!-- FOLLOWING_SECTION:start -->" > followers.md
+          for user in $FOLLOWERS; do
+            echo "- [@$user](https://github.com/$user)" >> followers.md
+          done
+          echo "<!-- FOLLOWING_SECTION:end -->" >> followers.md
+          
+      - name: Update README.md
         run: |
-          sed -i '/<!-- FOLLOWER_SECTION:start -->/,/<!-- FOLLOWER_SECTION:end -->/c\<!-- FOLLOWER_SECTION:start -->\n'$(cat followers.md)'\n<!-- FOLLOWER_SECTION:end -->' README.md
+          awk '/<!-- FOLLOWING_SECTION:start -->/{print; system("cat followers.md"); next} /<!-- FOLLOWING_SECTION:end -->/{print; next} 1' README.md > temp.md
+          mv temp.md README.md
+          rm followers.md
 
-      - name: Commit and Push
+      - name: Commit & Push Changes
         run: |
-          git config --global user.name "GitHub Actions"
+          git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "Updated followers list" || echo "No changes to commit"
-          git push || echo "No changes to push"
+          git commit -m "Updated followers list" || exit 0
+          git push

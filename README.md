@@ -153,13 +153,13 @@
 
 ## 🚀 My Followers  
 <!-- FOLLOWERS_SECTION:start -->
-_Updating..._
+_Updating (Not Compelete yet)..._
 <!-- FOLLOWERS_SECTION:end -->
 
 ---
 
 ## 🔥 People I Follow  
 <!-- FOLLOWING_SECTION:start -->
-_Updating..._
+_Updating (Not Compelete yet)..._
 <!-- FOLLOWING_SECTION:end -->
 

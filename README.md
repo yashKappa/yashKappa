@@ -170,9 +170,9 @@ Fetching latest followers...
 
 ---
 
-## 👥 People I Follow
-<!-- FOLLOWING_SECTION:start -->
+## ⭐ People I Follow
+<!-- FOLLOWER_SECTION:start -->
 Fetching latest followed users...
-<!-- FOLLOWING_SECTION:end -->
+<!-- FOLLOWER_SECTION:end -->
 
 ---

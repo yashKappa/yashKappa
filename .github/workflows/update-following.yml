@@ -57,8 +57,13 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/yashKappa/yashKappa.git
-          git pull origin main --rebase # ✅ Pull latest changes before pushing
+          
           git add README.md
           git commit -m "🔄 Updated followers list" || echo "No changes to commit"
+
+          git stash # ✅ Temporarily save unstaged changes
+          git pull origin main --rebase
+          git stash pop # ✅ Restore the unstaged changes after pull
+
           git push origin main
 

@@ -1,4 +1,4 @@
-name: Update Followed Users
+name: Update Followers List
 
 on:
   schedule:
@@ -6,21 +6,21 @@ on:
   workflow_dispatch: # Allows manual trigger
 
 jobs:
-  update-following:
+  update-followers:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Fetch Followed Users
+      - name: Fetch Followers
         run: |
-          curl -s "https://api.github.com/users/yashKappa/following?per_page=10" | 
-          jq -r '.[] | "<a href=\"" + .html_url + "\"><img src=\"" + .avatar_url + "\" width=\"50px\" style=\"border-radius:50%; margin:5px;\"><br>" + .login + "</a>&nbsp;&nbsp;"' > following.md
+          https://api.github.com/users/yashKappa/following?per_page=10 | 
+          jq -r '.[] | "<a href=\"" + .html_url + "\"><img src=\"" + .avatar_url + "\" width=\"50px\" style=\"border-radius:50%; margin:5px;\"><br>" + .login + "</a>&nbsp;&nbsp;"' > followers.md
 
       - name: Update README
         run: |
-          awk '/<!-- FOLLOWING_SECTION:start -->/{print;while(getline line < "following.md") print line;found=1;next} /<!-- FOLLOWING_SECTION:end -->/{found=0} !found' README.md > temp.md && mv temp.md README.md
+          awk '/<!-- FOLLOWER_SECTION:start -->/{print;while(getline line < "followers.md") print line;found=1;next} /<!-- FOLLOWER_SECTION:end -->/{found=0} !found' README.md > temp.md && mv temp.md README.md
 
       - name: Commit and Push Changes
         env:
@@ -30,5 +30,5 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/yashKappa/yashKappa.git
           git add README.md
-          git commit -m "🔄 Auto-update followed users list" || echo "No changes to commit"
+          git commit -m "🔄 Auto-update followers list" || echo "No changes to commit"
           git push origin main

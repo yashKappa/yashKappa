@@ -29,7 +29,7 @@ jobs:
           while read -r line; do
             echo "$line" >> following.md
             COUNT=$((COUNT + 1))
-            if [ $COUNT -eq 5 ]; then
+            if [ $COUNT -eq 6 ]; then
               echo "</tr><tr>" >> following.md
               COUNT=0
             fi

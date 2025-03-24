@@ -149,20 +149,6 @@
 
 ---
 
-# 👥 My GitHub Followers
-
-<p align="center">
-  <b>📢 Latest Followers</b>  
-  <br>
-  🔄 Auto-updating followers list every time you open this page!
-</p>
-
-<p align="center" id="followers">
-  <!-- Followers will be loaded here dynamically -->
-</p>
-
----
-
 ## 🔥 My GitHub Followers
 <!-- FOLLOWER_SECTION:start -->
 Fetching latest followers...

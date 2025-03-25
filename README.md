@@ -187,6 +187,11 @@
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/LegendaryNaix"><img src="https://avatars.githubusercontent.com/u/170892541?v=4" width="80" height="80" style="border-radius:50%;"><br>@LegendaryNaix</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </table>
 

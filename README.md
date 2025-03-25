@@ -149,17 +149,18 @@
 
 ---
 
-# Welcome to My GitHub Profile!
+# 🚀 Welcome to My GitHub Profile!
 
 ## 🚀 My Followers  
 <!-- FOLLOWERS_SECTION:start -->
-_Updating (Not Compelete yet)..._
+_Updating..._
 <!-- FOLLOWERS_SECTION:end -->
 
 ---
 
 ## 🔥 People I Follow  
 <!-- FOLLOWING_SECTION:start -->
-_Updating (Not Compelete yet)..._
+_Updating..._
 <!-- FOLLOWING_SECTION:end -->
+
 

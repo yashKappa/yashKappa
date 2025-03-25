@@ -22,8 +22,6 @@
 🔹 Working on personal projects in **React, Node.js, Flutter, Firebase, and MongoDB**  
 🔹 Contributing to **open-source projects** on GitHub  
 🔹 Developing **web and mobile applications** as part of my learning journey  
-🔹 Exploring **AI-powered coding tools** for developers  
-🔹 Building a **VSCode extension for code negotiation**  
 
 ---
 

@@ -19,13 +19,33 @@ jobs:
           echo "<!-- FOLLOWERS_SECTION:start -->" > followers.md
           echo "" >> followers.md
           echo "## 🚀 My Followers" >> followers.md
-          echo "<div style=\"display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;\">" >> followers.md
+          echo "<table>" >> followers.md
 
-          echo "$FOLLOWERS" | jq -r '.[] | "<div style=\"text-align: center; width: 100px;\"><a href=\"https://github.com/\(.login)\"><img src=\"\(.avatar_url)\" width=\"80\" height=\"80\" style=\"border-radius:50%;\"><br>@\(.login)</a></div>"' >> followers.md
+          COUNT=0
+          echo "$FOLLOWERS" | jq -r '.[] | "<td align=\"center\"><a href=\"https://github.com/\(.login)\"><img src=\"\(.avatar_url)\" width=\"80\" height=\"80\" style=\"border-radius:50%;\"><br>@\(.login)</a></td>"' > raw_followers.md
 
-          echo "</div>" >> followers.md
+          while read -r line; do
+            if [ $COUNT -eq 0 ]; then
+              echo "<tr>" >> followers.md
+            fi
+            
+            echo "$line" >> followers.md
+            COUNT=$((COUNT + 1))
+
+            if [ $COUNT -eq 7 ]; then
+              echo "</tr>" >> followers.md
+              COUNT=0
+            fi
+          done < raw_followers.md
+
+          if [ $COUNT -gt 0 ]; then
+            echo "</tr>" >> followers.md
+          fi
+
+          echo "</table>" >> followers.md
           echo "" >> followers.md
           echo "<!-- FOLLOWERS_SECTION:end -->" >> followers.md
+          rm raw_followers.md
 
       - name: Update README.md
         run: |
@@ -43,7 +63,7 @@ jobs:
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/yashKappa/yashKappa.git
           
           git add README.md
-          git commit -m "Updated followers list" || exit 0
+          git commit -m "Updated followers/following list" || exit 0
           
           git pull --rebase --autostash origin main || git pull origin main
           git push --force origin main

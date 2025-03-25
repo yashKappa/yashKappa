@@ -19,10 +19,10 @@ jobs:
           echo "<!-- FOLLOWING_SECTION:start -->" > following.md
           echo "" >> following.md
           echo "## 🔥 People I Follow" >> following.md
-          echo "<table>" >> following.md
+          echo "<div style=\"display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;\">" >> following.md
 
           COUNT=0
-          echo "$FOLLOWING" | jq -r '.[] | "<td align=\"center\"><a href=\"https://github.com/\(.login)\"><img src=\"\(.avatar_url)\" width=\"80\" height=\"80\" style=\"border-radius:50%;\"><br>@\(.login)</a></td>"' > raw_following.md
+          echo "$FOLLOWING" | jq -r '.[] | "<div style=\"text-align: center; width: 120px;\"><a href=\"https://github.com/\(.login)\"><img src=\"\(.avatar_url)\" width=\"80\" height=\"80\" style=\"border-radius:50%;\"><br>@\(.login)</a></div>"' >> following.md
 
           while read -r line; do
             if [ $COUNT -eq 0 ]; then
@@ -47,7 +47,7 @@ jobs:
             echo "</tr>" >> following.md
           fi
 
-          echo "</table>" >> following.md
+          echo "</div>" >> following.md
           echo "" >> following.md
           echo "<!-- FOLLOWING_SECTION:end -->" >> following.md
           rm raw_following.md

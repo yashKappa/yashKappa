@@ -19,9 +19,9 @@ jobs:
           echo "<!-- FOLLOWERS_SECTION:start -->" > followers.md
           echo "" >> followers.md
           echo "## 🚀 My Followers" >> followers.md
-          echo "<div style=\"display: flex; flex-wrap: wrap; gap: 15px;\">" >> followers.md
+          echo "<div style=\"display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;\">" >> followers.md
 
-          echo "$FOLLOWERS" | jq -r '.[] | "<div style=\"text-align: center;\"><a href=\"https://github.com/\(.login)\"><img src=\"\(.avatar_url)\" width=\"80\" height=\"80\" style=\"border-radius:50%;\"><br>@\(.login)</a></div>"' >> followers.md
+          echo "$FOLLOWERS" | jq -r '.[] | "<div style=\"text-align: center; width: 100px;\"><a href=\"https://github.com/\(.login)\"><img src=\"\(.avatar_url)\" width=\"80\" height=\"80\" style=\"border-radius:50%;\"><br>@\(.login)</a></div>"' >> followers.md
 
           echo "</div>" >> followers.md
           echo "" >> followers.md

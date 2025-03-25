@@ -38,7 +38,12 @@ jobs:
             fi
           done < raw_followers.md
 
+          # Fill remaining empty slots in the last row if needed
           if [ $COUNT -gt 0 ]; then
+            while [ $COUNT -lt 6 ]; do
+              echo "<td></td>" >> followers.md
+              COUNT=$((COUNT + 1))
+            done
             echo "</tr>" >> followers.md
           fi
 
@@ -63,7 +68,7 @@ jobs:
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/yashKappa/yashKappa.git
           
           git add README.md
-          git commit -m "Updated followers/following list" || exit 0
+          git commit -m "Updated followers list" || exit 0
           
           git pull --rebase --autostash origin main || git pull origin main
           git push --force origin main

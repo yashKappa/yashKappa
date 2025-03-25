@@ -32,7 +32,7 @@ jobs:
             echo "$line" >> following.md
             COUNT=$((COUNT + 1))
 
-            if [ $COUNT -eq 6 ]; then
+            if [ $COUNT -eq 7 ]; then
               echo "</tr>" >> following.md
               COUNT=0
             fi

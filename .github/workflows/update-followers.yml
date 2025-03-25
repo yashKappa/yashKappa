@@ -32,7 +32,7 @@ jobs:
             echo "$line" >> followers.md
             COUNT=$((COUNT + 1))
 
-            if [ $COUNT -eq 7 ]; then
+            if [ $COUNT -eq 6 ]; then
               echo "</tr>" >> followers.md
               COUNT=0
             fi

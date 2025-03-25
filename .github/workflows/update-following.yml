@@ -19,9 +19,9 @@ jobs:
           echo "<!-- FOLLOWING_SECTION:start -->" > following.md
           echo "" >> following.md
           echo "## 🔥 People I Follow" >> following.md
-          echo "<div style=\"display: flex; flex-wrap: wrap; gap: 15px;\">" >> following.md
+          echo "<div style=\"display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;\">" >> following.md
 
-          echo "$FOLLOWING" | jq -r '.[] | "<div style=\"text-align: center;\"><a href=\"https://github.com/\(.login)\"><img src=\"\(.avatar_url)\" width=\"80\" height=\"80\" style=\"border-radius:50%;\"><br>@\(.login)</a></div>"' >> following.md
+          echo "$FOLLOWING" | jq -r '.[] | "<div style=\"text-align: center; width: 100px;\"><a href=\"https://github.com/\(.login)\"><img src=\"\(.avatar_url)\" width=\"80\" height=\"80\" style=\"border-radius:50%;\"><br>@\(.login)</a></div>"' >> following.md
 
           echo "</div>" >> following.md
           echo "" >> following.md
@@ -42,18 +42,10 @@ jobs:
           git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/yashKappa/yashKappa.git
           
-          # Stash local changes before pulling
           git stash --include-untracked
-          
-          # Pull latest changes
           git pull origin main --rebase
-          
-          # Apply stashed changes back
           git stash pop || echo "No stash to apply"
-      
-          # Add and commit changes
+
           git add README.md
           git commit -m "Updated following list" || exit 0
-          
-          # Push changes
           git push origin main

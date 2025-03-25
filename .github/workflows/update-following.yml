@@ -38,7 +38,12 @@ jobs:
             fi
           done < raw_following.md
 
+          # Fill empty cells if the last row is incomplete
           if [ $COUNT -gt 0 ]; then
+            while [ $COUNT -lt 6 ]; do
+              echo "<td></td>" >> following.md
+              COUNT=$((COUNT + 1))
+            done
             echo "</tr>" >> following.md
           fi
 
@@ -77,4 +82,3 @@ jobs:
           
           # Push changes
           git push origin main
-

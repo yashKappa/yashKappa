@@ -134,16 +134,19 @@
 
 ---
 
-### 🌟 **Let's Connect**
+### 🌟 **Let's Connect**  
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN">
+  <a href="https://www.linkedin.com/in/yash-saundalkar-824ab4316/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://twitter.com/YOUR-TWITTER">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+  <a href="https://www.facebook.com/profile.php?id=100075750094400">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
   </a>
-  <a href="https://yourportfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=code&logoColor=white"/>
+  <a href="https://www.instagram.com/yash.kappa300/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+  <a href="https://www.youtube.com/@yashsaundalkar658">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
   </a>
 </p>
 

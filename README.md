@@ -18,8 +18,7 @@
 ---
 
 ### 💼 **Job Experience**
-🚀 **Freshman Developer** | Self-Learning & Open Source  
-📅 **2024 - Present**  
+🚀 **Freshman Developer** | Self-Learning & Open Source    
 🔹 Working on personal projects in **React, Node.js, Flutter, Firebase, and MongoDB**  
 🔹 Contributing to **open-source projects** on GitHub  
 🔹 Developing **web and mobile applications** as part of my learning journey  

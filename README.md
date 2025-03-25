@@ -63,11 +63,11 @@
 
 | 🌟 Project Name | 📝 Description | 🛠 Tech Stack |
 |---------------|----------------|-------------|
-| 🎨 [**simple-web-page**](https://github.com/yashKappa/simple-web-page) | A stylish and responsive landing page for web design & development. | `CSS` |
+| 🎨 [**Toriko-Food-ingredients-**](https://yashkappa.github.io/Toriko-Food-ingredients-/) | This Project was create based on Recipe where foodies can share their own recipe to other people and add to favorites can give likes to best recipe. 🍽️ A collection of unique and exotic food ingredients inspired by the world of Toriko.| `ReactJS` `Firebase` |
 | 📝 [**list**](https://github.com/yashKappa/list) | A to-do list app where users can add and delete notes. | `CSS` |
 | 🎬 [**anime-app**](https://github.com/yashKappa/anime-app) | A website showcasing different types of anime posters. | `HTML` |
 | 🌦 [**weather-report**](https://github.com/yashKappa/weather-report) | A weather report app displaying temperature for searched locations. | `CSS` |
-| 🔍 [**Plagiarism-**](https://github.com/yashKappa/Plagiarism-) | An app to detect plagiarism percentages in code. | `HTML` |
+| 🔍 [**Commodity-trading-system-**](https://github.com/yashKappa/Plagiarism-) | 🛒 A dynamic platform for buying and selling personal products. This system enables users to list, manage, and trade commodities efficiently, ensuring a smooth and secure transaction process.| `ReactJS` `Firebase` |
 | 🧳 [**IT-Travel-Checklist**](https://github.com/yashKappa/IT-Travel-Checklist) | A travel checklist to help pack for a 2-3 day trip. | `HTML` |
 
 📌 **Check out my full project list** 👉 [GitHub Profile](https://github.com/yashKappa) 🚀  

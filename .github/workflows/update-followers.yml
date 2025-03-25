@@ -2,7 +2,7 @@ name: Update Followers List
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Runs every 12 hours
+    - cron: "0 0 * * *" # Runs once every day at midnight UTC
   workflow_dispatch: # Allows manual execution
 
 jobs:
@@ -11,19 +11,41 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0 # Fetch full history to prevent merge issues
 
       - name: Fetch Followers List
         run: |
           FOLLOWERS=$(curl -s https://api.github.com/users/yashKappa/followers?per_page=100)
+
           echo "<!-- FOLLOWERS_SECTION:start -->" > followers.md
-          echo "## 🚀 My Followers" >> followers.md
-          echo "(Automatically updated every 12 hours)" >> followers.md
           echo "" >> followers.md
-          echo "$FOLLOWERS" | jq -r '.[] | "![](\(.avatar_url)?s=80) [@\(.login)](https://github.com/\(.login))"' >> followers.md
+          echo "## 🚀 My Followers" >> followers.md
+          echo "<table>" >> followers.md
+
+          COUNT=0
+          echo "$FOLLOWERS" | jq -r '.[] | "<td align=\"center\"><a href=\"https://github.com/\(.login)\"><img src=\"\(.avatar_url)\" width=\"80\" height=\"80\" style=\"border-radius:50%;\"><br>@\(.login)</a></td>"' > raw_followers.md
+
+          while read -r line; do
+            if [ $COUNT -eq 0 ]; then
+              echo "<tr>" >> followers.md
+            fi
+            
+            echo "$line" >> followers.md
+            COUNT=$((COUNT + 1))
+
+            if [ $COUNT -eq 6 ]; then
+              echo "</tr>" >> followers.md
+              COUNT=0
+            fi
+          done < raw_followers.md
+
+          if [ $COUNT -gt 0 ]; then
+            echo "</tr>" >> followers.md
+          fi
+
+          echo "</table>" >> followers.md
           echo "" >> followers.md
           echo "<!-- FOLLOWERS_SECTION:end -->" >> followers.md
+          rm raw_followers.md
 
       - name: Update README.md
         run: |
@@ -40,10 +62,6 @@ jobs:
           git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/yashKappa/yashKappa.git
           
-          # Reset any unstaged changes to avoid conflicts
-          git reset --hard HEAD
-          
-          # Pull latest changes to avoid conflicts
           git pull --rebase origin main || git pull origin main
           
           git add README.md

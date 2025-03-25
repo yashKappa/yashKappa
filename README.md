@@ -168,6 +168,5 @@
 
 ## 🚀 Follow Me on GitHub!  
 
-**If you like my work, make sure to **follow me** and stay updated with my latest projects!  
-**
+## If you like my work, make sure to **follow me** and stay updated with my latest projects!  
 

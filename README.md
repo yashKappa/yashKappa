@@ -163,3 +163,18 @@
 </table>
 
 <!-- FOLLOWERS_SECTION:end -->
+
+---
+
+## 🚀 Follow Me on GitHub!  
+
+If you like my work, make sure to **follow me** and stay updated with my latest projects!  
+
+📌 Click the button below to follow me:  
+  
+<p align="center">
+  <a href="https://github.com/yashKappa">
+    <img src="https://img.shields.io/badge/Follow%20Me%20On%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow Me on GitHub">
+  </a>
+</p>
+

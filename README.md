@@ -1,7 +1,7 @@
 <!-- Banner Image -->
 <p align="center">
   <img src="https://as2.ftcdn.net/jpg/05/67/40/31/1000_F_567403147_WjV5fqGRjjPUkBOnXaaREKgVjZMC12M7.jpg" width="100%" border="20%">
-  <img src="https://th.bing.com/th/id/OIP.R4mGR6aMolcCb_V-dbq2bgHaE8?w=186&h=124&c=7&r=0&o=5&pid=1.7" width="100%" border="20%">
+  <img src="https://www.bing.com/th/id/OGC.b577948deca484de295372aab74ff158?pid=1.7&rurl=https%3a%2f%2f66.media.tumblr.com%2f3cd18746066f05232534fdccbd65ece5%2ftumblr_nlu6d06hkM1tgwr8mo6_400.gif&ehk=Xzow1imEWuZl%2fVTHuQmruJZN0q1dz9Lk4IW204xsNcY%3d" width="100%" border="20%">
 </p>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=000000&center=true&vCenter=true&width=1000&height=50&lines=Hi+there!+I'm+Yash+Kappa!;Full+Stack+Developer+🚀;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;Coding+enthusiast+💡;Let's+connect!+😃&background=c0c0c0" alt="Typing SVG" />

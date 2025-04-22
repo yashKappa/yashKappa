@@ -3,6 +3,11 @@
   <img src="https://as2.ftcdn.net/jpg/05/67/40/31/1000_F_567403147_WjV5fqGRjjPUkBOnXaaREKgVjZMC12M7.jpg" width="100%" border="20%">
 </p>
 <p align="center">
+  <p align="center">
+  <img 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=0D1117&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Yash+Kappa!;Welcome+to+my+GitHub+Profile!;I+am+a+Flutter+Developer" 
+    alt="Typing SVG" />
+</p>
   <img 
     src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=0D1117&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Yash+Kappa!;Full+Stack+Developer+🚀;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;Coding+enthusiast+💡;Let's+connect!+😃" 
     alt="Typing SVG" />

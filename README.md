@@ -4,7 +4,7 @@
 </p>
 <p align="center">
   <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=0D1117&center=true&vCenter=true&width=600&lines=Hello+Friends!;Welcome+to+my+GitHub+Profile!;I+am+a+Flutter+Developer" 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=0D1117&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Yash+Kappa!;Full+Stack+Developer+🚀;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;Coding+enthusiast+💡;Let's+connect!+😃" 
     alt="Typing SVG" />
 </p>
 <p align="center">

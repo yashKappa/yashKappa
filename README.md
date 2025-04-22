@@ -1,5 +1,5 @@
 <!-- Banner Image -->
-<h1 align="center">👋 Hi, I'm Yash Saundalkar (yashKappa) </h1>
+<h1 align="center">👋 Hi, I'm Yash Saundalkar ( yashKappa ) </h1>
 
 ---
 

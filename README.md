@@ -175,5 +175,6 @@
 <td align="center"><a href="https://github.com/LegendaryNaix"><img src="https://avatars.githubusercontent.com/u/170892541?v=4" width="80" height="80" style="border-radius:50%;"><br>@LegendaryNaix</a></td>
 </tr>
 </table>
+[![trophy](https://github-profile-trophy.vercel.app/?username=yashKappa&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
 
 <!-- FOLLOWERS_SECTION:end -->

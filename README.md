@@ -56,6 +56,12 @@
 
 ---
 
+### 🏆 Tropics
+
+[![Trophy](https://github-profile-trophy.vercel.app/?username=yashKappa&theme=algolia&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
+
+---
+
 ### 🚀 **Tech Stack**
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,react,nodejs,mongodb,firebase,git,github,vscode,flutter&theme=dark" />
@@ -176,6 +182,5 @@
 </tr>
 </table>
 
-[![Trophy](https://github-profile-trophy.vercel.app/?username=yashKappa&theme=algolia&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
 
 <!-- FOLLOWERS_SECTION:end -->

@@ -91,10 +91,10 @@
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
 <table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/my-port">my-port</a></strong></td></tr>
-<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">Yash.Port is a personal portfolio website built using ReactJS and various modern web technologies. It includes sections such as About Me, Tools Used, My Projects, YouTube Channel Videos, GitHub Activities, Hobbies, and a downloadable Resume.</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
-<tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/my-port/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: bootstrap, css, emoji, fetch-api, font-awesome, github, github-api, html, reactjs</td></tr>
 </table>
 </td>
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
@@ -109,10 +109,10 @@
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
 <table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/recipe-book">recipe-book</a></strong></td></tr>
-<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">RecipeBook is a simple web application built with React that allows users to upload their own recipe details, view saved recipes, and manage them with options to view or delete. All data is stored in the browser's local storage, ensuring persistent access across sessions.</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">CSS</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
-<tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/recipe-book/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: css, emoji, font-awesome, html, icons, localstorage, reactjs, recipes, responsive-web-design, sections</td></tr>
 </table>
 </td>
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
@@ -129,7 +129,7 @@
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/weather-app-intern">weather-app-intern</a></strong></td></tr>
 <tr><td style="font-size: 14px; overflow-wrap: break-word;">Weather-app, this Application is user friendly and any device responsive. view weather details by putting inputs like city and country name, view details like temperature, condition, humidity, wind-speed for current and next 5 days weather report. </td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/weather-app-intern/">🌐 Visit Website</a></td></tr>
 <tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: api, bootstrap, css, font-awesome, html5, reactjs, responsive-design, user-friendly, weather-api</td></tr>
 </table>
 </td>

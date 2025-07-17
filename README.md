@@ -92,7 +92,7 @@
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/student-teacher-booking-appointment">student-teacher-booking-appointment</a></strong></td></tr>
 <tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/student-teacher-booking-appointment/">🌐 Visit Website</a></td></tr>
 <tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
 </table>
 </td>

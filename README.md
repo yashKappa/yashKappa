@@ -89,6 +89,15 @@
 <!-- LATEST-REPOS-START -->
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
 <table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/buyer-leads">buyer-leads</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">TypeScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/buyer-leads/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td></tr>
 <tr><td style="font-size: 14px; overflow-wrap: break-word;">🚀 My GitHub Profile – Showcasing my projects, contributions, and skills in full-stack development, React, Firebase, HTML, CSS and more.</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
@@ -130,15 +139,6 @@
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">CSS</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/recipe-book/">🌐 Visit Website</a></td></tr>
 <tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: css, emoji, font-awesome, html, icons, localstorage, reactjs, recipes, responsive-web-design, sections</td></tr>
-</table>
-</td>
-<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
-<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
-<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/weather-report">weather-report</a></strong></td></tr>
-<tr><td style="font-size: 14px; overflow-wrap: break-word;">This application provides weather reports by displaying the temperature for a given search input. My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">CSS</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/weather-report/">🌐 Visit Website</a></td></tr>
-<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: weather-app, weather-forecast</td></tr>
 </table>
 </td>
 <!-- LATEST-REPOS-END -->

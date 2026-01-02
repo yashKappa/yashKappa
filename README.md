@@ -89,6 +89,15 @@
 <!-- LATEST-REPOS-START -->
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
 <table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/job-recommendation-system">job-recommendation-system</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td></tr>
 <tr><td style="font-size: 14px; overflow-wrap: break-word;">🚀 My GitHub Profile – Showcasing my projects, contributions, and skills in full-stack development, React, Firebase, HTML, CSS and more.</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
@@ -130,15 +139,6 @@
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">CSS</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/ielts-institute-homepage/">🌐 Visit Website</a></td></tr>
 <tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
-</table>
-</td>
-<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
-<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
-<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/buyer-leads">buyer-leads</a></strong></td></tr>
-<tr><td style="font-size: 14px; overflow-wrap: break-word;">A simple buyer lead management app with features like form validation, conditional fields (e.g., BHK for apartments/villas), budget range input, notes and tags, and options to track purpose, timeline, and source. all with a clean and user-friendly UI.</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">TypeScript</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://buyer-leads-one.vercel.app">🌐 Visit Website</a></td></tr>
-<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: css, nextjs, supabase-auth, supabase-db, typescript, vercel-deployment</td></tr>
 </table>
 </td>
 <!-- LATEST-REPOS-END -->

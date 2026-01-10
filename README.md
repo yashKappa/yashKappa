@@ -177,7 +177,7 @@
 <td align="center"><a href="https://github.com/Scepter2003"><img src="https://avatars.githubusercontent.com/u/141228135?v=4" width="80" height="80" style="border-radius:50%;"><br>@Scepter2003</a></td>
 <td align="center"><a href="https://github.com/Rafe-sk"><img src="https://avatars.githubusercontent.com/u/142775371?v=4" width="80" height="80" style="border-radius:50%;"><br>@Rafe-sk</a></td>
 <td align="center"><a href="https://github.com/Dhanya001"><img src="https://avatars.githubusercontent.com/u/149471022?v=4" width="80" height="80" style="border-radius:50%;"><br>@Dhanya001</a></td>
-<td align="center"><a href="https://github.com/LegendaryNaix"><img src="https://avatars.githubusercontent.com/u/170892541?v=4" width="80" height="80" style="border-radius:50%;"><br>@LegendaryNaix</a></td>
+<td align="center"><a href="https://github.com/davidortiz03"><img src="https://avatars.githubusercontent.com/u/170892541?v=4" width="80" height="80" style="border-radius:50%;"><br>@davidortiz03</a></td>
 </tr>
 </table>
 

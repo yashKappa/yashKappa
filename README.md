@@ -89,6 +89,15 @@
 <!-- LATEST-REPOS-START -->
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
 <table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/SubAnime">SubAnime</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">This webpage features `@keyframes` animations, hover effects, two types of slideshows, animated buttons, card hover pop-ups revealing information, and a footer, offering a visually engaging experience. My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/SubAnime/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: api, api-wrapper, css, html, keyframe-animation, reactjs</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td></tr>
 <tr><td style="font-size: 14px; overflow-wrap: break-word;">🚀 My GitHub Profile – Showcasing my projects, contributions, and skills in full-stack development, React, Firebase, HTML, CSS and more.</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
@@ -130,15 +139,6 @@
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/to-do-list/">🌐 Visit Website</a></td></tr>
 <tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: bootstrap, css, emoji, font-awesome, html5, icon, icons, local-storage, reactjs, responsive-design, user-friendly</td></tr>
-</table>
-</td>
-<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
-<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
-<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/gym-management-system">gym-management-system</a></strong></td></tr>
-<tr><td style="font-size: 14px; overflow-wrap: break-word;">Gym Management System using ReactJS and Firebase. Admin can manage members, receipts, diet plans, supplements, and notifications. Members access their details via a unique code.</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/gym-management-system/">🌐 Visit Website</a></td></tr>
-<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: css, firebase-auth, firebase-realtime-database, html5, reactjs</td></tr>
 </table>
 </td>
 <!-- LATEST-REPOS-END -->

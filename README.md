@@ -89,38 +89,11 @@
 <!-- LATEST-REPOS-START -->
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
 <table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
-<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td></tr>
-<tr><td style="font-size: 14px; overflow-wrap: break-word;">🚀 My GitHub Profile – Showcasing my projects, contributions, and skills in full-stack development, React, Firebase, HTML, CSS and more.</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
-<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: customizeable, giithub, github-api, profile-readme, secret-tokens</td></tr>
-</table>
-</td>
-<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
-<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
-<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/recipe-book">recipe-book</a></strong></td></tr>
-<tr><td style="font-size: 14px; overflow-wrap: break-word;">RecipeBook is a simple web application built with React that allows users to upload their own recipe details, view saved recipes, and manage them with options to view or delete. All data is stored in the browser's local storage, ensuring persistent access across sessions.</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/recipe-book/">🌐 Visit Website</a></td></tr>
-<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: css, emoji, font-awesome, html, icons, localstorage, reactjs, recipes, responsive-web-design, sections</td></tr>
-</table>
-</td>
-<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
-<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
 <tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/job-recommendation-system">job-recommendation-system</a></strong></td></tr>
 <tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
 <tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
-</table>
-</td>
-<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
-<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
-<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/SubAnime">SubAnime</a></strong></td></tr>
-<tr><td style="font-size: 14px; overflow-wrap: break-word;">This webpage features `@keyframes` animations, hover effects, two types of slideshows, animated buttons, card hover pop-ups revealing information, and a footer, offering a visually engaging experience. My YouTube Channel: https://www.youtube.com/@yashsaundalkar658</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/SubAnime/">🌐 Visit Website</a></td></tr>
-<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: api, api-wrapper, css, html, keyframe-animation, reactjs</td></tr>
 </table>
 </td>
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
@@ -134,11 +107,38 @@
 </td>
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
 <table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
-<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/attendance-management-system">attendance-management-system</a></strong></td></tr>
-<tr><td style="font-size: 14px; overflow-wrap: break-word;">the Attendance-management-system contain Modules like Admin, Teacher, Student, and HOD, create Defaulter list, send email to parents, Attendance, add & delete users, View own attendance, teachers, subjects, teacher can create notes and HOD can send Schedule to teachers and send can important notices to all as well as Private notice also.</td></tr>
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">🚀 My GitHub Profile – Showcasing my projects, contributions, and skills in full-stack development, React, Firebase, HTML, CSS and more.</td></tr>
 <tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
-<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/attendance-management-system/">🌐 Visit Website</a></td></tr>
-<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: app-icon, css, html, mailjs, mongodb, mongodb-atlas, mongodb-database, react-icons, react-router, reactjs, render</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: customizeable, giithub, github-api, profile-readme, secret-tokens</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/to-do-list">to-do-list</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">To-Do-List, User can Add task, view all task and complete task, in view task you can edit, delete, and complete button, in completed task you can delete the complete task, view created and completed task date and time in both, this site is responsive for any device.</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/to-do-list/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: bootstrap, css, emoji, font-awesome, html5, icon, icons, local-storage, reactjs, responsive-design, user-friendly</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/gym-management-system">gym-management-system</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">Gym Management System using ReactJS and Firebase. Admin can manage members, receipts, diet plans, supplements, and notifications. Members access their details via a unique code.</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/gym-management-system/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: css, firebase-auth, firebase-realtime-database, html5, reactjs</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/ielts-institute-homepage">ielts-institute-homepage</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">CSS</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/ielts-institute-homepage/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
 </table>
 </td>
 <!-- LATEST-REPOS-END -->

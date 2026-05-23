@@ -4,10 +4,6 @@
 <!-- Banner Image -->
 <h1 align="center">👋 Hi, I'm Yash Saundalkar ( yashKappa ) </h1>
 
-![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyashkappa&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false)
-
-
-
 <p align="center">
   <img src="https://as2.ftcdn.net/jpg/05/67/40/31/1000_F_567403147_WjV5fqGRjjPUkBOnXaaREKgVjZMC12M7.jpg" width="100%" border="20%">
 </p>

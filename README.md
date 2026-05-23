@@ -4,7 +4,7 @@
 <!-- Banner Image -->
 <h1 align="center">👋 Hi, I'm Yash Saundalkar ( yashKappa ) </h1>
 
-https://komarev.com/ghpvc/?username=yashkappa&label=Visitors&color=0e75b6&style=flat
+![](https://komarev.com/ghpvc/?username=yashkappa&label=Visitors&color=0e75b6&style=flat)
 
 <p align="center">
   <img src="https://as2.ftcdn.net/jpg/05/67/40/31/1000_F_567403147_WjV5fqGRjjPUkBOnXaaREKgVjZMC12M7.jpg" width="100%" border="20%">

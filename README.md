@@ -5,7 +5,7 @@
 <h1 align="center">👋 Hi, I'm Yash Saundalkar ( yashKappa ) </h1>
 
 <p align="center">
-  <img src="<img width="1642" height="656" alt="Gemini_Generated_Image_9mm9669mm9669mm9" src="https://github.com/user-attachments/assets/2a33f622-0d16-420e-a08d-609d05f0f908" />" width="100%" border="20%">
+  <img src="<img src="https://as2.ftcdn.net/jpg/05/67/40/31/1000_F_567403147_WjV5fqGRjjPUkBOnXaaREKgVjZMC12M7.jpg" />" width="100%" border="20%">
 </p>
 
 <p align="center">

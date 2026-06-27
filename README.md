@@ -73,11 +73,11 @@
 | 🌟 Project Name | 📝 Description | 🛠 Tech Stack |
 |---------------|----------------|-------------|
 | 🎨 [**attendance-management-system**](https://attendance-management-system-gules-alpha.vercel.app/) | the Attendance-management-system contain Modules like Admin, Teacher, Student, and HOD, create Defaulter list, send email to parents, Attendance, add & delete users, View own attendance, teachers, subjects, teacher can create notes and HOD can send Schedule to teachers and send can important notices to all as well as Private notice also.| `ReactJS` `MongoDB` `Render` `Vercel` |
-| 📝 [**list**](https://github.com/yashKappa/list) | A to-do list app where users can add and delete notes. | `CSS` |
-| 🎬 [**anime-app**](https://github.com/yashKappa/anime-app) | A website showcasing different types of anime posters. | `HTML` |
-| 🌦 [**weather-report**](https://github.com/yashKappa/weather-report) | A weather report app displaying temperature for searched locations. | `CSS` |
-| 🔍 [**Commodity-trading-system-**](https://github.com/yashKappa/Plagiarism-) | 🛒 A dynamic platform for buying and selling personal products. This system enables users to list, manage, and trade commodities efficiently, ensuring a smooth and secure transaction process.| `ReactJS` `Firebase` |
-| 🧳 [**IT-Travel-Checklist**](https://github.com/yashKappa/IT-Travel-Checklist) | A travel checklist to help pack for a 2-3 day trip. | `HTML` |
+| 📝 [**Gym-management-system**](https://yashkappa.github.io/gym-management-system/) |Gym Management System using ReactJS and Firebase. Admin can manage members, receipts, diet plans, supplements, and notifications. Members access their details via a unique code. | `React.JS` `HTML` `CSS` `Firebase`|
+| 🎬 [**SubAnime**](sub-anime.vercel.app/) | Anime recommendation web app built with React and Firebase using content-based filtering to suggest personalized anime based on user watchlists and preferences. | `React.JS` `HTML` `CSS` `Firebase` `KitsuAPI` |
+| 🌦 [**My-port**](yashkappa.github.io/my-port/) | Yash.Port is a personal portfolio website built using ReactJS and various modern web technologies. It includes sections such as About Me, Tools Used, My Projects, YouTube Channel Videos, GitHub Activities, Hobbies, and a downloadable Resume. | `React.JS` `HTML` `CSS`|
+| 🔍 [**Commodity-trading-system-**](https://github.com/yashKappa/Plagiarism-) | RecipeBook is a simple web application built with React that allows users to upload their own recipe details, view saved recipes, and manage them with options to view or delete. All data is stored in the browser's local storage, ensuring persistent access across sessions.| `React.JS` `HTML` `CSS` `Firebase` |
+| 🧳 [**Recipe-book**](recipe-book-phi-six.vercel.app/) | A travel checklist to help pack for a 2-3 day trip. | `React.JS` `HTML` `CSS` `Firebase` `API`|
 
 📌 **Check out my full project list** 👉 [GitHub Profile](https://github.com/yashKappa) 🚀  
 

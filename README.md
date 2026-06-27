@@ -72,7 +72,7 @@
 
 | 🌟 Project Name | 📝 Description | 🛠 Tech Stack |
 |---------------|----------------|-------------|
-| 🎨 [**Toriko-Food-ingredients-**](https://yashkappa.github.io/Toriko-Food-ingredients-/) | This Project was create based on Recipe where foodies can share their own recipe to other people and add to favorites can give likes to best recipe. 🍽️ A collection of unique and exotic food ingredients inspired by the world of Toriko.| `ReactJS` `Firebase` |
+| 🎨 [**attendance-management-system**](https://attendance-management-system-gules-alpha.vercel.app/) | the Attendance-management-system contain Modules like Admin, Teacher, Student, and HOD, create Defaulter list, send email to parents, Attendance, add & delete users, View own attendance, teachers, subjects, teacher can create notes and HOD can send Schedule to teachers and send can important notices to all as well as Private notice also.| `ReactJS` `MongoDB` `Render` `Vercel` |
 | 📝 [**list**](https://github.com/yashKappa/list) | A to-do list app where users can add and delete notes. | `CSS` |
 | 🎬 [**anime-app**](https://github.com/yashKappa/anime-app) | A website showcasing different types of anime posters. | `HTML` |
 | 🌦 [**weather-report**](https://github.com/yashKappa/weather-report) | A weather report app displaying temperature for searched locations. | `CSS` |

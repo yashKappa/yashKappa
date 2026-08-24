@@ -1,186 +1,185 @@
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--                       CYBERNETIC TELEMETRY DASHBOARD                       -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
-<div align="center">
-  <!-- TYPING HUD HEADER -->
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&duration=2500&pause=1000&color=00F0FF&center=true&vCenter=true&width=1000&height=50&lines=%5B+SYSTEM.INITIALIZE(%22YASH_KAPPA%22)+%5D;%3E_FULL_STACK_DEV_%7C_SYSTEM_ARCHITECT;%3E_REACT_+%7C_NODE_+%7C_MONGODB_+%7C_FLUTTER;%3E_TELEMETRY_ONLINE_--_READY&background=0D0D1500" alt="Cyber Header" />
-</div>
 
-<!-- HERO BANNER WITH NEON GLOW FRAME -->
+
+<!-- Banner Image -->
+<h1 align="center">👋 Hi, I'm Yash Saundalkar ( yashKappa ) </h1>
+
 <p align="center">
-  <img src="https://as2.ftcdn.net/jpg/05/67/40/31/1000_F_567403147_WjV5fqGRjjPUkBOnXaaREKgVjZMC12M7.jpg" width="100%" style="border: 2px solid #00F0FF; border-radius: 12px; box-shadow: 0 0 20px rgba(0,240,255,0.4);" />
+  <img src="https://as2.ftcdn.net/jpg/05/67/40/31/1000_F_567403147_WjV5fqGRjjPUkBOnXaaREKgVjZMC12M7.jpg" width="100%" border="20%">
 </p>
 
-<!-- STATUS PILLS / BADGES -->
 <p align="center">
-  <img src="https://img.shields.io/badge/USER_ID-YASH__KAPPA-00F0FF?style=for-the-badge&logo=github&logoColor=000&labelColor=090A10" />
-  <img src="https://img.shields.io/badge/SYSTEM_STATUS-OPERATIONAL-FF0055?style=for-the-badge&logo=statuspage&logoColor=fff&labelColor=090A10" />
-  <img src="https://img.shields.io/badge/CLEARANCE-LEVEL__9-00FF66?style=for-the-badge&logo=securityscorecard&logoColor=000&labelColor=090A10" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=000000&center=true&vCenter=true&width=1000&height=50&lines=Hithere!+I'm+Yash+Kappa!;Full+Stack+Developer+;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;Coding+enthusiast+;Let's+connect!+&background=c0c0c0" alt="Typing SVG" />
 </p>
 
 ---
 
-### 🎛️ `01 // HUD TELEMETRY & SYSTEM ANALYTICS`
-
-<!-- 2x2 ANALYTICS HUD GRID (MATCHES DASHBOARD LAYOUT) -->
-<div align="center">
-  <table border="0" style="background-color: #090A10; border-collapse: collapse; width: 100%;">
-    <tr>
-      <!-- PANEL 1: STREAK HUD -->
-      <td width="50%" align="center" style="padding: 12px; border: 1px solid #00F0FF; border-radius: 8px; background: #0d0e15;">
-        <h4 style="color: #00F0FF; margin: 0 0 10px 0; font-family: monospace;">⚡ STREAK_METRICS // CONTINUOUS_COMMITS</h4>
-        <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=synthwave&hide_border=true&border_radius=8" />
-      </td>
-      <!-- PANEL 2: OVERALL OVERVIEW -->
-      <td width="50%" align="center" style="padding: 12px; border: 1px solid #FF0055; border-radius: 8px; background: #0d0e15;">
-        <h4 style="color: #FF0055; margin: 0 0 10px 0; font-family: monospace;">🎯 OVERVIEW // OVERALL_STATS</h4>
-        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=synthwave&hide=contribs,prs&count_private=true&hide_title=true&border_radius=8" />
-      </td>
-    </tr>
-    <tr>
-      <!-- PANEL 3: CODEBASE BREAKDOWN -->
-      <td width="50%" align="center" style="padding: 12px; border: 1px solid #FF0055; border-radius: 8px; background: #0d0e15;">
-        <h4 style="color: #FF0055; margin: 0 0 10px 0; font-family: monospace;">🌀 LANGUAGE_GAUGE // CODEBASE_COMPOSITION</h4>
-        <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yashKappa&layout=compact&langs_count=8&theme=synthwave&hide_border=true&border_radius=8" />
-      </td>
-      <!-- PANEL 4: ACTIVITY WAVE -->
-      <td width="50%" align="center" style="padding: 12px; border: 1px solid #00F0FF; border-radius: 8px; background: #0d0e15;">
-        <h4 style="color: #00F0FF; margin: 0 0 10px 0; font-family: monospace;">📈 NEURAL_WAVE // ACTIVITY_GRAPH</h4>
-        <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=react-dark&hide_border=true&area=true" />
-      </td>
-    </tr>
-  </table>
-</div>
+### **👨‍💻 About Me**
+- 🔭 Currently working on ReactJS & Full-Stack Web Development
+- 🚀 Passionate about building cool projects & contributing to open-source
+- 💬 Ask me anything about Web & Mobile Development
+- 👀 Actively seeking opportunities in Web Development
+- 🎓 B.Sc. IT Graduate | Pursuing M.Sc. IT
 
 ---
 
-### 💻 `02 // SYSTEM SPECIFICATIONS & CORE SKILLS`
-
-<div align="center">
-  <table width="100%" style="background-color: #090A10; border: 1px solid #00F0FF; border-radius: 8px; padding: 15px;">
-    <tr>
-      <td style="color: #00F0FF; font-family: monospace; font-size: 14px;">
-        <pre style="background: transparent; border: none; color: #00F0FF;">
-┌── [ SYSTEM IDENTITY DOSSIER ] ──────────────────────────────────────────────────┐
-│ ► ARCHITECT   : Yash Saundalkar                                                  │
-│ ► ALIAS       : yashKappa                                                        │
-│ ► FOCUS       : Full-Stack Web Systems & Mobile Application Architectures        │
-│ ► TECH MATRIX : ReactJS | Node.js | MongoDB | Firebase | Flutter | Dart         │
-│ ► EDUCATION   : B.Sc. IT Graduate ║ Currently Enrolled in M.Sc. IT               │
-│ ► STATUS      : ACTIVELY SEEKING FULL-STACK & WEB ENGINEERING ROLES              │
-└─────────────────────────────────────────────────────────────────────────────────┘
-        </pre>
-      </td>
-    </tr>
-  </table>
-</div>
+## 💼 Job Experience  
+🚀 **Freshman Developer** | 🎯 Self-Learner & Open Source Contributor  
+✨ **Actively seeking job opportunities**  
+💻 Building personal projects using **React, Node.js, Flutter, Firebase, and MongoDB**  
+🌱 Contributing to **open-source projects** on GitHub  
+📱 Developing **web and mobile applications** as part of my learning journey  
 
 ---
 
-### 🛠️ `03 // TECH STACK MATRIX`
-
+### 🏆 **GitHub Stats**  
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,react,nodejs,mongodb,firebase,express,tailwind,bootstrap,flutter,dart,git,github,vscode,figma,vercel&theme=dark&perline=8" />
+  <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true" />
+  <img style="width: 69%; height: 200px;" src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=dark&hide=contribs,prs&count_private=true&hide_title=true" />
 </p>
 
 ---
 
-### 🏆 `04 // SYSTEM TROPHIES & ACHIEVEMENTS`
-
+### 📊 **Most Used Languages**
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=yashKappa&theme=darkhub&column=6&margin-w=10&margin-h=10" />
-  </a>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yashKappa&layout=compact&langs_count=8&theme=dark&hide_border=true" />
 </p>
 
 ---
 
-### 📌 `05 // FEATURED DEPLOYMENTS & REPOSITORIES`
-
-<div align="center">
-  <table width="100%" style="background-color: #090A10; border: 1px solid #00F0FF; border-radius: 8px; border-collapse: collapse;">
-    <thead>
-      <tr style="border-bottom: 2px solid #00F0FF; background-color: #0d0e15;">
-        <th align="left" style="color: #00F0FF; padding: 12px; font-family: monospace;">🛡️ DEPLOYED SYSTEM</th>
-        <th align="left" style="color: #FF0055; padding: 12px; font-family: monospace;">📝 SYSTEM SPECIFICATION</th>
-        <th align="center" style="color: #00FF66; padding: 12px; font-family: monospace;">🛠️ TECH MATRIX</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="border-bottom: 1px solid #1a1a2e;">
-        <td style="padding: 10px;"><b><a href="https://attendance-management-system-gules-alpha.vercel.app/" style="color: #00F0FF; text-decoration: none;">🎨 attendance-management-system</a></b></td>
-        <td style="color: #a0a0b0; font-size: 13px;">Full institutional portal (Admin, Teacher, Student, HOD), auto defaulter detection, parent mailers & dynamic analytics.</td>
-        <td align="center"><code>ReactJS</code> <code>MongoDB</code> <code>Render</code></td>
-      </tr>
-      <tr style="border-bottom: 1px solid #1a1a2e;">
-        <td style="padding: 10px;"><b><a href="https://yashkappa.github.io/gym-management-system/" style="color: #00F0FF; text-decoration: none;">📝 Gym-management-system</a></b></td>
-        <td style="color: #a0a0b0; font-size: 13px;">Gym management system tracking member access codes, receipts, custom diet schedules & announcements.</td>
-        <td align="center"><code>ReactJS</code> <code>Firebase</code> <code>CSS3</code></td>
-      </tr>
-      <tr style="border-bottom: 1px solid #1a1a2e;">
-        <td style="padding: 10px;"><b><a href="https://sub-anime.vercel.app/" style="color: #00F0FF; text-decoration: none;">🎬 SubAnime Web App</a></b></td>
-        <td style="color: #a0a0b0; font-size: 13px;">Content-based anime recommendation system suggesting personalized titles via live public API metrics.</td>
-        <td align="center"><code>ReactJS</code> <code>Firebase</code> <code>KitsuAPI</code></td>
-      </tr>
-      <tr style="border-bottom: 1px solid #1a1a2e;">
-        <td style="padding: 10px;"><b><a href="https://yashkappa.github.io/my-port/" style="color: #00F0FF; text-decoration: none;">🌦️ My-Port Cyberfolio</a></b></td>
-        <td style="color: #a0a0b0; font-size: 13px;">Central developer portfolio node highlighting tools, projects, YouTube modules, and identity dossier.</td>
-        <td align="center"><code>ReactJS</code> <code>CSS3</code> <code>GitHub API</code></td>
-      </tr>
-      <tr style="border-bottom: 1px solid #1a1a2e;">
-        <td style="padding: 10px;"><b><a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer" style="color: #00F0FF; text-decoration: none;">🔍 PDF Maker & Optimizer</a></b></td>
-        <td style="color: #a0a0b0; font-size: 13px;">Android utility application for image-to-PDF compilation, file size optimization, and file handling.</td>
-        <td align="center"><code>Flutter</code> <code>Dart</code> <code>Firebase</code></td>
-      </tr>
-      <tr>
-        <td style="padding: 10px;"><b><a href="https://recipe-book-phi-six.vercel.app/" style="color: #00F0FF; text-decoration: none;">🧳 Recipe-Book App</a></b></td>
-        <td style="color: #a0a0b0; font-size: 13px;">Offline-first recipe management engine utilizing local persistent browser storage for instant retrieval.</td>
-        <td align="center"><code>ReactJS</code> <code>Firebase</code> <code>REST API</code></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
----
-
-### 🌐 `06 // NEURAL LINK TERMINALS`
-
+### 🌌 **3D Contribution Graph**
 <p align="center">
-  <a href="https://www.linkedin.com/in/yash-saundalkar-824ab4316/">
-    <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000"/>
-  </a>
-  <a href="https://www.youtube.com/@yashsaundalkar658">
-    <img src="https://img.shields.io/badge/YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000"/>
-  </a>
-  <a href="https://www.instagram.com/yash.kappa300/">
-    <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000000"/>
-  </a>
-  <a href="https://www.facebook.com/profile.php?id=100075750094400">
-    <img src="https://img.shields.io/badge/FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=000000"/>
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=github-dark&hide_border=true" />
 </p>
 
 ---
 
-### 👥 `07 // NETWORK CONNECTORS (FOLLOWERS)`
+### 🏆 My Trophies
 
-<!-- FOLLOWERS MATRIX -->
-<div align="center">
-  <table style="background-color: #090A10; border: 1px solid #00F0FF; border-radius: 8px;">
-    <tr>
-      <td align="center" style="padding: 10px;"><a href="https://github.com/soham1300"><img src="https://avatars.githubusercontent.com/u/86889343?v=4" width="70" height="70" style="border-radius:50%; border: 2px solid #00F0FF;"><br><code style="color: #00F0FF;">@soham1300</code></a></td>
-      <td align="center" style="padding: 10px;"><a href="https://github.com/Nikhilgholap1304"><img src="https://avatars.githubusercontent.com/u/118434064?v=4" width="70" height="70" style="border-radius:50%; border: 2px solid #00F0FF;"><br><code style="color: #00F0FF;">@Nikhilgholap1304</code></a></td>
-      <td align="center" style="padding: 10px;"><a href="https://github.com/Scepter2003"><img src="https://avatars.githubusercontent.com/u/141228135?v=4" width="70" height="70" style="border-radius:50%; border: 2px solid #00F0FF;"><br><code style="color: #00F0FF;">@Scepter2003</code></a></td>
-      <td align="center" style="padding: 10px;"><a href="https://github.com/Rafe-sk"><img src="https://avatars.githubusercontent.com/u/142775371?v=4" width="70" height="70" style="border-radius:50%; border: 2px solid #00F0FF;"><br><code style="color: #00F0FF;">@Rafe-sk</code></a></td>
-      <td align="center" style="padding: 10px;"><a href="https://github.com/Dhanya001"><img src="https://avatars.githubusercontent.com/u/149471022?v=4" width="70" height="70" style="border-radius:50%; border: 2px solid #00F0FF;"><br><code style="color: #00F0FF;">@Dhanya001</code></a></td>
-      <td align="center" style="padding: 10px;"><a href="https://github.com/davidortiz03"><img src="https://avatars.githubusercontent.com/u/170892541?v=4" width="70" height="70" style="border-radius:50%; border: 2px solid #00F0FF;"><br><code style="color: #00F0FF;">@davidortiz03</code></a></td>
-    </tr>
-  </table>
-</div>
+[![Trophy](https://github-profile-trophy.vercel.app/?username=yashKappa&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
+---
 
-<br/>
-
+### 🚀 **Tech Stack**
 <p align="center">
-  <code style="color: #00F0FF;">[ BROADCAST ] :: FOLLOW FOR CONTINUOUS NEURAL UPDATES & DEPLOYMENTS</code>
+  <img src="https://skillicons.dev/icons?i=js,react,nodejs,mongodb,firebase,git,github,vscode,flutter&theme=dark" />
 </p>
+
+---
+
+## 🚀 Pinned Repositories 📌  
+
+🔹 Here are some of my featured projects:  
+
+| 🌟 Project Name | 📝 Description | 🛠 Tech Stack |
+|---------------|----------------|-------------|
+| 🎨 [**attendance-management-system**](https://attendance-management-system-gules-alpha.vercel.app/) | the Attendance-management-system contain Modules like Admin, Teacher, Student, and HOD, create Defaulter list, send email to parents, Attendance, add & delete users, View own attendance, teachers, subjects, teacher can create notes and HOD can send Schedule to teachers and send can important notices to all as well as Private notice also.| `ReactJS` `MongoDB` `Render` `Vercel` |
+| 📝 [**Gym-management-system**](https://yashkappa.github.io/gym-management-system/) |Gym Management System using ReactJS and Firebase. Admin can manage members, receipts, diet plans, supplements, and notifications. Members access their details via a unique code. | `React.JS` `HTML` `CSS` `Firebase`|
+| 🎬 [**SubAnime**](sub-anime.vercel.app/) | Anime recommendation web app built with React and Firebase using content-based filtering to suggest personalized anime based on user watchlists and preferences. | `React.JS` `HTML` `CSS` `Firebase` `KitsuAPI` |
+| 🌦 [**My-port**](yashkappa.github.io/my-port/) | Yash.Port is a personal portfolio website built using ReactJS and various modern web technologies. It includes sections such as About Me, Tools Used, My Projects, YouTube Channel Videos, GitHub Activities, Hobbies, and a downloadable Resume. | `React.JS` `HTML` `CSS`|
+| 🔍 [**PDF Maker & Image Optimizer**](https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer) | PDF Maker & Image Optimizer is your complete solution for creating PDF files and reducing image size efficiently. Whether you want to convert photos into PDFs, compress images to save storage, or manage your PDF files, this app provides fast, reliable, and high-quality results—all in one place.| `Flutter` `.Dart` `Material-UI` `Firebase-Database` `Google-Play` |
+| 🧳 [**Recipe-book**](recipe-book-phi-six.vercel.app/) | RecipeBook is a simple web application built with React that allows users to upload their own recipe details, view saved recipes, and manage them with options to view or delete. All data is stored in the browser's local storage, ensuring persistent access across sessions. | `React.JS` `HTML` `CSS` `Firebase` `API`|
+
+📌 **Check out my full project list** 👉 [GitHub Profile](https://github.com/yashKappa) 🚀  
+
+---
+
+## 🚀 My Recently Updated Projects  
+<!-- LATEST-REPOS-START -->
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">🚀 My GitHub Profile – Showcasing my projects, contributions, and skills in full-stack development, React, Firebase, HTML, CSS and more.</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: customizeable, giithub, github-api, profile-readme, secret-tokens</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/attendance-management-system">attendance-management-system</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">the Attendance-management-system contain Modules like Admin, Teacher, Student, and HOD, create Defaulter list, send email to parents, Attendance, add & delete users, View own attendance, teachers, subjects, teacher can create notes and HOD can send Schedule to teachers and send can important notices to all as well as Private notice also.</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://attendance-management-system-gules-alpha.vercel.app/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: app-icon, css, html, mailjs, mongodb, mongodb-atlas, mongodb-database, react-icons, react-router, reactjs, render</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/job-recommendation-system">job-recommendation-system</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashkappa.github.io">yashkappa.github.io</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">Unknown</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/student-teacher-booking-appointment">student-teacher-booking-appointment</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">A responsive web application with three user roles: Admin, Teacher, and Student. Students can send request messages to teachers for permission or assistance. Teachers can accept or reject these requests. The Admin has full control over student and teacher accounts, including login management and behavior analysis through real-time data and analytic</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/student-teacher-booking-appointment/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: cookie, css, firebase-realtime-database, firestore-database, reactchartjs, reactjs</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/Demo-123">Demo-123</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">Unknown</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
+</table>
+</td>
+<!-- LATEST-REPOS-END -->
+
+---
+
+### 🌟 **Let's Connect**  
+<p align="center">
+  <a href="https://www.youtube.com/@yashsaundalkar658">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/yash-saundalkar-824ab4316/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=100075750094400">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+  </a>
+  <a href="https://www.instagram.com/yash.kappa300/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+## 🚀 Follow Me on GitHub!  
+
+## If you like my work, make sure to **follow me** and stay updated with my latest projects!  
+
+
+
+
+<!-- FOLLOWERS_SECTION:start -->
+
+## 🚀 My Followers
+<table>
+<tr>
+<td align="center"><a href="https://github.com/soham1300"><img src="https://avatars.githubusercontent.com/u/86889343?v=4" width="80" height="80" style="border-radius:50%;"><br>@soham1300</a></td>
+<td align="center"><a href="https://github.com/Nikhilgholap1304"><img src="https://avatars.githubusercontent.com/u/118434064?v=4" width="80" height="80" style="border-radius:50%;"><br>@Nikhilgholap1304</a></td>
+<td align="center"><a href="https://github.com/Scepter2003"><img src="https://avatars.githubusercontent.com/u/141228135?v=4" width="80" height="80" style="border-radius:50%;"><br>@Scepter2003</a></td>
+<td align="center"><a href="https://github.com/Rafe-sk"><img src="https://avatars.githubusercontent.com/u/142775371?v=4" width="80" height="80" style="border-radius:50%;"><br>@Rafe-sk</a></td>
+<td align="center"><a href="https://github.com/Dhanya001"><img src="https://avatars.githubusercontent.com/u/149471022?v=4" width="80" height="80" style="border-radius:50%;"><br>@Dhanya001</a></td>
+<td align="center"><a href="https://github.com/davidortiz03"><img src="https://avatars.githubusercontent.com/u/170892541?v=4" width="80" height="80" style="border-radius:50%;"><br>@davidortiz03</a></td>
+</tr>
+</table>
+
+<!-- FOLLOWERS_SECTION:end -->

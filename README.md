@@ -109,46 +109,60 @@
 ### 🚀 **RECENTLY UPDATED REPOSITORIES**
 
 <!-- LATEST-REPOS-START -->
-<div align="center">
-  <table width="100%" style="background-color: #0d0d15; border: 1px solid #00F0FF; border-radius: 8px;">
-    <tr>
-      <td width="50%" valign="top" style="padding: 12px; border-bottom: 1px solid #1a1a2e; border-right: 1px solid #1a1a2e;">
-        <h3 style="color: #00F0FF;">⚡ <a href="https://github.com/yashKappa/yashKappa" style="color: #00F0FF; text-decoration: none;">yashKappa</a></h3>
-        <p style="color: #a0a0b0; font-size: 13px;">🚀 GitHub Profile – Showcasing projects, contributions, and skills in full-stack dev, React, Firebase, and more.</p>
-        <code style="color: #FF0055; background-color: #1a1a2e; padding: 2px 6px;">JavaScript</code>
-      </td>
-      <td width="50%" valign="top" style="padding: 12px; border-bottom: 1px solid #1a1a2e;">
-        <h3 style="color: #00F0FF;">🛡️ <a href="https://github.com/yashKappa/attendance-management-system" style="color: #00F0FF; text-decoration: none;">attendance-management-system</a></h3>
-        <p style="color: #a0a0b0; font-size: 13px;">Full portal system with Defaulter list engine, email notifications, schedules, and private/public notices.</p>
-        <code style="color: #FF0055; background-color: #1a1a2e; padding: 2px 6px;">JavaScript / ReactJS</code>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" valign="top" style="padding: 12px; border-bottom: 1px solid #1a1a2e; border-right: 1px solid #1a1a2e;">
-        <h3 style="color: #00F0FF;">🧠 <a href="https://github.com/yashKappa/job-recommendation-system" style="color: #00F0FF; text-decoration: none;">job-recommendation-system</a></h3>
-        <p style="color: #a0a0b0; font-size: 13px;">NLP-based skill matching and resume classification engine.</p>
-        <code style="color: #FF0055; background-color: #1a1a2e; padding: 2px 6px;">JavaScript</code>
-      </td>
-      <td width="50%" valign="top" style="padding: 12px; border-bottom: 1px solid #1a1a2e;">
-        <h3 style="color: #00F0FF;">🌐 <a href="https://github.com/yashKappa/yashkappa.github.io" style="color: #00F0FF; text-decoration: none;">yashkappa.github.io</a></h3>
-        <p style="color: #a0a0b0; font-size: 13px;">Personal web host and static portal matrix.</p>
-        <code style="color: #FF0055; background-color: #1a1a2e; padding: 2px 6px;">HTML / CSS</code>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" valign="top" style="padding: 12px; border-right: 1px solid #1a1a2e;">
-        <h3 style="color: #00F0FF;">📅 <a href="https://github.com/yashKappa/student-teacher-booking-appointment" style="color: #00F0FF; text-decoration: none;">student-teacher-booking-appointment</a></h3>
-        <p style="color: #a0a0b0; font-size: 13px;">Appointment scheduling tool with Admin, Teacher, and Student roles featuring real-time analytics.</p>
-        <code style="color: #FF0055; background-color: #1a1a2e; padding: 2px 6px;">JavaScript / Firebase</code>
-      </td>
-      <td width="50%" valign="top" style="padding: 12px;">
-        <h3 style="color: #00F0FF;">🧪 <a href="https://github.com/yashKappa/Demo-123" style="color: #00F0FF; text-decoration: none;">Demo-123</a></h3>
-        <p style="color: #a0a0b0; font-size: 13px;">Experimental code testing laboratory.</p>
-        <code style="color: #FF0055; background-color: #1a1a2e; padding: 2px 6px;">Code Sandbox</code>
-      </td>
-    </tr>
-  </table>
-</div>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">🚀 My GitHub Profile – Showcasing my projects, contributions, and skills in full-stack development, React, Firebase, HTML, CSS and more.</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: customizeable, giithub, github-api, profile-readme, secret-tokens</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/attendance-management-system">attendance-management-system</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">the Attendance-management-system contain Modules like Admin, Teacher, Student, and HOD, create Defaulter list, send email to parents, Attendance, add & delete users, View own attendance, teachers, subjects, teacher can create notes and HOD can send Schedule to teachers and send can important notices to all as well as Private notice also.</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://attendance-management-system-gules-alpha.vercel.app/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: app-icon, css, html, mailjs, mongodb, mongodb-atlas, mongodb-database, react-icons, react-router, reactjs, render</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/job-recommendation-system">job-recommendation-system</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashkappa.github.io">yashkappa.github.io</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">Unknown</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/student-teacher-booking-appointment">student-teacher-booking-appointment</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">A responsive web application with three user roles: Admin, Teacher, and Student. Students can send request messages to teachers for permission or assistance. Teachers can accept or reject these requests. The Admin has full control over student and teacher accounts, including login management and behavior analysis through real-time data and analytic</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/student-teacher-booking-appointment/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: cookie, css, firebase-realtime-database, firestore-database, reactchartjs, reactjs</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/Demo-123">Demo-123</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">Unknown</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;">No Website</td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
+</table>
+</td>
 <!-- LATEST-REPOS-END -->
 
 ---

@@ -5,11 +5,11 @@
 <h1 align="center">👋 Hi, I'm Yash Saundalkar ( yashKappa ) </h1>
 
 <p align="center">
-  <img src="https://as2.ftcdn.net/jpg/05/67/40/31/1000_F_567403147_WjV5fqGRjjPUkBOnXaaREKgVjZMC12M7.jpg" width="100%" border="20%">
+  <img src="https://as2.ftcdn.net/jpg/05/67/40/31/1000_F_567403147_WjV5fqGRjjPUkBOnXaaREKgVjZMC12M7.jpg" width="100%" border="20%">
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=000000&center=true&vCenter=true&width=1000&height=50&lines=Hithere!+I'm+Yash+Kappa!;Full+Stack+Developer+;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;Coding+enthusiast+;Let's+connect!+&background=c0c0c0" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=000000&center=true&vCenter=true&width=1000&height=50&lines=Hithere!+I'm+Yash+Kappa!;Full+Stack+Developer+;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;Coding+enthusiast+;Let's+connect!+&background=c0c0c0" alt="Typing SVG" />
 </p>
 
 ---
@@ -23,33 +23,33 @@
 
 ---
 
-## 💼 Job Experience  
-🚀 **Freshman Developer** | 🎯 Self-Learner & Open Source Contributor  
-✨ **Actively seeking job opportunities**  
-💻 Building personal projects using **React, Node.js, Flutter, Firebase, and MongoDB**  
-🌱 Contributing to **open-source projects** on GitHub  
-📱 Developing **web and mobile applications** as part of my learning journey  
+## 💼 Job Experience  
+🚀 **Freshman Developer** | 🎯 Self-Learner & Open Source Contributor  
+✨ **Actively seeking job opportunities**  
+💻 Building personal projects using **React, Node.js, Flutter, Firebase, and MongoDB**  
+🌱 Contributing to **open-source projects** on GitHub  
+📱 Developing **web and mobile applications** as part of my learning journey  
 
 ---
 
-### 🏆 **GitHub Stats**  
+### 🏆 **GitHub Stats**  
 <p align="center">
-  <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true" />
-  <img style="width: 69%; height: 200px;" src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=dark&hide=contribs,prs&count_private=true&hide_title=true" />
+  <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true" />
+  <img style="width: 69%; height: 200px;" src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=dark&hide=contribs,prs&count_private=true&hide_title=true" />
 </p>
 
 ---
 
 ### 📊 **Most Used Languages**
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yashKappa&layout=compact&langs_count=8&theme=dark&hide_border=true" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yashKappa&layout=compact&langs_count=8&theme=dark&hide_border=true" />
 </p>
 
 ---
 
 ### 🌌 **3D Contribution Graph**
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=github-dark&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=github-dark&hide_border=true" />
 </p>
 
 ---
@@ -61,14 +61,14 @@
 
 ### 🚀 **Tech Stack**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,react,nodejs,mongodb,firebase,git,github,vscode,flutter&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=js,react,nodejs,mongodb,firebase,git,github,vscode,flutter&theme=dark" />
 </p>
 
 ---
 
-## 🚀 Pinned Repositories 📌  
+## 🚀 Pinned Repositories 📌  
 
-🔹 Here are some of my featured projects:  
+🔹 Here are some of my featured projects:  
 
 | 🌟 Project Name | 📝 Description | 🛠 Tech Stack |
 |---------------|----------------|-------------|
@@ -79,11 +79,11 @@
 | 🔍 [**PDF Maker & Image Optimizer**](https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer) | PDF Maker & Image Optimizer is your complete solution for creating PDF files and reducing image size efficiently. Whether you want to convert photos into PDFs, compress images to save storage, or manage your PDF files, this app provides fast, reliable, and high-quality results—all in one place.| `Flutter` `.Dart` `Material-UI` `Firebase-Database` `Google-Play` |
 | 🧳 [**Recipe-book**](recipe-book-phi-six.vercel.app/) | RecipeBook is a simple web application built with React that allows users to upload their own recipe details, view saved recipes, and manage them with options to view or delete. All data is stored in the browser's local storage, ensuring persistent access across sessions. | `React.JS` `HTML` `CSS` `Firebase` `API`|
 
-📌 **Check out my full project list** 👉 [GitHub Profile](https://github.com/yashKappa) 🚀  
+📌 **Check out my full project list** 👉 [GitHub Profile](https://github.com/yashKappa) 🚀  
 
 ---
 
-## 🚀 My Recently Updated Projects  
+## 🚀 My Recently Updated Projects  
 <!-- LATEST-REPOS-START -->
 <td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
 <table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
@@ -143,27 +143,27 @@
 
 ---
 
-### 🌟 **Let's Connect**  
+### 🌟 **Let's Connect**  
 <p align="center">
-  <a href="https://www.youtube.com/@yashsaundalkar658">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/yash-saundalkar-824ab4316/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://www.facebook.com/profile.php?id=100075750094400">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
-  </a>
-  <a href="https://www.instagram.com/yash.kappa300/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a>
+  <a href="https://www.youtube.com/@yashsaundalkar658">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/yash-saundalkar-824ab4316/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=100075750094400">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+  </a>
+  <a href="https://www.instagram.com/yash.kappa300/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
-## 🚀 Follow Me on GitHub!  
+## 🚀 Follow Me on GitHub!  
 
-## If you like my work, make sure to **follow me** and stay updated with my latest projects!  
+## If you like my work, make sure to **follow me** and stay updated with my latest projects!  
 
 
 

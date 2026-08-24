@@ -33,16 +33,28 @@
 ---
 
 ### 🏆 **GitHub Stats**  
+
+
 <p align="center">
-  <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true" />
-  <img style="width: 69%; height: 200px;" src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=dark&hide=contribs,prs&count_private=true&hide_title=true" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=dark&hide_border=true&count_private=true"
+    height="180"
+    alt="GitHub Stats"
+  />
+
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashKappa&layout=compact&langs_count=8&theme=dark&hide_border=true"
+    height="180"
+    alt="Most Used Languages"
+  />
 </p>
 
----
-
-### 📊 **Most Used Languages**
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yashKappa&layout=compact&langs_count=8&theme=dark&hide_border=true" />
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true"
+    width="60%"
+    alt="GitHub Streak"
+  />
 </p>
 
 ---

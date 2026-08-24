@@ -34,7 +34,7 @@
 
 ### 🏆 **GitHub Stats**  
 <p align="center">
-  <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=yashKappa&theme=synthwave&hide_border=true&border_radius=8" />
   <img style="width: 69%; height: 200px;" src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=dark&hide=contribs,prs&count_private=true&hide_title=true" />
 </p>
 
@@ -52,38 +52,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=github-dark&hide_border=true" />
 </p>
 
----
-### 🎛️ `01 // HUD TELEMETRY & SYSTEM ANALYTICS`
-
-<!-- 2x2 ANALYTICS HUD GRID -->
-<div align="center">
-  <table border="0" style="background-color: #090A10; border-collapse: collapse; width: 100%;">
-    <tr>
-      <!-- PANEL 1: STREAK HUD (Using high-availability streak-stats API) -->
-      <td width="50%" align="center" style="padding: 12px; border: 1px solid #00F0FF; border-radius: 8px; background: #0d0e15;">
-        <h4 style="color: #00F0FF; margin: 0 0 10px 0; font-family: monospace;">⚡ STREAK_METRICS // CONTINUOUS_COMMITS</h4>
-        <img width="100%" src="https://streak-stats.demolab.com/?user=yashKappa&theme=synthwave&hide_border=true&border_radius=8" />
-      </td>
-      <!-- PANEL 2: OVERALL OVERVIEW (Using reliable github-readme-stats endpoint) -->
-      <td width="50%" align="center" style="padding: 12px; border: 1px solid #FF0055; border-radius: 8px; background: #0d0e15;">
-        <h4 style="color: #FF0055; margin: 0 0 10px 0; font-family: monospace;">🎯 OVERVIEW // OVERALL_STATS</h4>
-        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=synthwave&count_private=true&hide_border=true&border_radius=8" />
-      </td>
-    </tr>
-    <tr>
-      <!-- PANEL 3: CODEBASE BREAKDOWN (Fallback to robust top-langs endpoint) -->
-      <td width="50%" align="center" style="padding: 12px; border: 1px solid #FF0055; border-radius: 8px; background: #0d0e15;">
-        <h4 style="color: #FF0055; margin: 0 0 10px 0; font-family: monospace;">🌀 LANGUAGE_GAUGE // CODEBASE_COMPOSITION</h4>
-        <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashKappa&layout=compact&langs_count=8&theme=synthwave&hide_border=true&border_radius=8" />
-      </td>
-      <!-- PANEL 4: ACTIVITY WAVE -->
-      <td width="50%" align="center" style="padding: 12px; border: 1px solid #00F0FF; border-radius: 8px; background: #0d0e15;">
-        <h4 style="color: #00F0FF; margin: 0 0 10px 0; font-family: monospace;">📈 NEURAL_WAVE // ACTIVITY_GRAPH</h4>
-        <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=react-dark&hide_border=true&area=true" />
-      </td>
-    </tr>
-  </table>
-</div>
 ---
 ### 🏆 My Trophies
 

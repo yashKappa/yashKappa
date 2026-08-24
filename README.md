@@ -56,7 +56,7 @@
 
 ### 🏆 My Trophies
 
-[![Trophy](https://github-profile-trophy.vercel.app/?username=yashKappa&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
+[![Trophy](https://github-trophies.devomb.com/?username=yashKappa)](https://github.com/ryo-ma/github-profile-trophy)
 ---
 
 ### 🚀 **Tech Stack**

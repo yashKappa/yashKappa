@@ -32,67 +32,19 @@
 
 ---
 
-<!-- ========================= -->
-<!-- 📊 GITHUB STATISTICS -->
-<!-- ========================= -->
-
-### 📊 GitHub Statistics
-
+### 🏆 **GitHub Stats**  
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true"
-    height="180"
-    alt="GitHub Stats"
-  />
-
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashKappa&layout=compact&langs_count=8&theme=dark&hide_border=true"
-    height="180"
-    alt="Most Used Languages"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true"
-    width="60%"
-    alt="GitHub Streak"
-  />
+  <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true" />
+  <img style="width: 69%; height: 200px;" src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=dark&hide=contribs,prs&count_private=true&hide_title=true" />
 </p>
 
 ---
 
-<!-- ========================= -->
-<!-- 📈 CONTRIBUTION GRAPH -->
-<!-- ========================= -->
-
-### 📈 Contribution Activity
-
+### 📊 **Most Used Languages**
 <p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=github-dark&hide_border=true&area=true"
-    width="95%"
-    alt="GitHub Contribution Graph"
-  />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yashKappa&layout=compact&langs_count=8&theme=dark&hide_border=true" />
 </p>
 
----
-
-<!-- ========================= -->
-<!-- 🏆 GITHUB TROPHIES -->
-<!-- ========================= -->
-
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img
-    src="https://github-profile-trophy.vercel.app/?username=yashKappa&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&row=1"
-    width="95%"
-    alt="GitHub Trophies"
-  />
-</p>
-
----
 ---
 
 ### 🌌 **3D Contribution Graph**

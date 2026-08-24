@@ -32,12 +32,15 @@
 
 ---
 
-### 🏆 **GitHub Stats**  
+<!-- ========================= -->
+<!-- 📊 GITHUB STATISTICS -->
+<!-- ========================= -->
 
+### 📊 GitHub Statistics
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=dark&hide_border=true&count_private=true"
+    src="https://github-readme-stats.vercel.app/api?username=yashKappa&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true"
     height="180"
     alt="GitHub Stats"
   />
@@ -57,6 +60,39 @@
   />
 </p>
 
+---
+
+<!-- ========================= -->
+<!-- 📈 CONTRIBUTION GRAPH -->
+<!-- ========================= -->
+
+### 📈 Contribution Activity
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=github-dark&hide_border=true&area=true"
+    width="95%"
+    alt="GitHub Contribution Graph"
+  />
+</p>
+
+---
+
+<!-- ========================= -->
+<!-- 🏆 GITHUB TROPHIES -->
+<!-- ========================= -->
+
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <img
+    src="https://github-profile-trophy.vercel.app/?username=yashKappa&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&row=1"
+    width="95%"
+    alt="GitHub Trophies"
+  />
+</p>
+
+---
 ---
 
 ### 🌌 **3D Contribution Graph**

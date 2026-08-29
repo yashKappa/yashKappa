@@ -66,7 +66,9 @@
 
 ### 🌌 **3D Contribution Graph**
 <p align="center">
-  <img src="https://github-profile-3d-contrib.vercel.app/api?username=yashKappa&theme=dark" alt="3D Contribution Graph" />
+  <a href="https://github.com/yashKappa">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=react-dark" alt="GitHub Activity Graph" />
+  </a>
 </p>
 
 ---

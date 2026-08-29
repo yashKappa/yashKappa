@@ -56,14 +56,15 @@
 ---
 
 ### 📊 **Most Used Languages**
-<!-- 📊 Most Used Languages -->
 <p align="center">
   <a href="https://github.com/yashKappa">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashKappa&layout=compact&theme=dark" alt="Most Used Languages" />
   </a>
 </p>
 
-<!-- 🌌 3D Contribution Graph -->
+---
+
+**🌌 3D Contribution Graph**
 <p align="center">
   <a href="https://github.com/yashKappa">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=react-dark" alt="GitHub Activity Graph" />

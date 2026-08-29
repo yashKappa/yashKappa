@@ -73,7 +73,9 @@
 
 ![trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=yashKappa)
 <p align="center">
-  <img src="https://metrics.lecoq.io/yashKappa?template=classic&base=&plugin_achievements=yes&plugin_achievements_threshold=C&plugin_achievements_secrets=yes&config_timezone=Asia%2FKolkata" alt="GitHub Achievements" width="100%" />
+  <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="80" title="Pull Shark" />
+  <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-e77638d1c801.png" width="80" title="Pair Extraordinaire" />
+  <img src="https://github.githubassets.com/assets/quickdraw-default-39c6e4fd8970.png" width="80" title="Quickdraw" />
 </p>
 
 ### 🚀 **Tech Stack**

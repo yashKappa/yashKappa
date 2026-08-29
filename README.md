@@ -50,15 +50,14 @@
 ### 🏆 **GitHub Stats**  
 <p align="center">
   <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true" />
- ]
 </p>
 
 ---
 
 ### 📊 **Most Used Languages**
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yashKappa&theme=dark" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yashKappa&theme=dark" width="48%" />
+  <img width="50%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yashKappa&theme=dark" width="48%" />
+  <img width="50%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yashKappa&theme=dark" width="48%" />
 </p>
 
 ---

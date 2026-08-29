@@ -72,11 +72,15 @@
 ### 🏆 My Trophies
 
 ![trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=yashKappa)
+
+---
+
+###***Achivements**
 <p align="center">
   <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="80" title="Pull Shark" />
-  <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-e77638d1c801.png" width="80" title="Pair Extraordinaire" />
-  <img src="https://github.githubassets.com/assets/quickdraw-default-39c6e4fd8970.png" width="80" title="Quickdraw" />
 </p>
+
+---
 
 ### 🚀 **Tech Stack**
 <p align="center">

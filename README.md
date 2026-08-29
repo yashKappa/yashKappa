@@ -57,15 +57,14 @@
 
 ### 📊 **Most Used Languages**
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yashKappa&theme=dark" width="100%" alt="Profile Details" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yashKappa&theme=dark" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yashKappa&theme=dark" width="48%" />
 </p>
-
 ---
 
 ### 🌌 **GitHub Activity Graph**
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yashKappa&theme=dark" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yashKappa&theme=dark" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yashKappa&theme=dark" width="100%" alt="Profile Details" />
 </p>
 
 ---

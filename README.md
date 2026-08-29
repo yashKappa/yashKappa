@@ -15,22 +15,35 @@
 ---
 
 ### **👨‍💻 About Me**
-- 🔭 Currently working on ReactJS & Full-Stack Web Development
-- 🚀 Passionate about building cool projects & contributing to open-source
-- 💬 Ask me anything about Web & Mobile Development
-- 👀 Actively seeking opportunities in Web Development
-- 🎓 B.Sc. IT Graduate | Pursuing M.Sc. IT
+- 🏢 Working with ReactJS, .NET, C#, SQL, and legacy-to-modern system integration
+- 🚀 Interested in IT Product Coordination, ERP/HRMS, Business Analysis, and Project Management
+- 💻 Building and maintaining enterprise modules, forms, dashboards, and system workflows
+- 🤝 Working with development teams to understand requirements, troubleshoot issues, and deliver features
+- 🌱 Continuously learning about ERP systems, software architecture, AI tools, and product development
+- 🎓 B.Sc. IT Graduate | M.Sc. IT
+- 📍 Open to opportunities in IT Product Coordination, ERP, PMO, Business Analysis, and related roles
 
 ---
 
-## 💼 Job Experience  
-🚀 **Freshman Developer** | 🎯 Self-Learner & Open Source Contributor  
-✨ **Actively seeking job opportunities**  
-💻 Building personal projects using **React, Node.js, Flutter, Firebase, and MongoDB**  
-🌱 Contributing to **open-source projects** on GitHub  
-📱 Developing **web and mobile applications** as part of my learning journey  
+## **💼 Job Experience**
+- 🚀 IT / ERP Application Developer
+- 💻 Working on HRIS/ERP modules and enterprise applications
+- ⚙️ Developing and maintaining modules using ReactJS, .NET, C#, SQL, and JavaScript
+- 🔄 Working on legacy application migration and React-based modernization
+- 🧩 Building masters, forms, dashboards, workflows, and system integrations
+- 🐛 Troubleshooting application issues, routing problems, database-related errors, and system integration issues
+- 🤝 Collaborating with team members on Git/GitHub-based development workflows
+- 🤖 Using AI-assisted development tools to improve development speed, debugging, and implementation
 
 ---
+
+## **🛠️ Technical Skills**
+
+Frontend: ReactJS, JavaScript, HTML, CSS, Bootstrap, Tailwind CSS
+Backend: .NET, C#, Node.js, Express, Python
+Database: SQL, MongoDB, PostgreSQL, Firebase, Supabase
+Tools: Git, GitHub, VS Code, Visual Studio, AI-assisted development tools
+Areas: ERP / HRIS, Enterprise Applications, Software Development, System Integration, Product & Project Coordination
 
 ### 🏆 **GitHub Stats**  
 <p align="center">

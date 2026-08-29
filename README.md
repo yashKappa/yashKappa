@@ -72,7 +72,9 @@
 ### 🏆 My Trophies
 
 ![trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=yashKappa)
-![trophy](https://github-profile-trophy.vercel.app/?yashKappa=ryo-ma&theme=dark_lover)
+<p align="center">
+  <img src="https://metrics.lecoq.io/yashKappa?template=classic&base=&plugin_achievements=yes&plugin_achievements_threshold=C&plugin_achievements_secrets=yes&config_timezone=Asia%2FKolkata" alt="GitHub Achievements" width="100%" />
+</p>
 
 ### 🚀 **Tech Stack**
 <p align="center">

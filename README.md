@@ -64,7 +64,8 @@
 
 ### 🌌 **GitHub Activity Graph**
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=react-dark&hide_border=true" alt="GitHub Activity Graph" style="width: 100%;" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yashKappa&theme=dark" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yashKappa&theme=dark" width="48%" />
 </p>
 
 ---

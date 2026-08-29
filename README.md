@@ -58,7 +58,7 @@
 ### 📊 **Most Used Languages**
 <p align="center">
   <a href="https://github.com/yashKappa">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yashKappa&layout=compact" alt="Most Used Languages" />
+    <img src="https://github-readme-stats.readme-api.vercel.app/api/top-langs/?username=yashKappa&layout=compact" alt="Most Used Languages" />
   </a>
 </p>
 

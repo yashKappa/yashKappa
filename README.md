@@ -71,8 +71,7 @@
 
 ### 🏆 My Trophies
 
-[![Trophy](https://github-trophies.devomb.com/?username=yashKappa)](https://github.com/ryo-ma/github-profile-trophy)
----
+[![trophy](https://github-profile-trophy.vercel.app/?yashKappa=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)---
 
 ### 🚀 **Tech Stack**
 <p align="center">

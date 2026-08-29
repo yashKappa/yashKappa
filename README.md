@@ -57,15 +57,16 @@
 
 ### 📊 **Most Used Languages**
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashKappa&layout=compact&theme=dark" alt="Most Used Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashKappa&layout=compact&theme=dark&hide_border=true" alt="Most Used Languages" />
 </p>
 
 ---
 
-**🌌 3D Contribution Graph**
+### 🌌 **GitHub Activity Graph**
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=react-dark" alt="GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=react-dark&hide_border=true" alt="GitHub Activity Graph" style="width: 100%;" />
 </p>
+
 ---
 
 ### 🏆 My Trophies

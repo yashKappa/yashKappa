@@ -66,7 +66,7 @@
 <!-- Standard Detailed Bar View -->
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashKappa&theme=radical&hide_border=true&langs_count=8" />
 </p>
-
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true" />
 ---
 
 ### 🌌 **GitHub Activity Graph**

@@ -71,7 +71,7 @@
 
 ### 🏆 My Trophies
 
-[![trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=yashKappa)
+![trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=yashKappa)
 
 ### 🚀 **Tech Stack**
 <p align="center">

@@ -56,8 +56,8 @@
 
 ### 📊 **Most Used Languages**
 <p align="center">
-  <img width="30%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yashKappa&theme=dark" width="48%" />
-  <img width="30%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yashKappa&theme=dark" width="48%" />
+  <img width="40%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yashKappa&theme=dark" width="48%" />
+  <img width="40%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yashKappa&theme=dark" width="48%" />
 </p>
 
 ---

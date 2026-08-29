@@ -39,11 +39,13 @@
 
 ## **🛠️ Technical Skills**
 
-Frontend: ReactJS, JavaScript, HTML, CSS, Bootstrap, Tailwind CSS
-Backend: .NET, C#, Node.js, Express, Python
-Database: SQL, MongoDB, PostgreSQL, Firebase, Supabase
-Tools: Git, GitHub, VS Code, Visual Studio, AI-assisted development tools
-Areas: ERP / HRIS, Enterprise Applications, Software Development, System Integration, Product & Project Coordination
+- Frontend: ReactJS, JavaScript, HTML, CSS, Bootstrap, Tailwind CSS
+- Backend: .NET, C#, Node.js, Express, Python
+- Database: SQL, MongoDB, PostgreSQL, Firebase, Supabase
+- Tools: Git, GitHub, VS Code, Visual Studio, AI-assisted development tools
+- Areas: ERP / HRIS, Enterprise Applications, Software Development, System Integration, Product & Project Coordination
+  
+---
 
 ### 🏆 **GitHub Stats**  
 <p align="center">

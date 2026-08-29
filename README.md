@@ -50,27 +50,22 @@
 ### 🏆 **GitHub Stats**  
 <p align="center">
   <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true" />
- 
+ ]
 </p>
 
 ---
 
 ### 📊 **Most Used Languages**
 <p align="center">
-  <a href="https://github.com/yashKappa">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashKappa&layout=compact&theme=dark" alt="Most Used Languages" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashKappa&layout=compact&theme=dark" alt="Most Used Languages" />
 </p>
 
 ---
 
 **🌌 3D Contribution Graph**
 <p align="center">
-  <a href="https://github.com/yashKappa">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=react-dark" alt="GitHub Activity Graph" />
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashKappa&theme=react-dark" alt="GitHub Activity Graph" />
 </p>
-
 ---
 
 ### 🏆 My Trophies

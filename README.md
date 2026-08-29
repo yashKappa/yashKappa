@@ -56,9 +56,12 @@
 ---
 
 ### 📊 **Most Used Languages**
+## 💻 Most Used Languages
+
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yashKappa&layout=compact&langs_count=8&theme=dark&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashKappa&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
+
 
 ---
 

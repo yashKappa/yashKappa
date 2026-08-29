@@ -57,14 +57,7 @@
 
 ### 📊 **Most Used Languages**
 <p align="center">
-  <!-- Donut Chart Layout -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashKappa&layout=donut&theme=dracula&hide_border=true" />
-
-<!-- Pie Chart Layout -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashKappa&layout=pie&theme=tokyonight&hide_border=true" />
-
-<!-- Standard Detailed Bar View -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashKappa&theme=radical&hide_border=true&langs_count=8" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yashKappa&theme=dark" width="100%" alt="Profile Details" />
 </p>
 
 ---

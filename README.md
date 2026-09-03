@@ -77,7 +77,7 @@
 
 ### **Achievements**
 <p align="center">
-![GitHub Achievements](https://github-profile-trophy.vercel.app/?username=yashKappa&theme=darkhub&column=3&margin-w=15)
+![GitHub Achievements](https://github-profile-trophy.puglet.dev/?username=yashKappa&theme=darkhub&column=4&margin-w=15)
 </p>
 
 ---

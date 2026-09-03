@@ -77,7 +77,7 @@
 
 ### **Achievements**
 <p align="center">
-  <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="80" title="Pull Shark" />
+![GitHub Achievements](https://github-profile-trophy.vercel.app/?username=yashKappa&theme=darkhub&column=3&margin-w=15)
 </p>
 
 ---

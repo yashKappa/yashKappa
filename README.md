@@ -194,7 +194,7 @@
 <!-- FOLLOWERS_SECTION:start -->
 
 ## 🚀 My Followers
-<table>
+<table style="height:400px; overflow-y:auto;">
 <tr>
 <td align="center"><a href="https://github.com/seehiong"><img src="https://avatars.githubusercontent.com/u/6965893?v=4" width="80" height="80" style="border-radius:50%;"><br>@seehiong</a></td>
 <td align="center"><a href="https://github.com/bigmacman1129"><img src="https://avatars.githubusercontent.com/u/7506572?v=4" width="80" height="80" style="border-radius:50%;"><br>@bigmacman1129</a></td>

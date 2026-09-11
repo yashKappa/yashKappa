@@ -232,8 +232,16 @@
 <td align="center"><a href="https://github.com/rachidalemnaouir-hub"><img src="https://avatars.githubusercontent.com/u/275938083?v=4" width="80" height="80" style="border-radius:50%;"><br>@rachidalemnaouir-hub</a></td>
 <td align="center"><a href="https://github.com/ancaferro"><img src="https://avatars.githubusercontent.com/u/287352285?v=4" width="80" height="80" style="border-radius:50%;"><br>@ancaferro</a></td>
 <td align="center"><a href="https://github.com/raviwijerathna1"><img src="https://avatars.githubusercontent.com/u/290047901?v=4" width="80" height="80" style="border-radius:50%;"><br>@raviwijerathna1</a></td>
+<td align="center"><a href="https://github.com/AyushChangedia"><img src="https://avatars.githubusercontent.com/u/298679333?v=4" width="80" height="80" style="border-radius:50%;"><br>@AyushChangedia</a></td>
 <td align="center"><a href="https://github.com/MahdiKordian"><img src="https://avatars.githubusercontent.com/u/314552004?v=4" width="80" height="80" style="border-radius:50%;"><br>@MahdiKordian</a></td>
+</tr>
+<tr>
 <td align="center"><a href="https://github.com/Tyche-MKR"><img src="https://avatars.githubusercontent.com/u/319595299?v=4" width="80" height="80" style="border-radius:50%;"><br>@Tyche-MKR</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </table>
 

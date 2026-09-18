@@ -1,0 +1,176 @@
+name: Update Not Following Back
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Not Following Back section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python <<'PY'
+          import os
+          import requests
+
+          username = "yashKappa"
+          token = os.environ["GITHUB_TOKEN"]
+
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Accept": "application/vnd.github+json"
+          }
+
+          def get_users(endpoint):
+              users = []
+              page = 1
+
+              while True:
+                  url = f"https://api.github.com/users/{username}/{endpoint}"
+                  response = requests.get(
+                      url,
+                      headers=headers,
+                      params={
+                          "per_page": 100,
+                          "page": page
+                      }
+                  )
+
+                  response.raise_for_status()
+                  data = response.json()
+
+                  if not data:
+                      break
+
+                  users.extend(data)
+                  page += 1
+
+              return users
+
+          following = get_users("following")
+          followers = get_users("followers")
+
+          following_names = {
+              user["login"] for user in following
+          }
+
+          follower_names = {
+              user["login"] for user in followers
+          }
+
+          not_following_back = sorted(
+              following_names - follower_names,
+              key=str.lower
+          )
+
+          rows = []
+
+          for user in not_following_back:
+              avatar = user.get("avatar_url", "")
+              login = user["login"]
+
+              rows.append(
+                  f'<td align="center">'
+                  f'<a href="https://github.com/{login}">'
+                  f'<img src="{avatar}" width="80" height="80" '
+                  f'style="border-radius:50%;"><br>@{login}</a>'
+                  f'</td>'
+              )
+
+          html = [
+              "<!-- NOT_FOLLOWING_BACK_SECTION:start -->",
+              "",
+              "## 👀 People I Follow Who Don't Follow Me Back",
+              ""
+          ]
+
+          if not_following_back:
+              html.append(
+                  f"**{len(not_following_back)} people**"
+              )
+              html.append("")
+              html.append("<table>")
+              
+              for i in range(0, len(rows), 6):
+                  html.append("<tr>")
+                  html.extend(rows[i:i+6])
+
+                  # Fill remaining cells
+                  remaining = 6 - len(rows[i:i+6])
+
+                  for _ in range(remaining):
+                      html.append("<td></td>")
+
+                  html.append("</tr>")
+
+              html.append("</table>")
+
+          else:
+              html.append(
+                  "🎉 Everyone you follow follows you back!"
+              )
+
+          html.extend([
+              "",
+              "<!-- NOT_FOLLOWING_BACK_SECTION:end -->"
+          ])
+
+          new_section = "\n".join(html)
+
+          readme_path = "README.md"
+
+          with open(readme_path, "r", encoding="utf-8") as f:
+              readme = f.read()
+
+          start = "<!-- NOT_FOLLOWING_BACK_SECTION:start -->"
+          end = "<!-- NOT_FOLLOWING_BACK_SECTION:end -->"
+
+          start_index = readme.find(start)
+          end_index = readme.find(end)
+
+          if start_index == -1 or end_index == -1:
+              raise Exception(
+                  "README markers were not found."
+              )
+
+          end_index += len(end)
+
+          updated_readme = (
+              readme[:start_index]
+              + new_section
+              + readme[end_index:]
+          )
+
+          with open(readme_path, "w", encoding="utf-8") as f:
+              f.write(updated_readme)
+
+          print(
+              f"Found {len(not_following_back)} "
+              "people who don't follow back."
+          )
+          PY
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update people not following back"
+            git push
+          fi

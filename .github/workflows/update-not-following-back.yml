@@ -38,6 +38,7 @@ jobs:
 
               while True:
                   url = f"https://api.github.com/users/{username}/{endpoint}"
+
                   response = requests.get(
                       url,
                       headers=headers,
@@ -48,6 +49,7 @@ jobs:
                   )
 
                   response.raise_for_status()
+
                   data = response.json()
 
                   if not data:
@@ -58,9 +60,11 @@ jobs:
 
               return users
 
+          # Get Following and Followers
           following = get_users("following")
           followers = get_users("followers")
 
+          # Convert usernames into sets
           following_names = {
               user["login"] for user in following
           }
@@ -69,16 +73,25 @@ jobs:
               user["login"] for user in followers
           }
 
-          not_following_back = sorted(
+          # Find people you follow who don't follow you
+          not_following_back_names = sorted(
               following_names - follower_names,
               key=str.lower
           )
 
+          # Create lookup for full GitHub user information
+          following_lookup = {
+              user["login"]: user
+              for user in following
+          }
+
           rows = []
 
-          for user in not_following_back:
+          for login in not_following_back_names:
+
+              user = following_lookup[login]
+
               avatar = user.get("avatar_url", "")
-              login = user["login"]
 
               rows.append(
                   f'<td align="center">'
@@ -88,6 +101,7 @@ jobs:
                   f'</td>'
               )
 
+          # Build README section
           html = [
               "<!-- NOT_FOLLOWING_BACK_SECTION:start -->",
               "",
@@ -95,19 +109,28 @@ jobs:
               ""
           ]
 
-          if not_following_back:
-              html.append(
-                  f"**{len(not_following_back)} people**"
-              )
-              html.append("")
-              html.append("<table>")
-              
-              for i in range(0, len(rows), 6):
-                  html.append("<tr>")
-                  html.extend(rows[i:i+6])
+          if not_following_back_names:
 
-                  # Fill remaining cells
-                  remaining = 6 - len(rows[i:i+6])
+              count = len(not_following_back_names)
+
+              html.append(
+                  f"**{count} people**"
+              )
+
+              html.append("")
+
+              html.append("<table>")
+
+              for i in range(0, len(rows), 6):
+
+                  current_row = rows[i:i + 6]
+
+                  html.append("<tr>")
+
+                  html.extend(current_row)
+
+                  # Fill empty cells
+                  remaining = 6 - len(current_row)
 
                   for _ in range(remaining):
                       html.append("<td></td>")
@@ -117,6 +140,7 @@ jobs:
               html.append("</table>")
 
           else:
+
               html.append(
                   "🎉 Everyone you follow follows you back!"
               )
@@ -128,23 +152,34 @@ jobs:
 
           new_section = "\n".join(html)
 
+          # Update README
           readme_path = "README.md"
 
-          with open(readme_path, "r", encoding="utf-8") as f:
+          with open(
+              readme_path,
+              "r",
+              encoding="utf-8"
+          ) as f:
               readme = f.read()
 
-          start = "<!-- NOT_FOLLOWING_BACK_SECTION:start -->"
-          end = "<!-- NOT_FOLLOWING_BACK_SECTION:end -->"
+          start_marker = (
+              "<!-- NOT_FOLLOWING_BACK_SECTION:start -->"
+          )
 
-          start_index = readme.find(start)
-          end_index = readme.find(end)
+          end_marker = (
+              "<!-- NOT_FOLLOWING_BACK_SECTION:end -->"
+          )
+
+          start_index = readme.find(start_marker)
+          end_index = readme.find(end_marker)
 
           if start_index == -1 or end_index == -1:
+
               raise Exception(
                   "README markers were not found."
               )
 
-          end_index += len(end)
+          end_index += len(end_marker)
 
           updated_readme = (
               readme[:start_index]
@@ -152,12 +187,24 @@ jobs:
               + readme[end_index:]
           )
 
-          with open(readme_path, "w", encoding="utf-8") as f:
+          with open(
+              readme_path,
+              "w",
+              encoding="utf-8"
+          ) as f:
               f.write(updated_readme)
 
           print(
-              f"Found {len(not_following_back)} "
-              "people who don't follow back."
+              f"Following: {len(following_names)}"
+          )
+
+          print(
+              f"Followers: {len(follower_names)}"
+          )
+
+          print(
+              f"Not following back: "
+              f"{len(not_following_back_names)}"
           )
           PY
 

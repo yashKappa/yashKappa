@@ -87,13 +87,6 @@
 
 ---
 
-### **Achievements**
-<p align="center">
-![GitHub Achievements](https://img.shields.io/badge/GitHub-Achievements-181717?style=for-the-badge&logo=github)
-</p>
-
----
-
 ### 🚀 **Tech Stack**
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,react,nodejs,mongodb,firebase,git,github,vscode,flutter&theme=dark" />

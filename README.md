@@ -89,7 +89,7 @@
 
 ### **Achievements**
 <p align="center">
-![GitHub Achievements](https://github-profile-achievements.vercel.app/api/achievements?username=yashKappa&theme=darkhub)
+![GitHub Achievements](https://img.shields.io/badge/GitHub-Achievements-181717?style=for-the-badge&logo=github)
 </p>
 
 ---

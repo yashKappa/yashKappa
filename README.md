@@ -250,18 +250,7 @@
 
 ## 👀 People I Follow Who Don't Follow Me Back
 
-**5 people**
-
-<table>
-<tr>
-<td align="center"><a href="https://github.com/00200200"><img src="https://avatars.githubusercontent.com/u/83299832?v=4" width="80" height="80" style="border-radius:50%;"><br>@00200200</a></td>
-<td align="center"><a href="https://github.com/alphacodeke"><img src="https://avatars.githubusercontent.com/u/173244870?v=4" width="80" height="80" style="border-radius:50%;"><br>@alphacodeke</a></td>
-<td align="center"><a href="https://github.com/AyushChangedia"><img src="https://avatars.githubusercontent.com/u/298679333?v=4" width="80" height="80" style="border-radius:50%;"><br>@AyushChangedia</a></td>
-<td align="center"><a href="https://github.com/Elite588"><img src="https://avatars.githubusercontent.com/u/26717838?v=4" width="80" height="80" style="border-radius:50%;"><br>@Elite588</a></td>
-<td align="center"><a href="https://github.com/martian56"><img src="https://avatars.githubusercontent.com/u/150589141?v=4" width="80" height="80" style="border-radius:50%;"><br>@martian56</a></td>
-<td></td>
-</tr>
-</table>
+🎉 Everyone you follow follows you back!
 
 <!-- NOT_FOLLOWING_BACK_SECTION:end -->
 <!-- FOLLOWERS_SECTION:end -->

@@ -37,6 +37,18 @@
 
 ---
 
+## **🌙 Beyond the Code**
+
+<p align="center">
+  <img 
+    src="./Quote.png"
+    width="650"
+    alt="Beyond the Code - Developer Reflection"
+  />
+</p>
+
+---
+
 ## **🛠️ Technical Skills**
 
 - Frontend: ReactJS, JavaScript, HTML, CSS, Bootstrap, Tailwind CSS

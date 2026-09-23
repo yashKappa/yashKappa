@@ -234,24 +234,24 @@
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/prathamparmar1"><img src="https://avatars.githubusercontent.com/u/182216275?v=4" width="80" height="80" style="border-radius:50%;"><br>@prathamparmar1</a></td>
+<td align="center"><a href="https://github.com/NTAGOZERAKevin"><img src="https://avatars.githubusercontent.com/u/186942371?v=4" width="80" height="80" style="border-radius:50%;"><br>@NTAGOZERAKevin</a></td>
 <td align="center"><a href="https://github.com/Resolutefemi"><img src="https://avatars.githubusercontent.com/u/198766034?v=4" width="80" height="80" style="border-radius:50%;"><br>@Resolutefemi</a></td>
 <td align="center"><a href="https://github.com/xcontcom"><img src="https://avatars.githubusercontent.com/u/209551153?v=4" width="80" height="80" style="border-radius:50%;"><br>@xcontcom</a></td>
 <td align="center"><a href="https://github.com/yumiaura"><img src="https://avatars.githubusercontent.com/u/235065808?v=4" width="80" height="80" style="border-radius:50%;"><br>@yumiaura</a></td>
 <td align="center"><a href="https://github.com/falcon0709"><img src="https://avatars.githubusercontent.com/u/237730271?v=4" width="80" height="80" style="border-radius:50%;"><br>@falcon0709</a></td>
-<td align="center"><a href="https://github.com/muthokaricky-alt"><img src="https://avatars.githubusercontent.com/u/243061814?v=4" width="80" height="80" style="border-radius:50%;"><br>@muthokaricky-alt</a></td>
 </tr>
 <tr>
+<td align="center"><a href="https://github.com/muthokaricky-alt"><img src="https://avatars.githubusercontent.com/u/243061814?v=4" width="80" height="80" style="border-radius:50%;"><br>@muthokaricky-alt</a></td>
 <td align="center"><a href="https://github.com/alfredshingai"><img src="https://avatars.githubusercontent.com/u/252406987?v=4" width="80" height="80" style="border-radius:50%;"><br>@alfredshingai</a></td>
 <td align="center"><a href="https://github.com/rachidalemnaouir-hub"><img src="https://avatars.githubusercontent.com/u/275938083?v=4" width="80" height="80" style="border-radius:50%;"><br>@rachidalemnaouir-hub</a></td>
 <td align="center"><a href="https://github.com/ancaferro"><img src="https://avatars.githubusercontent.com/u/287352285?v=4" width="80" height="80" style="border-radius:50%;"><br>@ancaferro</a></td>
 <td align="center"><a href="https://github.com/raviwijerathna1"><img src="https://avatars.githubusercontent.com/u/290047901?v=4" width="80" height="80" style="border-radius:50%;"><br>@raviwijerathna1</a></td>
 <td align="center"><a href="https://github.com/rafidahmed870"><img src="https://avatars.githubusercontent.com/u/291723866?v=4" width="80" height="80" style="border-radius:50%;"><br>@rafidahmed870</a></td>
-<td align="center"><a href="https://github.com/MahdiKordian"><img src="https://avatars.githubusercontent.com/u/314552004?v=4" width="80" height="80" style="border-radius:50%;"><br>@MahdiKordian</a></td>
 </tr>
 <tr>
+<td align="center"><a href="https://github.com/MahdiKordian"><img src="https://avatars.githubusercontent.com/u/314552004?v=4" width="80" height="80" style="border-radius:50%;"><br>@MahdiKordian</a></td>
 <td align="center"><a href="https://github.com/Tyche-MKR"><img src="https://avatars.githubusercontent.com/u/319595299?v=4" width="80" height="80" style="border-radius:50%;"><br>@Tyche-MKR</a></td>
 <td align="center"><a href="https://github.com/ansh777333-web"><img src="https://avatars.githubusercontent.com/u/327921403?v=4" width="80" height="80" style="border-radius:50%;"><br>@ansh777333-web</a></td>
-<td></td>
 <td></td>
 <td></td>
 <td></td>

@@ -249,10 +249,10 @@
 <td align="center"><a href="https://github.com/rafidahmed870"><img src="https://avatars.githubusercontent.com/u/291723866?v=4" width="80" height="80" style="border-radius:50%;"><br>@rafidahmed870</a></td>
 </tr>
 <tr>
+<td align="center"><a href="https://github.com/shinobi-coder701"><img src="https://avatars.githubusercontent.com/u/307791440?v=4" width="80" height="80" style="border-radius:50%;"><br>@shinobi-coder701</a></td>
 <td align="center"><a href="https://github.com/MahdiKordian"><img src="https://avatars.githubusercontent.com/u/314552004?v=4" width="80" height="80" style="border-radius:50%;"><br>@MahdiKordian</a></td>
 <td align="center"><a href="https://github.com/Tyche-MKR"><img src="https://avatars.githubusercontent.com/u/319595299?v=4" width="80" height="80" style="border-radius:50%;"><br>@Tyche-MKR</a></td>
 <td align="center"><a href="https://github.com/ansh777333-web"><img src="https://avatars.githubusercontent.com/u/327921403?v=4" width="80" height="80" style="border-radius:50%;"><br>@ansh777333-web</a></td>
-<td></td>
 <td></td>
 <td></td>
 </tr>

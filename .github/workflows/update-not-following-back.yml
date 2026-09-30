@@ -162,30 +162,21 @@ jobs:
           ) as f:
               readme = f.read()
 
-          start_marker = (
-              "<!-- NOT_FOLLOWING_BACK_SECTION:start -->"
-          )
-
-          end_marker = (
-              "<!-- NOT_FOLLOWING_BACK_SECTION:end -->"
-          )
+          start_marker = "<!-- NOT_FOLLOWING_BACK_SECTION:start -->"
+          end_marker = "<!-- NOT_FOLLOWING_BACK_SECTION:end -->"
 
           start_index = readme.find(start_marker)
           end_index = readme.find(end_marker)
 
           if start_index == -1 or end_index == -1:
-
-              raise Exception(
-                  "README markers were not found."
+              updated_readme = readme.rstrip() + "\n\n" + new_section
+          else:
+              end_index += len(end_marker)
+              updated_readme = (
+                  readme[:start_index]
+                  + new_section
+                  + readme[end_index:]
               )
-
-          end_index += len(end_marker)
-
-          updated_readme = (
-              readme[:start_index]
-              + new_section
-              + readme[end_index:]
-          )
 
           with open(
               readme_path,
@@ -194,18 +185,9 @@ jobs:
           ) as f:
               f.write(updated_readme)
 
-          print(
-              f"Following: {len(following_names)}"
-          )
-
-          print(
-              f"Followers: {len(follower_names)}"
-          )
-
-          print(
-              f"Not following back: "
-              f"{len(not_following_back_names)}"
-          )
+          print(f"Following: {len(following_names)}")
+          print(f"Followers: {len(follower_names)}")
+          print(f"Not following back: {len(not_following_back_names)}")
           PY
 
       - name: Commit changes

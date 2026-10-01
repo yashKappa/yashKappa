@@ -272,17 +272,6 @@
 
 ## 👀 People I Follow Who Don't Follow Me Back
 
-**2 people**
-
-<table>
-<tr>
-<td align="center"><a href="https://github.com/Elite588"><img src="https://avatars.githubusercontent.com/u/26717838?v=4" width="80" height="80" style="border-radius:50%;"><br>@Elite588</a></td>
-<td align="center"><a href="https://github.com/rafidahmed870"><img src="https://avatars.githubusercontent.com/u/291723866?v=4" width="80" height="80" style="border-radius:50%;"><br>@rafidahmed870</a></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</table>
+🎉 Everyone you follow follows you back!
 
 <!-- NOT_FOLLOWING_BACK_SECTION:end -->

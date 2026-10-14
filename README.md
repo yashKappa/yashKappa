@@ -222,7 +222,7 @@
 <td align="center"><a href="https://github.com/aza-ali"><img src="https://avatars.githubusercontent.com/u/63417797?v=4" width="80" height="80" style="border-radius:50%;"><br>@aza-ali</a></td>
 <td align="center"><a href="https://github.com/md-abu-kayser"><img src="https://avatars.githubusercontent.com/u/67516307?v=4" width="80" height="80" style="border-radius:50%;"><br>@md-abu-kayser</a></td>
 <td align="center"><a href="https://github.com/JohnMwendwa"><img src="https://avatars.githubusercontent.com/u/72663882?v=4" width="80" height="80" style="border-radius:50%;"><br>@JohnMwendwa</a></td>
-<td align="center"><a href="https://github.com/arch-yunus"><img src="https://avatars.githubusercontent.com/u/83650878?v=4" width="80" height="80" style="border-radius:50%;"><br>@arch-yunus</a></td>
+<td align="center"><a href="https://github.com/bahattinyunus"><img src="https://avatars.githubusercontent.com/u/83650878?v=4" width="80" height="80" style="border-radius:50%;"><br>@bahattinyunus</a></td>
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/soham1300"><img src="https://avatars.githubusercontent.com/u/86889343?v=4" width="80" height="80" style="border-radius:50%;"><br>@soham1300</a></td>
@@ -274,7 +274,7 @@
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/ansh777333-web"><img src="https://avatars.githubusercontent.com/u/327921403?v=4" width="80" height="80" style="border-radius:50%;"><br>@ansh777333-web</a></td>
-<td></td>
+<td align="center"><a href="https://github.com/s4ntrx"><img src="https://avatars.githubusercontent.com/u/328856308?v=4" width="80" height="80" style="border-radius:50%;"><br>@s4ntrx</a></td>
 <td></td>
 <td></td>
 <td></td>

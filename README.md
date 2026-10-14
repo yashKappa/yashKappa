@@ -1,71 +1,285 @@
-<div align="center">
 
-# 👋 Hi, I'm Yash Saundalkar <img src="https://raw.githubusercontent.com/ABSphreak/cisco-vpn-killer/master/assets/wave.gif" width="30px">
+
+
+<!-- Banner Image -->
+<h1 align="center">👋 Hi, I'm Yash Saundalkar ( yashKappa ) </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&height=50&lines=Full-Stack+Developer+%26+ERP+Engineer;React+%7C+.NET+%7C+C%23+%7C+Node.js+%7C+SQL;Building+Scalable+Enterprise+Solutions+%26+Tools;Passionate+about+Clean+Code+%26+Automation" alt="Typing SVG" />
+  <img src="https://as2.ftcdn.net/jpg/05/67/40/31/1000_F_567403147_WjV5fqGRjjPUkBOnXaaREKgVjZMC12M7.jpg" width="100%" border="20%">
 </p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-saundalkar-824ab4316/)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@yashsaundalkar658)
-[![Portfolio](https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=vercel&logoColor=white)](https://yashkappa.github.io/my-port/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashsaundalkar@gmail.com)
-
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=000000&center=true&vCenter=true&width=1000&height=50&lines=Hithere!+I'm+Yash+Kappa!;Full+Stack+Developer+;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;Coding+enthusiast+;Let's+connect!+&background=c0c0c0" alt="Typing SVG" />
+</p>
 
 ---
 
 ### **👨‍💻 About Me**
-
-- 🏢 **Current Role:** IT / ERP Application Developer specializing in enterprise modules, forms, dashboards, and system workflows.
-- ⚙️ **Core Tech Stack:** ReactJS, .NET, C#, SQL, Node.js, and modern JavaScript architectures.
-- 🔄 **Expertise:** Legacy-to-modern system migration, REST API integration, and full-stack component engineering.
-- 🤖 **Developer Workflow:** Leveraging AI-assisted tools to accelerate debugging, prototyping, and feature delivery.
-- 🎓 **Education:** B.Sc. IT Graduate | Pursuing M.Sc. IT.
-- 📍 **Open To:** Opportunities in IT Product Coordination, ERP/HRMS Development, Business Analysis, and Technical Project Management.
-
----
-
-### **🛠️ Tech Stack & Ecosystem**
-
-<div align="center">
-
-| Category | Technologies |
-| :--- | :--- |
-| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38Bdf8?style=flat-square&logo=tailwind-css&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
-| **Backend** | ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| **Databases** | ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) |
-| **Tools & Cloud** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black) |
-
-</div>
+- 🏢 Working with ReactJS, .NET, C#, SQL, and legacy-to-modern system integration
+- 🚀 Interested in IT Product Coordination, ERP/HRMS, Business Analysis, and Project Management
+- 💻 Building and maintaining enterprise modules, forms, dashboards, and system workflows
+- 🤝 Working with development teams to understand requirements, troubleshoot issues, and deliver features
+- 🌱 Continuously learning about ERP systems, software architecture, AI tools, and product development
+- 🎓 B.Sc. IT Graduate | M.Sc. IT
+- 📍 Open to opportunities in IT Product Coordination, ERP, PMO, Business Analysis, and related roles
 
 ---
 
-### **🚀 Featured Projects**
+## **💼 Job Experience**
+- 🚀 IT / ERP Application Developer
+- 💻 Working on HRIS/ERP modules and enterprise applications
+- ⚙️ Developing and maintaining modules using ReactJS, .NET, C#, SQL, and JavaScript
+- 🔄 Working on legacy application migration and React-based modernization
+- 🧩 Building masters, forms, dashboards, workflows, and system integrations
+- 🐛 Troubleshooting application issues, routing problems, database-related errors, and system integration issues
+- 🤝 Collaborating with team members on Git/GitHub-based development workflows
+- 🤖 Using AI-assisted development tools to improve development speed, debugging, and implementation
 
-| 🌟 Project & Link | 📝 Description | 🛠 Tech Stack |
-| :--- | :--- | :--- |
-| **[Attendance Management System](https://attendance-management-system-gules-alpha.vercel.app/)** | Role-based portal (Admin, Teacher, Student, HOD) featuring automated defaulter tracking, email notifications, academic scheduling, and notes distribution. | `ReactJS` `MongoDB` `Render` |
-| **[Gym Management System](https://yashkappa.github.io/gym-management-system/)** | Administrative suite for tracking member profiles, digital receipts, custom diet plans, supplement inventory, and automated member alerts. | `React.JS` `Firebase` `CSS` |
-| **[SubAnime](https://sub-anime.vercel.app/)** | Content-based recommendation web engine matching user watchlists and preference vectors with anime metadata via API integration. | `React.JS` `KitsuAPI` `Firebase` |
-| **[Buyer Leads Manager](https://buyer-leads-one.vercel.app/)** | Real estate lead tracking dashboard with dynamic form validation, conditional BHK filters, budget ranges, and client interaction notes. | `Next.js` `TypeScript` `Supabase` |
-| **[PDF Maker & Mobile Optimizer](https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer)** | Cross-platform mobile utility for lightning-fast image compression, batch PDF conversion, merging, and document archiving. | `Flutter` `Dart` `Firebase` |
+---
+
+## **🌙 Beyond the Code**
+
+<p align="center">
+  <img 
+    src="./Quote.png"
+    width="650"
+    alt="Beyond the Code - Developer Reflection"
+  />
+</p>
 
 ---
 
-### **📊 GitHub Analytics & Metrics**
+## **🛠️ Technical Skills**
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=tokyonight&hide_border=true&round=8" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yashKappa&theme=tokyonight" width="48%" />
-</div>
+- Frontend: ReactJS, JavaScript, HTML, CSS, Bootstrap, Tailwind CSS
+- Backend: .NET, C#, Node.js, Express, Python
+- Database: SQL, MongoDB, PostgreSQL, Firebase, Supabase
+- Tools: Git, GitHub, VS Code, Visual Studio, AI-assisted development tools
+- Areas: ERP / HRIS, Enterprise Applications, Software Development, System Integration, Product & Project Coordination
+  
+---
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yashKappa&theme=tokyonight" width="100%" />
-</div>
-
-<div align="center">
-  <img src="https://trophygithubreadmelang.cybee.dpdns.org/?username=yashKappa" />
-</div>
+### 🏆 **GitHub Stats**  
+<p align="center">
+  <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=yashKappa&theme=dark&hide_border=true" />
+</p>
 
 ---
+
+### 📊 **Most Used Languages**
+<p align="center">
+  <img width="40%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yashKappa&theme=dark" width="48%" />
+  <img width="40%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yashKappa&theme=dark" width="48%" />
+</p>
+
+---
+
+### 🌌 **GitHub Activity Graph**
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yashKappa&theme=dark" width="100%" alt="Profile Details" />
+</p>
+
+---
+
+### 🏆 My Trophies
+
+![trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=yashKappa)
+
+---
+
+### 🚀 **Tech Stack**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,react,nodejs,mongodb,firebase,git,github,vscode,flutter&theme=dark" />
+</p>
+
+---
+
+## 🚀 Pinned Repositories 📌  
+
+🔹 Here are some of my featured projects:  
+
+| 🌟 Project Name | 📝 Description | 🛠 Tech Stack |
+|---------------|----------------|-------------|
+| 🎨 [**attendance-management-system**](https://attendance-management-system-gules-alpha.vercel.app/) | the Attendance-management-system contain Modules like Admin, Teacher, Student, and HOD, create Defaulter list, send email to parents, Attendance, add & delete users, View own attendance, teachers, subjects, teacher can create notes and HOD can send Schedule to teachers and send can important notices to all as well as Private notice also.| `ReactJS` `MongoDB` `Render` `Vercel` |
+| 📝 [**Gym-management-system**](https://yashkappa.github.io/gym-management-system/) |Gym Management System using ReactJS and Firebase. Admin can manage members, receipts, diet plans, supplements, and notifications. Members access their details via a unique code. | `React.JS` `HTML` `CSS` `Firebase`|
+| 🎬 [**SubAnime**](sub-anime.vercel.app/) | Anime recommendation web app built with React and Firebase using content-based filtering to suggest personalized anime based on user watchlists and preferences. | `React.JS` `HTML` `CSS` `Firebase` `KitsuAPI` |
+| 🌦 [**My-port**](yashkappa.github.io/my-port/) | Yash.Port is a personal portfolio website built using ReactJS and various modern web technologies. It includes sections such as About Me, Tools Used, My Projects, YouTube Channel Videos, GitHub Activities, Hobbies, and a downloadable Resume. | `React.JS` `HTML` `CSS`|
+| 🔍 [**PDF Maker & Image Optimizer**](https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer) | PDF Maker & Image Optimizer is your complete solution for creating PDF files and reducing image size efficiently. Whether you want to convert photos into PDFs, compress images to save storage, or manage your PDF files, this app provides fast, reliable, and high-quality results—all in one place.| `Flutter` `.Dart` `Material-UI` `Firebase-Database` `Google-Play` |
+| 🧳 [**Recipe-book**](recipe-book-phi-six.vercel.app/) | RecipeBook is a simple web application built with React that allows users to upload their own recipe details, view saved recipes, and manage them with options to view or delete. All data is stored in the browser's local storage, ensuring persistent access across sessions. | `React.JS` `HTML` `CSS` `Firebase` `API`|
+
+📌 **Check out my full project list** 👉 [GitHub Profile](https://github.com/yashKappa) 🚀  
+
+---
+
+## 🚀 My Recently Updated Projects  
+<!-- LATEST-REPOS-START -->
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/yashKappa">yashKappa</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">🚀 My GitHub Profile – Showcasing my projects, contributions, and skills in full-stack development, React, Firebase, HTML, CSS and more.</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://github.com/yashKappa">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: customizeable, giithub, github-api, profile-readme, secret-tokens</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/Toriko-Food-ingredients-">Toriko-Food-ingredients-</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">This Project was create based on Recipe where foodies can share their own recipe to other people and add to favorites can give likes to best recipe. 🍽️ A collection of unique and exotic food ingredients inspired by the world of Toriko. This project catalogs rare ingredients, their properties, and possible culinary uses.</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/Toriko-Food-ingredients-/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: css, firebase-auth, firebase-database, javascript, reactjs</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/ielts-institute-homepage">ielts-institute-homepage</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">No description available</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">CSS</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/ielts-institute-homepage/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">No Topics</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/buyer-leads">buyer-leads</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">A simple buyer lead management app with features like form validation, conditional fields (e.g., BHK for apartments/villas), budget range input, notes and tags, and options to track purpose, timeline, and source. all with a clean and user-friendly UI.</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">TypeScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://buyer-leads-one.vercel.app">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: css, nextjs, supabase-auth, supabase-db, typescript, vercel-deployment</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/recipe-book">recipe-book</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">RecipeBook is a simple web application built with React that allows users to upload their own recipe details, view saved recipes, and manage them with options to view or delete. All data is stored in the browser's local storage, ensuring persistent access across sessions.</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://recipe-book-phi-six.vercel.app/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: css, emoji, font-awesome, html, icons, localstorage, reactjs, recipes, responsive-web-design, sections</td></tr>
+</table>
+</td>
+<td width="50%" valign="top" style="word-wrap: break-word; max-width: 50%;">
+<table width="100%" border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); table-layout: fixed; overflow-wrap: break-word;">
+<tr><td style="background: #f8f8f8; font-size: 16px;"><strong><a href="https://github.com/yashKappa/student-teacher-booking-appointment">student-teacher-booking-appointment</a></strong></td></tr>
+<tr><td style="font-size: 14px; overflow-wrap: break-word;">A responsive web application with three user roles: Admin, Teacher, and Student. Students can send request messages to teachers for permission or assistance. Teachers can accept or reject these requests. The Admin has full control over student and teacher accounts, including login management and behavior analysis through real-time data and analytic</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; background: #eee; padding: 3px 6px; border-radius: 4px;">JavaScript</td></tr>
+<tr><td style="font-size: 12px; font-weight: bold; padding: 3px 6px;"><a href="https://yashkappa.github.io/student-teacher-booking-appointment/">🌐 Visit Website</a></td></tr>
+<tr><td style="font-size: 12px; padding: 3px 6px;">📝 Topics: cookie, css, firebase-realtime-database, firestore-database, reactchartjs, reactjs</td></tr>
+</table>
+</td>
+<!-- LATEST-REPOS-END -->
+
+---
+
+### 🌟 **Let's Connect**  
+<p align="center">
+  <a href="https://www.youtube.com/@yashsaundalkar658">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/yash-saundalkar-824ab4316/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=100075750094400">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+  </a>
+  <a href="https://www.instagram.com/yash.kappa300/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+## 🚀 Follow Me on GitHub!  
+
+## If you like my work, make sure to **follow me** and stay updated with my latest projects!  
+
+
+
+
+
+<!-- NOT_FOLLOWING_BACK_SECTION:start -->
+
+## 👀 People I Follow Who Don't Follow Me Back
+
+🎉 Everyone you follow follows you back!
+
+<!-- NOT_FOLLOWING_BACK_SECTION:end -->
+<!-- FOLLOWERS_SECTION:start -->
+
+## 🚀 My Followers
+<table>
+<tr>
+<td align="center"><a href="https://github.com/seehiong"><img src="https://avatars.githubusercontent.com/u/6965893?v=4" width="80" height="80" style="border-radius:50%;"><br>@seehiong</a></td>
+<td align="center"><a href="https://github.com/bigmacman1129"><img src="https://avatars.githubusercontent.com/u/7506572?v=4" width="80" height="80" style="border-radius:50%;"><br>@bigmacman1129</a></td>
+<td align="center"><a href="https://github.com/dbunt1tled"><img src="https://avatars.githubusercontent.com/u/16355486?v=4" width="80" height="80" style="border-radius:50%;"><br>@dbunt1tled</a></td>
+<td align="center"><a href="https://github.com/IDouble"><img src="https://avatars.githubusercontent.com/u/18186995?v=4" width="80" height="80" style="border-radius:50%;"><br>@IDouble</a></td>
+<td align="center"><a href="https://github.com/sungeer"><img src="https://avatars.githubusercontent.com/u/26924670?v=4" width="80" height="80" style="border-radius:50%;"><br>@sungeer</a></td>
+<td align="center"><a href="https://github.com/standardgalactic"><img src="https://avatars.githubusercontent.com/u/43516554?v=4" width="80" height="80" style="border-radius:50%;"><br>@standardgalactic</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/donfreddy"><img src="https://avatars.githubusercontent.com/u/55187739?v=4" width="80" height="80" style="border-radius:50%;"><br>@donfreddy</a></td>
+<td align="center"><a href="https://github.com/condabeta"><img src="https://avatars.githubusercontent.com/u/61369488?v=4" width="80" height="80" style="border-radius:50%;"><br>@condabeta</a></td>
+<td align="center"><a href="https://github.com/aza-ali"><img src="https://avatars.githubusercontent.com/u/63417797?v=4" width="80" height="80" style="border-radius:50%;"><br>@aza-ali</a></td>
+<td align="center"><a href="https://github.com/md-abu-kayser"><img src="https://avatars.githubusercontent.com/u/67516307?v=4" width="80" height="80" style="border-radius:50%;"><br>@md-abu-kayser</a></td>
+<td align="center"><a href="https://github.com/JohnMwendwa"><img src="https://avatars.githubusercontent.com/u/72663882?v=4" width="80" height="80" style="border-radius:50%;"><br>@JohnMwendwa</a></td>
+<td align="center"><a href="https://github.com/bahattinyunus"><img src="https://avatars.githubusercontent.com/u/83650878?v=4" width="80" height="80" style="border-radius:50%;"><br>@bahattinyunus</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/soham1300"><img src="https://avatars.githubusercontent.com/u/86889343?v=4" width="80" height="80" style="border-radius:50%;"><br>@soham1300</a></td>
+<td align="center"><a href="https://github.com/NachoOFC"><img src="https://avatars.githubusercontent.com/u/105531940?v=4" width="80" height="80" style="border-radius:50%;"><br>@NachoOFC</a></td>
+<td align="center"><a href="https://github.com/Nikhilgholap1304"><img src="https://avatars.githubusercontent.com/u/118434064?v=4" width="80" height="80" style="border-radius:50%;"><br>@Nikhilgholap1304</a></td>
+<td align="center"><a href="https://github.com/rahuloraj"><img src="https://avatars.githubusercontent.com/u/119727688?v=4" width="80" height="80" style="border-radius:50%;"><br>@rahuloraj</a></td>
+<td align="center"><a href="https://github.com/bwakjira"><img src="https://avatars.githubusercontent.com/u/122601548?v=4" width="80" height="80" style="border-radius:50%;"><br>@bwakjira</a></td>
+<td align="center"><a href="https://github.com/rasidi3112"><img src="https://avatars.githubusercontent.com/u/129738392?v=4" width="80" height="80" style="border-radius:50%;"><br>@rasidi3112</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/otaviossousa"><img src="https://avatars.githubusercontent.com/u/130789571?v=4" width="80" height="80" style="border-radius:50%;"><br>@otaviossousa</a></td>
+<td align="center"><a href="https://github.com/Scepter2003"><img src="https://avatars.githubusercontent.com/u/141228135?v=4" width="80" height="80" style="border-radius:50%;"><br>@Scepter2003</a></td>
+<td align="center"><a href="https://github.com/Rafe-sk"><img src="https://avatars.githubusercontent.com/u/142775371?v=4" width="80" height="80" style="border-radius:50%;"><br>@Rafe-sk</a></td>
+<td align="center"><a href="https://github.com/siddzzzz"><img src="https://avatars.githubusercontent.com/u/145382876?v=4" width="80" height="80" style="border-radius:50%;"><br>@siddzzzz</a></td>
+<td align="center"><a href="https://github.com/Dhanya001"><img src="https://avatars.githubusercontent.com/u/149471022?v=4" width="80" height="80" style="border-radius:50%;"><br>@Dhanya001</a></td>
+<td align="center"><a href="https://github.com/Ali-hey-0"><img src="https://avatars.githubusercontent.com/u/157505360?v=4" width="80" height="80" style="border-radius:50%;"><br>@Ali-hey-0</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/davidortiz03"><img src="https://avatars.githubusercontent.com/u/170892541?v=4" width="80" height="80" style="border-radius:50%;"><br>@davidortiz03</a></td>
+<td align="center"><a href="https://github.com/andrewsavio"><img src="https://avatars.githubusercontent.com/u/173073211?v=4" width="80" height="80" style="border-radius:50%;"><br>@andrewsavio</a></td>
+<td align="center"><a href="https://github.com/jkdevcode"><img src="https://avatars.githubusercontent.com/u/174388386?v=4" width="80" height="80" style="border-radius:50%;"><br>@jkdevcode</a></td>
+<td align="center"><a href="https://github.com/sirUnchained"><img src="https://avatars.githubusercontent.com/u/180321989?v=4" width="80" height="80" style="border-radius:50%;"><br>@sirUnchained</a></td>
+<td align="center"><a href="https://github.com/mwakidenis"><img src="https://avatars.githubusercontent.com/u/182089390?v=4" width="80" height="80" style="border-radius:50%;"><br>@mwakidenis</a></td>
+<td align="center"><a href="https://github.com/prathamparmar1"><img src="https://avatars.githubusercontent.com/u/182216275?v=4" width="80" height="80" style="border-radius:50%;"><br>@prathamparmar1</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/NTAGOZERAKevin"><img src="https://avatars.githubusercontent.com/u/186942371?v=4" width="80" height="80" style="border-radius:50%;"><br>@NTAGOZERAKevin</a></td>
+<td align="center"><a href="https://github.com/Resolutefemi"><img src="https://avatars.githubusercontent.com/u/198766034?v=4" width="80" height="80" style="border-radius:50%;"><br>@Resolutefemi</a></td>
+<td align="center"><a href="https://github.com/xcontcom"><img src="https://avatars.githubusercontent.com/u/209551153?v=4" width="80" height="80" style="border-radius:50%;"><br>@xcontcom</a></td>
+<td align="center"><a href="https://github.com/yumiaura"><img src="https://avatars.githubusercontent.com/u/235065808?v=4" width="80" height="80" style="border-radius:50%;"><br>@yumiaura</a></td>
+<td align="center"><a href="https://github.com/falcon0709"><img src="https://avatars.githubusercontent.com/u/237730271?v=4" width="80" height="80" style="border-radius:50%;"><br>@falcon0709</a></td>
+<td align="center"><a href="https://github.com/shahidazam2020-oss"><img src="https://avatars.githubusercontent.com/u/242987063?v=4" width="80" height="80" style="border-radius:50%;"><br>@shahidazam2020-oss</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/muthokaricky-alt"><img src="https://avatars.githubusercontent.com/u/243061814?v=4" width="80" height="80" style="border-radius:50%;"><br>@muthokaricky-alt</a></td>
+<td align="center"><a href="https://github.com/bariewakjira-coder"><img src="https://avatars.githubusercontent.com/u/244135779?v=4" width="80" height="80" style="border-radius:50%;"><br>@bariewakjira-coder</a></td>
+<td align="center"><a href="https://github.com/alfredshingai"><img src="https://avatars.githubusercontent.com/u/252406987?v=4" width="80" height="80" style="border-radius:50%;"><br>@alfredshingai</a></td>
+<td align="center"><a href="https://github.com/IgnacioAntonioCruzPerez"><img src="https://avatars.githubusercontent.com/u/262681588?v=4" width="80" height="80" style="border-radius:50%;"><br>@IgnacioAntonioCruzPerez</a></td>
+<td align="center"><a href="https://github.com/rachidalemnaouir-hub"><img src="https://avatars.githubusercontent.com/u/275938083?v=4" width="80" height="80" style="border-radius:50%;"><br>@rachidalemnaouir-hub</a></td>
+<td align="center"><a href="https://github.com/ancaferro"><img src="https://avatars.githubusercontent.com/u/287352285?v=4" width="80" height="80" style="border-radius:50%;"><br>@ancaferro</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/raviwijerathna1"><img src="https://avatars.githubusercontent.com/u/290047901?v=4" width="80" height="80" style="border-radius:50%;"><br>@raviwijerathna1</a></td>
+<td align="center"><a href="https://github.com/MaxCode917"><img src="https://avatars.githubusercontent.com/u/293101461?v=4" width="80" height="80" style="border-radius:50%;"><br>@MaxCode917</a></td>
+<td align="center"><a href="https://github.com/takumi-sato0209"><img src="https://avatars.githubusercontent.com/u/304517165?v=4" width="80" height="80" style="border-radius:50%;"><br>@takumi-sato0209</a></td>
+<td align="center"><a href="https://github.com/shinobi-coder701"><img src="https://avatars.githubusercontent.com/u/307791440?v=4" width="80" height="80" style="border-radius:50%;"><br>@shinobi-coder701</a></td>
+<td align="center"><a href="https://github.com/MahdiKordian"><img src="https://avatars.githubusercontent.com/u/314552004?v=4" width="80" height="80" style="border-radius:50%;"><br>@MahdiKordian</a></td>
+<td align="center"><a href="https://github.com/Tyche-MKR"><img src="https://avatars.githubusercontent.com/u/319595299?v=4" width="80" height="80" style="border-radius:50%;"><br>@Tyche-MKR</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/ansh777333-web"><img src="https://avatars.githubusercontent.com/u/327921403?v=4" width="80" height="80" style="border-radius:50%;"><br>@ansh777333-web</a></td>
+<td align="center"><a href="https://github.com/s4ntrx"><img src="https://avatars.githubusercontent.com/u/328856308?v=4" width="80" height="80" style="border-radius:50%;"><br>@s4ntrx</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<!-- FOLLOWERS_SECTION:end -->

@@ -215,15 +215,7 @@
 </table>
 
 <!-- NOT_FOLLOWING_BACK_SECTION:end -->
-<!-- GitHub Contribution Snake Game -->
-<div align="center">
-  <h3>🐍 Contribution Graph Activity</h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yashKappa/yashKappa/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yashKappa/yashKappa/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/yashKappa/yashKappa/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
+
 <!-- FOLLOWERS_SECTION:start -->
 
 ## 🚀 My Followers
@@ -312,10 +304,12 @@
 
 <!-- FOLLOWERS_SECTION:end -->
 
-<!-- NOT_FOLLOWING_BACK_SECTION:start -->
-
-## 👀 People I Follow Who Don't Follow Me Back
-
-🎉 Everyone you follow follows you back!
-
-<!-- NOT_FOLLOWING_BACK_SECTION:end -->s
+<!-- GitHub Contribution Snake Game -->
+<div align="center">
+  <h3>🐍 Contribution Graph Activity</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yashKappa/yashKappa/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yashKappa/yashKappa/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/yashKappa/yashKappa/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>

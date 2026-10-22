@@ -201,18 +201,7 @@
 
 ## 👀 People I Follow Who Don't Follow Me Back
 
-**2 people**
-
-<table>
-<tr>
-<td align="center"><a href="https://github.com/alfredshingai"><img src="https://avatars.githubusercontent.com/u/252406987?v=4" width="80" height="80" style="border-radius:50%;"><br>@alfredshingai</a></td>
-<td align="center"><a href="https://github.com/Resolutefemi"><img src="https://avatars.githubusercontent.com/u/198766034?v=4" width="80" height="80" style="border-radius:50%;"><br>@Resolutefemi</a></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</table>
+🎉 Everyone you follow follows you back!
 
 <!-- NOT_FOLLOWING_BACK_SECTION:end -->
 

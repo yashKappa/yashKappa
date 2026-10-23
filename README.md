@@ -294,7 +294,7 @@
 <tr>
 <td align="center"><a href="https://github.com/ansh777333-web"><img src="https://avatars.githubusercontent.com/u/327921403?v=4" width="80" height="80" style="border-radius:50%;"><br>@ansh777333-web</a></td>
 <td align="center"><a href="https://github.com/s4ntrx"><img src="https://avatars.githubusercontent.com/u/328856308?v=4" width="80" height="80" style="border-radius:50%;"><br>@s4ntrx</a></td>
-<td></td>
+<td align="center"><a href="https://github.com/Veldanabwah"><img src="https://avatars.githubusercontent.com/u/346522634?v=4" width="80" height="80" style="border-radius:50%;"><br>@Veldanabwah</a></td>
 <td></td>
 <td></td>
 <td></td>

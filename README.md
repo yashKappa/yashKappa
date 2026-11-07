@@ -312,15 +312,15 @@
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/VarshuDev"><img src="https://avatars.githubusercontent.com/u/307824291?v=4" width="80" height="80" style="border-radius:50%;"><br>@VarshuDev</a></td>
-<td align="center"><a href="https://github.com/MrAbdulSamadDEV"><img src="https://avatars.githubusercontent.com/u/309018155?v=4" width="80" height="80" style="border-radius:50%;"><br>@MrAbdulSamadDEV</a></td>
 <td align="center"><a href="https://github.com/MahdiKordian"><img src="https://avatars.githubusercontent.com/u/314552004?v=4" width="80" height="80" style="border-radius:50%;"><br>@MahdiKordian</a></td>
 <td align="center"><a href="https://github.com/hamidohgaming-dotcom"><img src="https://avatars.githubusercontent.com/u/316719557?v=4" width="80" height="80" style="border-radius:50%;"><br>@hamidohgaming-dotcom</a></td>
 <td align="center"><a href="https://github.com/Tyche-MKR"><img src="https://avatars.githubusercontent.com/u/319595299?v=4" width="80" height="80" style="border-radius:50%;"><br>@Tyche-MKR</a></td>
 <td align="center"><a href="https://github.com/ansh777333-web"><img src="https://avatars.githubusercontent.com/u/327921403?v=4" width="80" height="80" style="border-radius:50%;"><br>@ansh777333-web</a></td>
+<td align="center"><a href="https://github.com/s4ntrx"><img src="https://avatars.githubusercontent.com/u/328856308?v=4" width="80" height="80" style="border-radius:50%;"><br>@s4ntrx</a></td>
 </tr>
 <tr>
-<td align="center"><a href="https://github.com/s4ntrx"><img src="https://avatars.githubusercontent.com/u/328856308?v=4" width="80" height="80" style="border-radius:50%;"><br>@s4ntrx</a></td>
 <td align="center"><a href="https://github.com/Veldanabwah"><img src="https://avatars.githubusercontent.com/u/346522634?v=4" width="80" height="80" style="border-radius:50%;"><br>@Veldanabwah</a></td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>

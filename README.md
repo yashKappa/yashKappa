@@ -12,13 +12,13 @@
 ---
 
 ### 🚀 Featured Project
-<table>
-  <tr>
-    <td align="center" valign="middle" style="padding-right: 20px;">
+<table align="center" style="border: none; border-collapse: collapse; background: transparent;">
+  <tr style="border: none; background: transparent;">
+    <td align="center" valign="middle" style="border: none; padding-right: 20px; background: transparent;">
       <img src="assets/logo.png" width="90" height="90" alt="App Icon" style="border-radius: 20px;" />
     </td>
-    <td valign="middle">
-      <h2 style="margin: 0 0 4px 0;">PDF Maker & Image Optimizer</h2>
+    <td valign="middle" style="border: none; background: transparent;">
+      <h2 style="margin: 0 0 4px 0; border: none;">PDF Maker & Image Optimizer</h2>
       <p style="margin: 0;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
     </td>
   </tr>

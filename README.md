@@ -28,9 +28,7 @@
         <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" />
       </a>
     </td>
-    
-    <!-- Right Side: App Screenshot / Slideshow GIF Preview -->
-    <td align="center" valign="middle" style="border: none; padding-left: 10px; background: transparent;">
+      <td align="center" valign="middle" style="border: none; padding-left: 10px; background: transparent;">
       <img src="assets/screenshot_preview.gif" width="200" alt="App Screenshot Slideshow" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
     </td>
   </tr>

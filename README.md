@@ -13,20 +13,27 @@
 
 ### 🚀 Featured Project
 
-<div style="width: 100%; background: transparent; color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
-  <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 20px;">
-    <img src="assets/logo.png" width="65" height="65" alt="App Icon" style="border-radius: 14px; flex-shrink: 0; display: block;" />
-    <div>
-      <h2 style="margin: 0 0 6px 0; font-size: 20px; line-height: 1.2; border: none; padding: 0;">PDF Maker & Image Optimizer</h2>
+<!-- Top Header Section: Logo on Left, Title/Tagline/Play Button on Right -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; border-collapse: collapse; border: none !important; background: transparent; width: 100%;">
+  <tr style="border: none !important; background: transparent;">
+    <td align="left" valign="top" style="border: none !important; padding-right: 16px; padding-bottom: 16px; background: transparent; width: 75px;">
+      <img src="assets/logo.png" width="65" height="65" alt="App Icon" style="border-radius: 14px; display: block;" />
+    </td>
+    <td align="left" valign="top" style="border: none !important; padding-bottom: 16px; background: transparent;">
+      <h2 style="margin: 0 0 6px 0; border: none !important; padding: 0; font-size: 20px; line-height: 1.2;">PDF Maker & Image Optimizer</h2>
       <p style="margin: 0 0 10px 0; color: #8b949e; font-size: 13px; line-height: 1.4;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
       <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
         <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" />
       </a>
-    </div>
-  </div>
-  <div style="display: flex; gap: 24px; align-items: flex-start;">
-    <div style="flex: 1; min-width: 0;">
-      <ul style="margin: 0 0 12px 0; padding-left: 16px; font-size: 13px; line-height: 1.45;">
+    </td>
+  </tr>
+</table>
+
+<!-- Bottom Section: Features/Badges on Left, Preview GIF on Right -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; border-collapse: collapse; border: none !important; background: transparent; width: 100%;">
+  <tr style="border: none !important; background: transparent;">
+    <td align="left" valign="top" style="border: none !important; background: transparent; width: 66%;">
+      <ul style="margin: 0 0 12px 0; padding-left: 16px; color: #c9d1d9; font-size: 13px; line-height: 1.45;">
         <li style="margin-bottom: 6px;"><strong>Core Utilities:</strong> Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization (bulk conversion and resizing), multi-document merging, and split/extract tools.</li>
         <li style="margin-bottom: 6px;"><strong>Monetization & Ecosystem:</strong> Seamlessly integrated Google Mobile Ads (Banner & Interstitial ads) and real-time remote release tracking powered by Firebase Firestore.</li>
         <li style="margin-bottom: 0;"><strong>Architecture & Build:</strong> Optimized for <strong>Android SDK 36 (Android 16)</strong>, structured with modern Kotlin DSL build configurations (<code>build.gradle.kts</code>), and managed via a high-performance local Gradle pipeline.</li>
@@ -38,14 +45,12 @@
         <img src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=Firebase&logoColor=white" />
         <img src="https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" />
       </div>
-    </div>
-    <div style="flex-shrink: 0; text-align: center; width: 145px;">
-      <img src="assets/preview.gif" width="145" alt="App Preview GIF" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.5); display: block;" />
-    </div>
-
-  </div>
-
-</div>
+    </td>
+    <td align="center" valign="top" style="border: none !important; padding-left: 16px; background: transparent; width: 34%;">
+      <img src="assets/preview.gif" width="145" alt="App Preview GIF" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />
+    </td>
+  </tr>
+</table>
 
 ---
 

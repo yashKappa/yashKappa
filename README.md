@@ -31,9 +31,6 @@
 
 <table>
   <tr style="border: none; background: transparent;">
-    <td align="center" valign="top" style="border: none; padding-right: 16px; background: transparent; width: 34%;">
-      <img src="assets/preview.gif" width="145" alt="App Preview GIF" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />
-    </td>
     <td align="left" valign="top" style="border: none; background: transparent; width: 66%;">
       <ul style="margin: 0 0 12px 0; padding-left: 16px; color: #c9d1d9; font-size: 13px; line-height: 1.45;">
         <li style="margin-bottom: 6px;"><strong>Core Utilities:</strong> Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization (bulk conversion and resizing), multi-document merging, and split/extract tools.</li>
@@ -47,6 +44,9 @@
         <img src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=Firebase&logoColor=white" />
         <img src="https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" />
       </div>
+    </td>
+     <td align="center" valign="top" style="border: none; padding-right: 16px; background: transparent; width: 34%;">
+      <img src="assets/preview.gif" width="145" alt="App Preview GIF" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />
     </td>
   </tr>
 </table>

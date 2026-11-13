@@ -25,24 +25,24 @@
       <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
         <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" />
       </a>
-    </td>
-    <td align="center" valign="middle" style="border: none; padding-left: 10px; background: transparent; width: 32%;">
-      <img src="assets/preview.gif" width="190" alt="App Preview GIF" style="border-radius: 14px; box-shadow: 0 6px 20px rgba(0,0,0,0.5);" />
-    </td>
-  </tr>
-</table>
-
-<p align="center" style="margin: 20px 0 12px 0;">
+      <P>
+        - **Core Utilities:** Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization (bulk conversion and resizing), multi-document merging, and split/extract tools.
+- **Monetization & Ecosystem:** Seamlessly integrated Google Mobile Ads (Banner & Interstitial ads) and real-time remote release tracking powered by Firebase Firestore.
+- **Architecture & Build:** Optimized for **Android SDK 36 (Android 16)**, structured with modern Kotlin DSL build configurations (`build.gradle.kts`), and managed via a high-performance local Gradle pipeline.
+        <p align="center" style="margin: 20px 0 12px 0;">
   <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" />
   <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
   <img src="https://img.shields.io/badge/Android%20SDK%2036-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" />
   <img src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=Firebase&logoColor=white" />
   <img src="https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" />
 </p>
-
-- **Core Utilities:** Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization (bulk conversion and resizing), multi-document merging, and split/extract tools.
-- **Monetization & Ecosystem:** Seamlessly integrated Google Mobile Ads (Banner & Interstitial ads) and real-time remote release tracking powered by Firebase Firestore.
-- **Architecture & Build:** Optimized for **Android SDK 36 (Android 16)**, structured with modern Kotlin DSL build configurations (`build.gradle.kts`), and managed via a high-performance local Gradle pipeline.
+      </P>
+    </td>
+    <td align="center" valign="middle" style="border: none; padding-left: 10px; background: transparent; width: 32%;">
+      <img src="assets/preview.gif" width="190" alt="App Preview GIF" style="border-radius: 14px; box-shadow: 0 6px 20px rgba(0,0,0,0.5);" />
+    </td>
+  </tr>
+</table>
 
 ---
 

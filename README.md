@@ -18,14 +18,14 @@
   <tr style="border: none; background: transparent;">
     <td align="left" valign="top" style="border: none; padding-right: 16px; padding-bottom: 16px; background: transparent; width: 66%;">
       <div style="display: flex; align-items: flex-start; gap: 14px; margin-bottom: 12px;">
-       <td>
+       <tr>
           <img src="assets/logo.png" width="60" height="60" alt="App Icon" style="border-radius: 14px; flex-shrink: 0; display: block;" />
           <h2 style="margin: 0 0 6px 0; border: none; padding: 0; font-size: 20px; line-height: 1.2;">PDF Maker & Image Optimizer</h2>
           <p style="margin: 0 0 10px 0; color: #8b949e; font-size: 13px; line-height: 1.4;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
           <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
             <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" />
           </a>
-       </td>
+       </tr>
       </div>
     </td>
     <td align="center" valign="middle" rowspan="2" style="border: none; padding-left: 8px; background: transparent; width: 34%;">

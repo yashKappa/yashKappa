@@ -17,8 +17,6 @@
   <!-- Row 1: Header (Logo + Title/Description/Play Button) & Preview GIF -->
   <tr style="border: none; background: transparent;">
     <td align="left" valign="top" style="border: none; padding-right: 16px; padding-bottom: 16px; background: transparent; width: 66%;">
-      
-      <!-- Flexbox Header Container -->
       <div style="display: flex; align-items: flex-start; gap: 14px; margin-bottom: 12px;">
         <img src="assets/logo.png" width="60" height="60" alt="App Icon" style="border-radius: 14px; flex-shrink: 0; display: block;" />
         <div>
@@ -29,13 +27,11 @@
           </a>
         </div>
       </div>
-
     </td>
     <td align="center" valign="middle" rowspan="2" style="border: none; padding-left: 8px; background: transparent; width: 34%;">
       <img src="assets/preview.gif" width="135" alt="App Preview GIF" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />
     </td>
   </tr>
-  
   <!-- Row 2: Details & Tech Stack Badges inside the left column -->
   <tr style="border: none; background: transparent;">
     <td align="left" valign="top" style="border: none; padding-right: 16px; background: transparent;">

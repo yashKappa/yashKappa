@@ -1,6 +1,3 @@
-
-
-
 <!-- Banner Image -->
 <h1 align="center">👋 Hi, I'm Yash Saundalkar ( yashKappa ) </h1>
 
@@ -10,6 +7,25 @@
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=000000&center=true&vCenter=true&width=1000&height=50&lines=Hithere!+I'm+Yash+Kappa!;Full+Stack+Developer+;React+%7C+Node.js+%7C+MongoDB+%7C+Firebase;Coding+enthusiast+;Let's+connect!+&background=c0c0c0" alt="Typing SVG" />
+</p>
+
+---
+
+### 🚀 Featured Project
+
+#### **[PDF Maker & Image Optimizer](https://github.com/yourusername/pdf_maker_and_image_optimizer)**
+> A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.
+
+* **Core Utilities:** Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization (bulk conversion and resizing), multi-document merging, and split/extract tools.
+* **Monetization & Ecosystem:** Seamlessly integrated Google Mobile Ads (Banner & Interstitial ads) and real-time remote release tracking powered by Firebase Firestore.
+* **Architecture & Build:** Optimized for **Android SDK 36 (Android 16)**, structured with modern Kotlin DSL build configurations (`build.gradle.kts`), and managed via a high-performance local Gradle pipeline.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Android%20SDK%2036-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=Firebase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" />
 </p>
 
 ---

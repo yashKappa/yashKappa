@@ -13,7 +13,8 @@
 
 ### 🚀 Featured Project
 
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; border-collapse: collapse; border: none; background: transparent; width: 100%;">
+<table>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; border-collapse: collapse; border: none; background: transparent; width: 100%;">
   <!-- Row 1: Logo on Left, Name & One-Line Tagline / Play Button on Right -->
   <tr style="border: none; background: transparent;">
     <td align="left" valign="middle" style="border: none; padding-right: 16px; padding-bottom: 16px; background: transparent; width: 75px;">
@@ -28,8 +29,6 @@
     </td>
   </tr>
 </table>
-
-<table>
   <tr style="border: none; background: transparent;">
     <td align="left" valign="top" style="border: none; background: transparent; width: 66%;">
       <ul style="margin: 0 0 12px 0; padding-left: 16px; color: #c9d1d9; font-size: 13px; line-height: 1.45;">

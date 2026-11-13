@@ -15,18 +15,28 @@
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" style="border: none; background: transparent;">
   <tr style="border: none; background: transparent;">
-    <td align="center" valign="middle" style="border: none; padding-right: 20px; background: transparent;">
-      <img src="assets/logo.png" width="90" height="90" alt="App Icon" style="border-radius: 20px;" />
+    <!-- Left Side: App Icon, Title, Description, and Play Store Button -->
+    <td align="left" valign="middle" style="border: none; padding-right: 25px; background: transparent;">
+      <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
+        <img src="assets/logo.png" width="80" height="80" alt="App Icon" style="border-radius: 18px;" />
+        <div>
+          <h2 style="margin: 0 0 4px 0; border: none;">PDF Maker & Image Optimizer</h2>
+        </div>
+      </div>
+      <p style="margin: 0 0 14px 0; color: #8b949e; max-width: 450px;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
+      <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
+        <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" />
+      </a>
     </td>
-    <td valign="middle" style="border: none; background: transparent;">
-      <h2 style="margin: 0 0 4px 0; border: none;">PDF Maker & Image Optimizer</h2>
-      <p style="margin: 0 0 10px 0; color: #8b949e;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
-     <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
-      <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" />
-    </a>
+    
+    <!-- Right Side: App Screenshot / Slideshow GIF Preview -->
+    <td align="center" valign="middle" style="border: none; padding-left: 10px; background: transparent;">
+      <img src="assets/screenshot_preview.gif" width="200" alt="App Screenshot Slideshow" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
     </td>
   </tr>
 </table>
+
+---
 
 - **Core Utilities:** Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization (bulk conversion and resizing), multi-document merging, and split/extract tools.
 - **Monetization & Ecosystem:** Seamlessly integrated Google Mobile Ads (Banner & Interstitial ads) and real-time remote release tracking powered by Firebase Firestore.

@@ -27,8 +27,9 @@
       </a>
     </td>
   </tr>
+</table>
 
-  <!-- Row 2: GIF on Left / Right, Info on the other side -->
+<table>
   <tr style="border: none; background: transparent;">
     <td align="center" valign="top" style="border: none; padding-right: 16px; background: transparent; width: 34%;">
       <img src="assets/preview.gif" width="145" alt="App Preview GIF" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />

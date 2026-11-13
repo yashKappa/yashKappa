@@ -24,13 +24,13 @@
           </td>
           <td align="left" valign="middle" style="border: none; background: transparent;">
             <h2 style="margin: 0; border: none; padding: 0; font-size: 22px; line-height: 1.2;">PDF Maker & Image Optimizer</h2>
-          </td>
-        </tr>
-      </table>
-      <p style="margin: 0 0 14px 0; color: #8b949e; font-size: 14px; line-height: 1.5;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
+             <p style="margin: 0; color: #8b949e; font-size: 14px; line-height: 1.5;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
       <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
         <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" />
       </a>
+          </td>
+        </tr>
+      </table>
     </td>
     <td align="center" valign="middle" rowspan="2" style="border: none; padding-left: 10px; background: transparent; width: 34%;">
       <img src="assets/preview.gif" width="160" alt="App Preview GIF" style="border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />

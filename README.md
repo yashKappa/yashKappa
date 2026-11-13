@@ -14,7 +14,7 @@
 ### 🚀 Featured Project
 
 <div align="center">
-  <img src="assets/logo12.png" width="100" height="100" alt="App Icon" style="border-radius: 20px;" />
+  <img src="assets/logo.png" width="100" height="100" alt="App Icon" style="border-radius: 20px;" />
   <h3>PDF Maker & Image Optimizer</h3>
   <p><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
 </div>

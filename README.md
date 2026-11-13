@@ -13,6 +13,8 @@
 
 ### 🚀 Featured Project
 
+### 🚀 Featured Project
+
 <table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; border-collapse: collapse; border: none; background: transparent; width: 100%;">
   <!-- Row 1: Logo (Left) & Title/Description/Play Button (Right), alongside the GIF -->
   <tr style="border: none; background: transparent;">
@@ -53,7 +55,6 @@
     </td>
   </tr>
 </table>
-
 ---
 
 ### **👨‍💻 About Me**

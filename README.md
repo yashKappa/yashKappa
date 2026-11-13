@@ -29,7 +29,7 @@
       </a>
     </td>
       <td align="center" valign="middle" style="border: none; padding-left: 10px; background: transparent;">
-      <img src="assets/screenshot_preview.gif" width="200" alt="App Screenshot Slideshow" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
+      <img src="assets/preview.gif" width="200" alt="App Screenshot Slideshow" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
     </td>
   </tr>
 </table>

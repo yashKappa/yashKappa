@@ -19,7 +19,7 @@
     <td align="left" valign="top" style="border: none; padding-right: 16px; padding-bottom: 16px; background: transparent; width: 66%;">
       <table border="0" cellpadding="0" cellspacing="0" style="border: none; background: transparent; width: 100%; margin-bottom: 12px;">
         <tr style="border: none; background: transparent;">
-          <td align="left" valign="middle" style="border: none; padding-right: 14px; background: transparent; width: 70px;">
+          <td align="left" valign="middle" style="border: none; padding-right: 14px; background: transparent; width: 100px;">
             <img src="assets/logo.png" width="60" height="60" alt="App Icon" style="border-radius: 14px; display: block;" />
           </td>
           <td align="left" valign="middle" style="border: none; background: transparent;">

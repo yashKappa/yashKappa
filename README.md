@@ -14,22 +14,39 @@
 ### 🚀 Featured Project
 
 <div align="center">
-  <img src="assets/logo.png" width="100" height="100" alt="App Icon" style="border-radius: 20px;" />
-  <h3>PDF Maker & Image Optimizer</h3>
-  <p><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
+
+  <img src="assets/logo12.png" width="110" height="110" alt="App Icon" style="border-radius: 24px; box-shadow: 0px 8px 24px rgba(37, 99, 235, 0.25); margin-bottom: 12px;" />
+
+  ## **PDF Maker & Image Optimizer**
+  
+  <p align="center">
+    <em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em>
+  </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" />
+    <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
+    <img src="https://img.shields.io/badge/Android%20SDK%2036-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" />
+    <img src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=Firebase&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" />
+  </p>
 </div>
 
-* **Core Utilities:** Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization (bulk conversion and resizing), multi-document merging, and split/extract tools.
-* **Monetization & Ecosystem:** Seamlessly integrated Google Mobile Ads (Banner & Interstitial ads) and real-time remote release tracking powered by Firebase Firestore.
-* **Architecture & Build:** Optimized for **Android SDK 36 (Android 16)**, structured with modern Kotlin DSL build configurations (`build.gradle.kts`), and managed via a high-performance local Gradle pipeline.
+---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
-  <img src="https://img.shields.io/badge/Android%20SDK%2036-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=Firebase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" />
-</p>
+### 💡 Key Technical Highlights
+
+| Module / System | Capabilities & Engineering Details |
+| :--- | :--- |
+| **🛠️ Core Utilities** | Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization (bulk conversion & resizing), multi-document merging, and split/extract tools. |
+| **💰 Monetization & Ecosystem** | Seamlessly integrated Google Mobile Ads (Adaptive Banners & Interstitials) paired with real-time remote update tracking powered by Firebase Firestore. |
+| **⚙️ Architecture & Build** | Optimized for **Android SDK 36 (Android 16)**, structured with modern Kotlin DSL build configurations (`build.gradle.kts`), and managed via high-performance local Gradle pipelines. |
+
+<div align="center">
+  <a href="https://github.com/yourusername/pdf_maker_and_image_optimizer">
+    <img src="https://img.shields.io/badge/View%20Source%20Code-%230f172a.svg?style=for-the-badge&logo=github&logoColor=white" alt="View Source"/>
+  </a>
+</div>
 
 ---
 

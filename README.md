@@ -20,8 +20,6 @@
       <div style="display: flex; align-items: flex-start; gap: 20px;">
         <!-- Left: Logo -->
         <img src="assets/logo.png" width="85" height="85" alt="App Icon" style="border-radius: 18px; flex-shrink: 0;" />
-        
-        <!-- Right: Name, Tagline & Play Button -->
         <div>
           <h2 style="margin: 0 0 8px 0; border: none; padding: 0; font-size: 24px; line-height: 1.2;">PDF Maker & Image Optimizer</h2>
           <p style="margin: 0 0 16px 0; color: #8b949e; font-size: 15px; line-height: 1.5;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>

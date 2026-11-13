@@ -13,14 +13,17 @@
 
 ### 🚀 Featured Project
 
-#### **[PDF Maker & Image Optimizer](https://github.com/yourusername/pdf_maker_and_image_optimizer)**
-> A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.
+<div align="center">
+  <img src="assets/logo12.png" width="100" height="100" alt="App Icon" style="border-radius: 20px;" />
+  <h3>PDF Maker & Image Optimizer</h3>
+  <p><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
+</div>
 
 * **Core Utilities:** Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization (bulk conversion and resizing), multi-document merging, and split/extract tools.
 * **Monetization & Ecosystem:** Seamlessly integrated Google Mobile Ads (Banner & Interstitial ads) and real-time remote release tracking powered by Firebase Firestore.
 * **Architecture & Build:** Optimized for **Android SDK 36 (Android 16)**, structured with modern Kotlin DSL build configurations (`build.gradle.kts`), and managed via a high-performance local Gradle pipeline.
 
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" />
   <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
   <img src="https://img.shields.io/badge/Android%20SDK%2036-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" />

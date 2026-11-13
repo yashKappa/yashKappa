@@ -18,8 +18,8 @@
   <tr style="border: none; background: transparent;">
     <td align="left" valign="top" style="border: none; padding-right: 24px; padding-bottom: 20px; background: transparent; width: 68%;">
       <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 14px;">
-        <img src="assets/logo.png" width="75" height="75" alt="App Icon" style="border-radius: 16px;" />
-        <h2 style="margin: 0; border: none; padding: 0; font-size: 24px;">PDF Maker & Image Optimizer</h2>
+        <img src="assets/logo.png" width="75" height="75" alt="App Icon" style="border-radius: 16px; flex-shrink: 0;" />
+        <h2 style="margin: 0; border: none; padding: 0; font-size: 24px; line-height: 1.2;">PDF Maker & Image Optimizer</h2>
       </div>
       <p style="margin: 0 0 16px 0; color: #8b949e; font-size: 15px; line-height: 1.5;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
       <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
@@ -31,15 +31,15 @@
     </td>
   </tr>
   
-  <!-- Row 2: Badges & Details inside the left column -->
+  <!-- Row 2: Details & Tech Stack Badges inside the left column -->
   <tr style="border: none; background: transparent;">
     <td align="left" valign="top" style="border: none; padding-right: 24px; background: transparent;">
-      <ul style="margin: 0; padding-left: 20px; color: #c9d1d9; font-size: 14px; line-height: 1.6;">
+      <ul style="margin: 0 0 16px 0; padding-left: 20px; color: #c9d1d9; font-size: 14px; line-height: 1.6;">
         <li style="margin-bottom: 8px;"><strong>Core Utilities:</strong> Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization (bulk conversion and resizing), multi-document merging, and split/extract tools.</li>
         <li style="margin-bottom: 8px;"><strong>Monetization & Ecosystem:</strong> Seamlessly integrated Google Mobile Ads (Banner & Interstitial ads) and real-time remote release tracking powered by Firebase Firestore.</li>
         <li style="margin-bottom: 0;"><strong>Architecture & Build:</strong> Optimized for <strong>Android SDK 36 (Android 16)</strong>, structured with modern Kotlin DSL build configurations (<code>build.gradle.kts</code>), and managed via a high-performance local Gradle pipeline.</li>
       </ul>
-       <p style="margin: 0 0 16px 0;">
+      <p style="margin: 0;">
         <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" />
         <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
         <img src="https://img.shields.io/badge/Android%20SDK%2036-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" />

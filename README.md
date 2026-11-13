@@ -11,41 +11,28 @@
 
 ---
 
-## 🚀 Featured Project
+### 🚀 Featured Project
 
-<div align="center">
-
-<img src="assets/logo.png" width="96" height="96" alt="PDF Maker & Image Optimizer icon" />
-
-### PDF Maker &amp; Image Optimizer
-
-*A high-performance, local-first Android utility suite for rapid document conversion, compression and management.*
-
-<br />
-
-<a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
-  <img src="https://img.shields.io/badge/Google_Play-Get_it_on-414141?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" />
-</a>
-
-<br /><br />
-
-<img src="assets/screenshot_preview.gif" width="240" alt="App preview" />
-
-</div>
-
-<br />
-
-- **Core utilities:** Bulk image-to-PDF generation, document scanning, high-fidelity image optimization (bulk conversion and resizing), multi-document merging, and split and extract tools.
-- **Monetization and ecosystem:** Google Mobile Ads (banner and interstitial) and real-time remote release tracking with Firebase Firestore.
-- **Architecture and build:** Targets **Android SDK 36 (Android 16)**, uses Kotlin DSL build configurations (`build.gradle.kts`), and builds through a local Gradle pipeline.
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
-  <img src="https://img.shields.io/badge/Android_SDK_36-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android SDK 36" />
-  <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle" />
-</p>
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; border-collapse: collapse; border: none; background: transparent; width: 100%;">
+  <tr style="border: none; background: transparent;">
+    <!-- Left Side: App Icon, Title, Description, and Play Store Button -->
+    <td align="left" valign="middle" style="border: none; padding-right: 20px; background: transparent; width: 65%;">
+      <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 12px;">
+        <img src="assets/logo.png" width="70" height="70" alt="App Icon" style="border-radius: 16px;" />
+        <h2 style="margin: 0; border: none; padding: 0; font-size: 22px;">PDF Maker & Image Optimizer</h2>
+      </div>
+      <p style="margin: 0 0 16px 0; color: #8b949e; font-size: 14px; line-height: 1.5;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
+      <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
+        <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" />
+      </a>
+    </td>
+    
+    <!-- Right Side: Compact App Preview Screenshot -->
+    <td align="center" valign="middle" style="border: none; padding-left: 10px; background: transparent; width: 35%;">
+      <img src="assets/screenshot_preview.gif" width="180" alt="App Preview" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.4);" />
+    </td>
+  </tr>
+</table>
 
 ---
 

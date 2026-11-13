@@ -27,12 +27,10 @@
       </a>
     </td>
     <td align="center" valign="middle" style="border: none; padding-left: 10px; background: transparent; width: 32%;">
-      <img src="assets/screenshot_preview.gif" width="190" alt="App Preview GIF" style="border-radius: 14px; box-shadow: 0 6px 20px rgba(0,0,0,0.5);" />
+      <img src="assets/preview.gif" width="190" alt="App Preview GIF" style="border-radius: 14px; box-shadow: 0 6px 20px rgba(0,0,0,0.5);" />
     </td>
   </tr>
 </table>
-
----
 
 <p align="center" style="margin: 20px 0 12px 0;">
   <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" />

@@ -13,13 +13,17 @@
 
 ### 🚀 Featured Project
 
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 16px;">
-  <img src="assets/logo.png" width="90" height="90" alt="App Icon" style="border-radius: 20px; flex-shrink: 0;" />
-  <div>
-    <h2 style="margin: 0 0 4px 0; border: none; padding: 0;">PDF Maker & Image Optimizer</h2>
-    <p style="margin: 0; color: #8b949e;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
-  </div>
-</div>
+<table align="center" border="0">
+  <tr>
+    <td align="center" valign="middle" style="padding-right: 20px;">
+      <img src="assets/logo.png" width="90" height="90" alt="App Icon" style="border-radius: 20px;" />
+    </td>
+    <td valign="middle">
+      <h2 style="margin: 0 0 4px 0;">PDF Maker & Image Optimizer</h2>
+      <p style="margin: 0;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
+    </td>
+  </tr>
+</table>
 
 - **Core Utilities:** Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization (bulk conversion and resizing), multi-document merging, and split/extract tools.
 - **Monetization & Ecosystem:** Seamlessly integrated Google Mobile Ads (Banner & Interstitial ads) and real-time remote release tracking powered by Firebase Firestore.

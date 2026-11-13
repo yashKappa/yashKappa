@@ -16,10 +16,10 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; border-collapse: collapse; border: none; background: transparent; width: 100%; table-layout: fixed;">
   <!-- Row 1: Header (Logo on Left, Title/Description/Play Button on Right) & Preview GIF -->
   <tr style="border: none; background: transparent;">
-    <td align="left" valign="top" style="border: none; padding-right: 16px; padding-bottom: 16px; background: transparent; width: 68%;">
+    <td align="left" valign="top" style="border: none; padding-right: 16px; padding-bottom: 16px; background: transparent; width: 66%;">
       <table border="0" cellpadding="0" cellspacing="0" style="border: none; background: transparent; width: 100%; margin-bottom: 12px;">
         <tr style="border: none; background: transparent;">
-          <td align="left" valign="middle" style="border: none; padding-right: 14px; background: transparent; width: 50px;">
+          <td align="left" valign="middle" style="border: none; padding-right: 14px; background: transparent; width: 70px;">
             <img src="assets/logo.png" width="60" height="60" alt="App Icon" style="border-radius: 14px; display: block;" />
           </td>
           <td align="left" valign="middle" style="border: none; background: transparent;">
@@ -32,12 +32,12 @@
         </tr>
       </table>
     </td>
-    <td align="center" valign="middle" rowspan="2" style="border: none; padding-left: 10px; background: transparent; width: 32%;">
-      <img src="assets/preview.gif" width="150" alt="App Preview GIF" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />
+    <td align="center" valign="middle" rowspan="2" style="border: none; padding-left: 10px; background: transparent; width: 34%;">
+      <img src="assets/preview.gif" width="160" alt="App Preview GIF" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />
     </td>
   </tr>
   
-  <!-- Row 2: Details & Tech Stack Badges inside the left column -->
+  <!-- Row 2: Details & Wrapped Tech Stack Badges inside the left column -->
   <tr style="border: none; background: transparent;">
     <td align="left" valign="top" style="border: none; padding-right: 16px; background: transparent;">
       <ul style="margin: 0 0 14px 0; padding-left: 18px; color: #c9d1d9; font-size: 13.5px; line-height: 1.5;">
@@ -45,13 +45,13 @@
         <li style="margin-bottom: 6px;"><strong>Monetization & Ecosystem:</strong> Seamlessly integrated Google Mobile Ads (Banner & Interstitial ads) and real-time remote release tracking powered by Firebase Firestore.</li>
         <li style="margin-bottom: 0;"><strong>Architecture & Build:</strong> Optimized for <strong>Android SDK 36 (Android 16)</strong>, structured with modern Kotlin DSL build configurations (<code>build.gradle.kts</code>), and managed via a high-performance local Gradle pipeline.</li>
       </ul>
-      <p style="margin: 0;">
+      <div style="display: flex; flex-wrap: wrap; gap: 6px; margin: 0;">
         <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" />
         <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
         <img src="https://img.shields.io/badge/Android%20SDK%2036-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" />
         <img src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=Firebase&logoColor=white" />
         <img src="https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" />
-      </p>
+      </div>
     </td>
   </tr>
 </table>

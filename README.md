@@ -21,9 +21,9 @@
     <td valign="middle" style="border: none; background: transparent;">
       <h2 style="margin: 0 0 4px 0; border: none;">PDF Maker & Image Optimizer</h2>
       <p style="margin: 0 0 10px 0; color: #8b949e;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
-      <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" width="150" alt="Get it on Google Play" />
-      </a>
+     <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
+      <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" />
+    </a>
     </td>
   </tr>
 </table>

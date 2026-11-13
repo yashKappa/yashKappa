@@ -13,25 +13,25 @@
 
 ### 🚀 Featured Project
 
-### 🚀 Featured Project
-
 <table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; border-collapse: collapse; border: none; background: transparent; width: 100%;">
-  <!-- Row 1: Logo (Left) & Title/Description/Play Button (Right), alongside the GIF -->
+  <!-- Row 1: Header (Logo on Left, Title/Description/Play Button on Right) & Preview GIF -->
   <tr style="border: none; background: transparent;">
     <td align="left" valign="top" style="border: none; padding-right: 24px; padding-bottom: 20px; background: transparent; width: 68%;">
-      <div style="display: flex; align-items: flex-start; gap: 20px;">
-        <!-- Left: Logo -->
-        <img src="assets/logo.png" width="85" height="85" alt="App Icon" style="border-radius: 18px; flex-shrink: 0;" />
-        <div>
-          <h2 style="margin: 0 0 8px 0; border: none; padding: 0; font-size: 24px; line-height: 1.2;">PDF Maker & Image Optimizer</h2>
-          <p style="margin: 0 0 16px 0; color: #8b949e; font-size: 15px; line-height: 1.5;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
-          <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
-            <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" />
-          </a>
-        </div>
-      </div>
+      <table border="0" cellpadding="0" cellspacing="0" style="border: none; background: transparent; width: 100%; margin-bottom: 16px;">
+        <tr style="border: none; background: transparent;">
+          <td align="left" valign="middle" style="border: none; padding-right: 16px; background: transparent; width: 85px;">
+            <img src="assets/logo.png" width="75" height="75" alt="App Icon" style="border-radius: 16px; display: block;" />
+          </td>
+          <td align="left" valign="middle" style="border: none; background: transparent;">
+            <h2 style="margin: 0; border: none; padding: 0; font-size: 24px; line-height: 1.2;">PDF Maker & Image Optimizer</h2>
+          </td>
+        </tr>
+      </table>
+      <p style="margin: 0 0 16px 0; color: #8b949e; font-size: 15px; line-height: 1.5;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
+      <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
+        <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" />
+      </a>
     </td>
-    <!-- Right Column: Vertical GIF Preview -->
     <td align="center" valign="middle" rowspan="2" style="border: none; padding-left: 10px; background: transparent; width: 32%;">
       <img src="assets/preview.gif" width="190" alt="App Preview GIF" style="border-radius: 14px; box-shadow: 0 6px 20px rgba(0,0,0,0.5);" />
     </td>
@@ -55,6 +55,7 @@
     </td>
   </tr>
 </table>
+
 ---
 
 ### **👨‍💻 About Me**

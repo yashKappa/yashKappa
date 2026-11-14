@@ -40,7 +40,7 @@
   
   <!-- Row 2: Details & Wrapped Tech Stack Badges inside the left column -->
   <tr style="border: none; background: transparent;">
-    <td align="left" valign="top" style="border: none; padding-right: 14px; background: transparent;">
+    <td align="left" valign="top" style="border: none; background: transparent;">
       <ul style="margin: 0 0 14px 0; padding-left: 18px; color: #c9d1d9; font-size: 13.5px; line-height: 1.5;">
         <li style="margin-bottom: 6px;"><strong>Core Utilities:</strong> Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization (bulk conversion and resizing), multi-document merging, and split/extract tools.</li>
         <li style="margin-bottom: 6px;"><strong>Monetization & Ecosystem:</strong> Seamlessly integrated Google Mobile Ads (Banner & Interstitial ads) and real-time remote release tracking powered by Firebase Firestore.</li>

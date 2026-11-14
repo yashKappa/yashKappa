@@ -20,7 +20,7 @@
       <table border="0" cellpadding="0" cellspacing="0" style="border: none; background: transparent; width: 100%; margin-bottom: 12px;">
         <tr style="border: none; background: transparent;">
           <td align="left" valign="middle" style="border: none; padding-right: 14px; background: transparent; width: 70px;">
-            <img src="assets/logo.png" width="100" height="100" alt="App Icon" style="border-radius: 14px; display: block;" />
+            <img src="assets/logo.png" width="110" height="110" alt="App Icon" style="border-radius: 14px; display: block;" />
           </td>
           <td align="left" valign="middle" style="border: none; background: transparent;">
             <h2 style="margin: 0 0 8px 0; border: none; padding: 0; font-size: 21px; line-height: 1.2;">PDF Maker & Image Optimizer</h2>

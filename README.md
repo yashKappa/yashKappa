@@ -41,11 +41,11 @@
   <tr style="border: none; background: transparent;">
     <td align="left" valign="top" style="border: none; padding-right: 12px; background: transparent;">
       <ul style="margin: 0 0 10px 0; padding-left: 16px; color: #c9d1d9; font-size: 12px; line-height: 1.4;">
-      <li style="margin-bottom: 4px;"><strong>PDF Creator:</strong> Instantly converts up to 100 raw images or custom text into professional PDF documents. Offers seamless creation workflows tailored for both casual sharing and formal archiving.</li>
-<li style="margin-bottom: 4px;"><strong>Scan & Compress:</strong> Features advanced physical document scanning that cleans up edges and removes shadows. Optimizes file sizes aggressively while retaining high-fidelity visual legibility.</li>
-<li style="margin-bottom: 4px;"><strong>Image Optimizer:</strong> Reduces oversized image files drastically with minimal quality loss. Perfect for quick device storage cleanup and optimized document sharing.</li>
-<li style="margin-bottom: 4px;"><strong>Merge Documents:</strong> Combines multiple independent PDF files into a single, cohesive document. Preserves original page orders and formatting without data loss.</li>
-<li style="margin-bottom: 0;"><strong>Split & Extract:</strong> Divides bulky PDFs into individual pages or custom section ranges. Empowers users to isolate specific chapters or pages with ease.</li>
+      <li style="margin-bottom: 4px;"><strong>PDF Creator:</strong> Select up to 100 images to convert into a PDF, crop them as needed, and easily share the finished PDF</li>
+<li style="margin-bottom: 4px;"><strong>Scan & Compress:</strong> Automatically compresses all selected images before displaying them on screen, combining bulk conversion with optimized file sizes.</li>
+<li style="margin-bottom: 4px;"><strong>Image Optimizer:</strong> (In Progress) Allows you to compress individual images one at a time for quick storage reduction.</li>
+<li style="margin-bottom: 4px;"><strong>Merge Documents:</strong> Combines multiple PDF files together with no fixed limit, bounded only by your device's capabilities.</li>
+<li style="margin-bottom: 0;"><strong>Split PDF:</strong> Splits a PDF into custom page ranges (like 1-5 or 15-20) to generate new, targeted PDF files.</li>
       </ul>
       <div style="margin: 0; line-height: 1.8;">
         <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" height="20" />

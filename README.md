@@ -26,7 +26,7 @@
             <h2 style="margin: 0 0 4px 0; border: none; padding: 0; font-size: 18px; line-height: 1.2;">PDF Maker & Image Optimizer</h2>
             <p style="margin: 0 0 8px 0; color: #8b949e; font-size: 12px; line-height: 1.4;"><em>A high-performance, local-first Android utility suite built for rapid document <br> conversion, compression, and management.</em></p>
             <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
-              <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" height="28" />
+              <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" height="20" />
             </a>
           </td>
         </tr>
@@ -48,11 +48,11 @@
 <li style="margin-bottom: 0;"><strong>Split PDF:</strong> Splits a PDF into custom page ranges (like 1-5 or 15-20) to generate new, targeted PDF files.</li>
       </ul>
       <div style="margin: 0; line-height: 1.8;">
-        <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" height="20" />
-        <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" height="20" />
-        <img src="https://img.shields.io/badge/Android%20SDK%2036-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" height="20" />
-        <img src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=Firebase&logoColor=white" height="20" />
-        <img src="https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" height="20" />
+        <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" height="25" />
+        <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" height="25" />
+        <img src="https://img.shields.io/badge/Android%20SDK%2036-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" height="25" />
+        <img src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=Firebase&logoColor=white" height="25" />
+        <img src="https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" height="25" />
       </div>
     </td>
   </tr>

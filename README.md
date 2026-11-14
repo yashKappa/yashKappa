@@ -246,7 +246,18 @@
 
 ## 👀 People I Follow Who Don't Follow Me Back
 
-🎉 Everyone you follow follows you back!
+**2 people**
+
+<table>
+<tr>
+<td align="center"><a href="https://github.com/mohdshamii"><img src="https://avatars.githubusercontent.com/u/217154692?v=4" width="80" height="80" style="border-radius:50%;"><br>@mohdshamii</a></td>
+<td align="center"><a href="https://github.com/muthokaricky-alt"><img src="https://avatars.githubusercontent.com/u/243061814?v=4" width="80" height="80" style="border-radius:50%;"><br>@muthokaricky-alt</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 <!-- NOT_FOLLOWING_BACK_SECTION:end -->
 

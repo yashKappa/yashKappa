@@ -13,44 +13,44 @@
 
 ### 🚀 Featured Project
 
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; border-collapse: collapse; border: none; background: transparent; width: 100%; table-layout: fixed;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; border-collapse: collapse; border: none; background: transparent; width: 100%;">
   <!-- Row 1: Header (Logo on Left, Title/Description/Play Button on Right) & Preview GIF -->
   <tr style="border: none; background: transparent;">
-    <td align="left" valign="top" style="border: none; padding-right: 12px; padding-bottom: 12px; background: transparent; width: 66%;">
-      <table border="0" cellpadding="0" cellspacing="0" style="border: none; background: transparent; width: 100%; margin-bottom: 10px;">
+    <td align="left" valign="top" style="border: none; padding-right: 12px; padding-bottom: 12px; background: transparent; width: 68%;">
+      <table border="0" cellpadding="0" cellspacing="0" style="border: none; background: transparent; width: 100%; margin-bottom: 8px;">
         <tr style="border: none; background: transparent;">
-          <td align="left" valign="middle" style="border: none; padding-right: 12px; background: transparent; width: 95px;">
-            <img src="assets/logo.png" width="85" height="85" alt="App Icon" style="border-radius: 14px; display: block;" />
+          <td align="left" valign="middle" style="border: none; padding-right: 12px; background: transparent; width: 85px;">
+            <img src="assets/logo.png" width="75" height="75" alt="App Icon" style="border-radius: 14px; display: block;" />
           </td>
           <td align="left" valign="middle" style="border: none; background: transparent;">
-            <h2 style="margin: 0 0 6px 0; border: none; padding: 0; font-size: 20px; line-height: 1.2;">PDF Maker & Image Optimizer</h2>
-            <p style="margin: 0 0 10px 0; color: #8b949e; font-size: 13px; line-height: 1.4;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
+            <h2 style="margin: 0 0 4px 0; border: none; padding: 0; font-size: 18px; line-height: 1.2;">PDF Maker & Image Optimizer</h2>
+            <p style="margin: 0 0 8px 0; color: #8b949e; font-size: 12px; line-height: 1.4;"><em>A high-performance, local-first Android utility suite built for rapid document conversion, compression, and management.</em></p>
             <a href="https://play.google.com/store/apps/details?id=com.MarathitechInnovation.pdfmakeroptimizer&pcampaignid=web_share">
-              <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" />
+              <img src="https://img.shields.io/badge/Google%20Play-Get%20it%20on-black?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play" height="28" />
             </a>
           </td>
         </tr>
       </table>
     </td>
-    <td align="center" valign="middle" rowspan="2" style="border: none; padding-left: 8px; background: transparent; width: 34%;">
-      <img src="assets/preview.gif" width="145" alt="App Preview GIF" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />
+    <td align="center" valign="middle" rowspan="2" style="border: none; padding-left: 4px; background: transparent; width: 32%;">
+      <img src="assets/preview.gif" width="120" alt="App Preview GIF" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />
     </td>
   </tr>
   
-  <!-- Row 2: Details & Wrapped Tech Stack Badges inside the left column -->
+  <!-- Row 2: Details & Tech Stack Badges inside the left column -->
   <tr style="border: none; background: transparent;">
     <td align="left" valign="top" style="border: none; padding-right: 12px; background: transparent;">
-      <ul style="margin: 0 0 12px 0; padding-left: 16px; color: #c9d1d9; font-size: 13px; line-height: 1.45;">
-        <li style="margin-bottom: 6px;"><strong>Core Utilities:</strong> Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization (bulk conversion and resizing), multi-document merging, and split/extract tools.</li>
-        <li style="margin-bottom: 6px;"><strong>Monetization & Ecosystem:</strong> Seamlessly integrated Google Mobile Ads (Banner & Interstitial ads) and real-time remote release tracking powered by Firebase Firestore.</li>
-        <li style="margin-bottom: 0;"><strong>Architecture & Build:</strong> Optimized for <strong>Android SDK 36 (Android 16)</strong>, structured with modern Kotlin DSL build configurations (<code>build.gradle.kts</code>), and managed via a high-performance local Gradle pipeline.</li>
+      <ul style="margin: 0 0 10px 0; padding-left: 16px; color: #c9d1d9; font-size: 12px; line-height: 1.4;">
+        <li style="margin-bottom: 4px;"><strong>Core Utilities:</strong> Bulk image-to-PDF generation, advanced document scanning, high-fidelity image optimization, multi-document merging, and split/extract tools.</li>
+        <li style="margin-bottom: 4px;"><strong>Monetization & Ecosystem:</strong> Google Mobile Ads (Banner & Interstitial) and real-time remote release tracking via Firebase Firestore.</li>
+        <li style="margin-bottom: 0;"><strong>Architecture & Build:</strong> Optimized for <strong>Android SDK 36 (Android 16)</strong>, using Kotlin DSL (<code>build.gradle.kts</code>) and local Gradle pipeline.</li>
       </ul>
-      <div style="display: flex; flex-wrap: wrap; gap: 5px; margin: 0;">
-        <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" />
-        <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
-        <img src="https://img.shields.io/badge/Android%20SDK%2036-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" />
-        <img src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=Firebase&logoColor=white" />
-        <img src="https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" />
+      <div style="margin: 0; line-height: 1.8;">
+        <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" height="20" />
+        <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" height="20" />
+        <img src="https://img.shields.io/badge/Android%20SDK%2036-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" height="20" />
+        <img src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=Firebase&logoColor=white" height="20" />
+        <img src="https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" height="20" />
       </div>
     </td>
   </tr>

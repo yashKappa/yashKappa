@@ -33,7 +33,7 @@
       </table>
     </td>
     <td align="center" valign="middle" rowspan="2" style="border: none; padding-left: 4px; background: transparent; width: 32%;">
-      <img src="assets/app.mp4" width="200" alt="App Preview GIF" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />
+      <img src="assets/preview1.gif" width="200" alt="App Preview GIF" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />
     </td>
   </tr>
   

@@ -20,7 +20,7 @@
       <table border="0" cellpadding="0" cellspacing="0" style="border: none; background: transparent; width: 100%; margin-bottom: 8px;">
         <tr style="border: none; background: transparent;">
           <td align="left" valign="middle" style="border: none; padding-right: 12px; background: transparent; width: 85px;">
-            <img src="assets/app.mp4" width="75" height="75" alt="App Icon" style="border-radius: 14px; display: block;" />
+            <img src="assets/logo.png" width="75" height="75" alt="App Icon" style="border-radius: 14px; display: block;" />
           </td>
           <td align="left" valign="middle" style="border: none; background: transparent;">
             <h2 style="margin: 0 0 4px 0; border: none; padding: 0; font-size: 18px; line-height: 1.2;">PDF Maker & Image Optimizer</h2>
@@ -33,7 +33,7 @@
       </table>
     </td>
     <td align="center" valign="middle" rowspan="2" style="border: none; padding-left: 4px; background: transparent; width: 32%;">
-      <img src="assets/preview.gif" width="200" alt="App Preview GIF" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />
+      <img src="assets/app.mp4" width="200" alt="App Preview GIF" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); display: block; margin: 0 auto;" />
     </td>
   </tr>
   

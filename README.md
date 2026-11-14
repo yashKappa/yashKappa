@@ -20,7 +20,7 @@
       <table border="0" cellpadding="0" cellspacing="0" style="border: none; background: transparent; width: 100%; margin-bottom: 8px;">
         <tr style="border: none; background: transparent;">
           <td align="left" valign="middle" style="border: none; padding-right: 12px; background: transparent; width: 85px;">
-            <img src="assets/logo.png" width="75" height="75" alt="App Icon" style="border-radius: 14px; display: block;" />
+            <img src="assets/logo.png" width="100" height="100" alt="App Icon" style="border-radius: 14px; display: block;" />
           </td>
           <td align="left" valign="middle" style="border: none; background: transparent;">
             <h2 style="margin: 0 0 4px 0; border: none; padding: 0; font-size: 18px; line-height: 1.2;">PDF Maker & Image Optimizer</h2>
@@ -48,11 +48,11 @@
 <li style="margin-bottom: 0;"><strong>Split PDF:</strong> Splits a PDF into custom page ranges (like 1-5 or 15-20) to generate new, targeted PDF files.</li>
       </ul>
       <div style="margin: 0; line-height: 1.8;">
-        <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" height="25" />
-        <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" height="25" />
-        <img src="https://img.shields.io/badge/Android%20SDK%2036-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" height="25" />
-        <img src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=Firebase&logoColor=white" height="25" />
-        <img src="https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" height="25" />
+        <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" height="20" />
+        <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" height="20" />
+        <img src="https://img.shields.io/badge/Android%20SDK%2036-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" height="20" />
+        <img src="https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=Firebase&logoColor=white" height="20" />
+        <img src="https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" height="20" />
       </div>
     </td>
   </tr>

@@ -16,7 +16,7 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; border-collapse: collapse; border: none; background: transparent; width: 100%;">
   <!-- Row 1: Header (Logo on Left, Title/Description/Play Button on Right) & Preview GIF -->
   <tr style="border: none; background: transparent;">
-    <td align="left" valign="top" style="border: none; padding-right: 12px; padding-bottom: 12px; background: transparent; width: 68%;">
+    <td align="left" valign="top" style="border: none; padding-bottom: 12px; background: transparent; width: 68%;">
       <table border="0" cellpadding="0" cellspacing="0" style="border: none; background: transparent; width: 100%; margin-bottom: 8px;">
         <tr style="border: none; background: transparent;">
           <td align="left" valign="middle" style="border: none; padding-right: 12px; background: transparent; width: 85px;">

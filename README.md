@@ -247,7 +247,18 @@
 
 ## 👀 People I Follow Who Don't Follow Me Back
 
-🎉 Everyone you follow follows you back!
+**1 people**
+
+<table>
+<tr>
+<td align="center"><a href="https://github.com/ancaferro"><img src="https://avatars.githubusercontent.com/u/287352285?v=4" width="80" height="80" style="border-radius:50%;"><br>@ancaferro</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 <!-- NOT_FOLLOWING_BACK_SECTION:end -->
 

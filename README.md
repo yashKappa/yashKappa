@@ -251,7 +251,7 @@
 
 <table>
 <tr>
-<td align="center"><a href="https://github.com/TaroYamada08"><img src="https://avatars.githubusercontent.com/u/26717838?v=4" width="80" height="80" style="border-radius:50%;"><br>@TaroYamada08</a></td>
+<td align="center"><a href="https://github.com/rich-iannone"><img src="https://avatars.githubusercontent.com/u/5612024?v=4" width="80" height="80" style="border-radius:50%;"><br>@rich-iannone</a></td>
 <td></td>
 <td></td>
 <td></td>

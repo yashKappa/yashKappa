@@ -247,12 +247,12 @@
 
 ## 👀 People I Follow Who Don't Follow Me Back
 
-**1 people**
+**2 people**
 
 <table>
 <tr>
 <td align="center"><a href="https://github.com/helallao"><img src="https://avatars.githubusercontent.com/u/78656003?v=4" width="80" height="80" style="border-radius:50%;"><br>@helallao</a></td>
-<td></td>
+<td align="center"><a href="https://github.com/kkting2"><img src="https://avatars.githubusercontent.com/u/274658370?v=4" width="80" height="80" style="border-radius:50%;"><br>@kkting2</a></td>
 <td></td>
 <td></td>
 <td></td>
